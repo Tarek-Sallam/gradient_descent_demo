@@ -1,0 +1,177 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/pbs-installer-2025.3.11-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.12/site-packages/pbs_installer-2025.3.11.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/pbs_installer-2025.3.11.dist-info/METADATA",
+    "lib/python3.12/site-packages/pbs_installer-2025.3.11.dist-info/RECORD",
+    "lib/python3.12/site-packages/pbs_installer-2025.3.11.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/pbs_installer-2025.3.11.dist-info/WHEEL",
+    "lib/python3.12/site-packages/pbs_installer-2025.3.11.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/pbs_installer-2025.3.11.dist-info/entry_points.txt",
+    "lib/python3.12/site-packages/pbs_installer-2025.3.11.dist-info/licenses/LICENSE",
+    "lib/python3.12/site-packages/pbs_installer/__init__.py",
+    "lib/python3.12/site-packages/pbs_installer/__main__.py",
+    "lib/python3.12/site-packages/pbs_installer/_install.py",
+    "lib/python3.12/site-packages/pbs_installer/_utils.py",
+    "lib/python3.12/site-packages/pbs_installer/_versions.py",
+    "lib/python3.12/site-packages/pbs_installer/py.typed",
+    "lib/python3.12/site-packages/pbs_installer/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pbs_installer/__pycache__/__main__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pbs_installer/__pycache__/_install.cpython-312.pyc",
+    "lib/python3.12/site-packages/pbs_installer/__pycache__/_utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/pbs_installer/__pycache__/_versions.cpython-312.pyc",
+    "bin/pbs-install"
+  ],
+  "fn": "pbs-installer-2025.3.11-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/pbs-installer-2025.3.11-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "23cbccfe7c20256ef2db2cf64920ebd7",
+  "name": "pbs-installer",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/pbs-installer-2025.3.11-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pbs_installer-2025.3.11.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pbs_installer-2025.3.11.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b63feb7e4d1f8a21de0d7a121107817d1f6eccb9bc16f97ee588bf9aeadc810c",
+        "sha256_in_prefix": "b63feb7e4d1f8a21de0d7a121107817d1f6eccb9bc16f97ee588bf9aeadc810c",
+        "size_in_bytes": 991
+      },
+      {
+        "_path": "site-packages/pbs_installer-2025.3.11.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8ff1cdaf3d5bd8d24a4d3307b8674956ec973db3550b99865a0e2eaae703884d",
+        "sha256_in_prefix": "8ff1cdaf3d5bd8d24a4d3307b8674956ec973db3550b99865a0e2eaae703884d",
+        "size_in_bytes": 1591
+      },
+      {
+        "_path": "site-packages/pbs_installer-2025.3.11.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pbs_installer-2025.3.11.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b6169a036c352737060b8f1662e7c0b3c9eb6198c99bc2ea35f9d714e172082e",
+        "sha256_in_prefix": "b6169a036c352737060b8f1662e7c0b3c9eb6198c99bc2ea35f9d714e172082e",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "site-packages/pbs_installer-2025.3.11.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7b5823b49762bb20b7ba8645bbe4a712e4a0e40dbd79501bef6e0a900e4c5a07",
+        "sha256_in_prefix": "7b5823b49762bb20b7ba8645bbe4a712e4a0e40dbd79501bef6e0a900e4c5a07",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pbs_installer-2025.3.11.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "7aef46e2b56ec51ed0a00ce375af7ee6b8f8b4ba8efd37d8bba6979dca75d42e",
+        "sha256_in_prefix": "7aef46e2b56ec51ed0a00ce375af7ee6b8f8b4ba8efd37d8bba6979dca75d42e",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "site-packages/pbs_installer-2025.3.11.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "633cd96a5b9ce5989d808e7f580e2c3b180920b4a3e564f9d8689c4c6399d63d",
+        "sha256_in_prefix": "633cd96a5b9ce5989d808e7f580e2c3b180920b4a3e564f9d8689c4c6399d63d",
+        "size_in_bytes": 1059
+      },
+      {
+        "_path": "site-packages/pbs_installer/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9fab911723fae18810825aa43c3b2b5e585c4a0639f168581b2023d20bcd5343",
+        "sha256_in_prefix": "9fab911723fae18810825aa43c3b2b5e585c4a0639f168581b2023d20bcd5343",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "site-packages/pbs_installer/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "7697e0b71e8d64c558509c908bac3f29c7ef1e93af4177e978d6098c8bea6632",
+        "sha256_in_prefix": "7697e0b71e8d64c558509c908bac3f29c7ef1e93af4177e978d6098c8bea6632",
+        "size_in_bytes": 2893
+      },
+      {
+        "_path": "site-packages/pbs_installer/_install.py",
+        "path_type": "hardlink",
+        "sha256": "aa9798cfe0220fc963f0c7b3a206f67d1efe5f3de7cb2b34d9a467678788b8cd",
+        "sha256_in_prefix": "aa9798cfe0220fc963f0c7b3a206f67d1efe5f3de7cb2b34d9a467678788b8cd",
+        "size_in_bytes": 7343
+      },
+      {
+        "_path": "site-packages/pbs_installer/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "e03cc6a14b2c88c3080e42de6c97e9fa255f51d1f77d89b3ccf55e46894e63da",
+        "sha256_in_prefix": "e03cc6a14b2c88c3080e42de6c97e9fa255f51d1f77d89b3ccf55e46894e63da",
+        "size_in_bytes": 3485
+      },
+      {
+        "_path": "site-packages/pbs_installer/_versions.py",
+        "path_type": "hardlink",
+        "sha256": "55c935ed7f8776bb08e5ef5bcadc617340d75cb47e385d152e0cf97c18750d23",
+        "sha256_in_prefix": "55c935ed7f8776bb08e5ef5bcadc617340d75cb47e385d152e0cf97c18750d23",
+        "size_in_bytes": 292427
+      },
+      {
+        "_path": "site-packages/pbs_installer/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pbs_installer/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pbs_installer/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pbs_installer/__pycache__/_install.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pbs_installer/__pycache__/_utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pbs_installer/__pycache__/_versions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/pbs-install",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "22c54c06d803254a31deec2ee2262854c2cf1593cfe658e39ba799fbe3f4d474",
+  "size": 49871,
+  "subdir": "noarch",
+  "timestamp": 1741864300000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pbs-installer-2025.3.11-pyhd8ed1ab_0.conda",
+  "version": "2025.3.11"
+}

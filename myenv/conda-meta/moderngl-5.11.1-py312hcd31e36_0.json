@@ -1,0 +1,153 @@
+{
+  "build": "py312hcd31e36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "glcontext",
+    "__osx >=11.0",
+    "python_abi 3.12.* *_cp312",
+    "python >=3.12,<3.13.0a0",
+    "python >=3.12,<3.13.0a0 *_cpython",
+    "numpy >=1.19,<3",
+    "libcxx >=17"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/moderngl-5.11.1-py312hcd31e36_0",
+  "files": [
+    "lib/python3.12/site-packages/__pycache__/_moderngl.cpython-312.pyc",
+    "lib/python3.12/site-packages/_moderngl.py",
+    "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/LICENSE",
+    "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/moderngl-stubs/__init__.pyi",
+    "lib/python3.12/site-packages/moderngl/__init__.py",
+    "lib/python3.12/site-packages/moderngl/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl/mgl.cpython-312-darwin.so"
+  ],
+  "fn": "moderngl-5.11.1-py312hcd31e36_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/moderngl-5.11.1-py312hcd31e36_0",
+    "type": 1
+  },
+  "md5": "8835d20de8a9b33e7d1a17fab734ffe3",
+  "name": "moderngl",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/moderngl-5.11.1-py312hcd31e36_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/__pycache__/_moderngl.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "77d37fa87586b0eccd74e704ad70f17cd6547701e62f875735ed317713894c8e",
+        "sha256_in_prefix": "77d37fa87586b0eccd74e704ad70f17cd6547701e62f875735ed317713894c8e",
+        "size_in_bytes": 32721
+      },
+      {
+        "_path": "lib/python3.12/site-packages/_moderngl.py",
+        "path_type": "hardlink",
+        "sha256": "1f18bcaee8204d2043888f5dc4cfdbe9e4d2f5c5dc6f80e2417a69ed2b815cc4",
+        "sha256_in_prefix": "1f18bcaee8204d2043888f5dc4cfdbe9e4d2f5c5dc6f80e2417a69ed2b815cc4",
+        "size_in_bytes": 21893
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "20d168158102c3ceea1c76bd7c10a921216dd1ca4a68c8f212a2565bdab6e33e",
+        "sha256_in_prefix": "20d168158102c3ceea1c76bd7c10a921216dd1ca4a68c8f212a2565bdab6e33e",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "007d88f5c07f2d1ff9ea685f08e91e231640c8a349bc5725524e7a61760b6a0a",
+        "sha256_in_prefix": "007d88f5c07f2d1ff9ea685f08e91e231640c8a349bc5725524e7a61760b6a0a",
+        "size_in_bytes": 5325
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4e6e7e7337730f116ba9782947b952c46a7e6758bd47cb45ea5053c9fbcbb279",
+        "sha256_in_prefix": "4e6e7e7337730f116ba9782947b952c46a7e6758bd47cb45ea5053c9fbcbb279",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9567b2fa7cc675e3cccfb7ec209d5f20c54a88583922439c515aa4b88a5d6f0b",
+        "sha256_in_prefix": "9567b2fa7cc675e3cccfb7ec209d5f20c54a88583922439c515aa4b88a5d6f0b",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c0cf3c436ac777336df8b15fc432f98b907c2309e1d134de024fa2118d563792",
+        "sha256_in_prefix": "c0cf3c436ac777336df8b15fc432f98b907c2309e1d134de024fa2118d563792",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl-5.11.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f559a287a5f9eed6eb3ba6698b485c4506b96e6b666c8aa94d020693bf1aaf35",
+        "sha256_in_prefix": "f559a287a5f9eed6eb3ba6698b485c4506b96e6b666c8aa94d020693bf1aaf35",
+        "size_in_bytes": 34
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl-stubs/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "a754e2cf9dbd7263b415c17a79ebadf9a7f34fac469888bbedd0f840a1c8d9d9",
+        "sha256_in_prefix": "a754e2cf9dbd7263b415c17a79ebadf9a7f34fac469888bbedd0f840a1c8d9d9",
+        "size_in_bytes": 140672
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fa62ad66822fdc3bd17570e6307a11fc1943f9260244604b2580fc734ca2ddc0",
+        "sha256_in_prefix": "fa62ad66822fdc3bd17570e6307a11fc1943f9260244604b2580fc734ca2ddc0",
+        "size_in_bytes": 55568
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6870181e8b4de120bc65df690bc7bf5e80b1e79970efad9b354aa66d101e8359",
+        "sha256_in_prefix": "6870181e8b4de120bc65df690bc7bf5e80b1e79970efad9b354aa66d101e8359",
+        "size_in_bytes": 95869
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl/mgl.cpython-312-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/moderngl_1727269710879/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "cd8635b3181115de71e0ad58f702414e7c5a2cb6179a468a037098b2b2fce857",
+        "sha256_in_prefix": "56453e77c9ade2421bc5a7e81d15cc2a29b5521c67563f7ef4e476d76ecb350e",
+        "size_in_bytes": 226000
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2d62e90d8d89fa22e4a1ea43dd5281459c0a7fdefaf8390f0a688b0a65c4fc47",
+  "size": 128669,
+  "subdir": "osx-arm64",
+  "timestamp": 1727269961000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/moderngl-5.11.1-py312hcd31e36_0.conda",
+  "version": "5.11.1"
+}

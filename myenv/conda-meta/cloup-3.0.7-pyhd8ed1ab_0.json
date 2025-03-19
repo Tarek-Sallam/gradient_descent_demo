@@ -1,0 +1,416 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "typing-extensions",
+    "python >=3.9",
+    "click >=8.0,<9.0"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/cloup-3.0.7-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.12/site-packages/cloup-3.0.7.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/cloup-3.0.7.dist-info/LICENSE",
+    "lib/python3.12/site-packages/cloup-3.0.7.dist-info/METADATA",
+    "lib/python3.12/site-packages/cloup-3.0.7.dist-info/RECORD",
+    "lib/python3.12/site-packages/cloup-3.0.7.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/cloup-3.0.7.dist-info/WHEEL",
+    "lib/python3.12/site-packages/cloup-3.0.7.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/cloup-3.0.7.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/cloup/__init__.py",
+    "lib/python3.12/site-packages/cloup/_commands.py",
+    "lib/python3.12/site-packages/cloup/_context.py",
+    "lib/python3.12/site-packages/cloup/_option_groups.py",
+    "lib/python3.12/site-packages/cloup/_params.py",
+    "lib/python3.12/site-packages/cloup/_params.pyi",
+    "lib/python3.12/site-packages/cloup/_sections.py",
+    "lib/python3.12/site-packages/cloup/_util.py",
+    "lib/python3.12/site-packages/cloup/_version.py",
+    "lib/python3.12/site-packages/cloup/constraints/__init__.py",
+    "lib/python3.12/site-packages/cloup/constraints/_conditional.py",
+    "lib/python3.12/site-packages/cloup/constraints/_core.py",
+    "lib/python3.12/site-packages/cloup/constraints/_support.py",
+    "lib/python3.12/site-packages/cloup/constraints/common.py",
+    "lib/python3.12/site-packages/cloup/constraints/conditions.py",
+    "lib/python3.12/site-packages/cloup/constraints/exceptions.py",
+    "lib/python3.12/site-packages/cloup/formatting/__init__.py",
+    "lib/python3.12/site-packages/cloup/formatting/_formatter.py",
+    "lib/python3.12/site-packages/cloup/formatting/_util.py",
+    "lib/python3.12/site-packages/cloup/formatting/sep.py",
+    "lib/python3.12/site-packages/cloup/py.typed",
+    "lib/python3.12/site-packages/cloup/styling.py",
+    "lib/python3.12/site-packages/cloup/types.py",
+    "lib/python3.12/site-packages/cloup/typing.py",
+    "lib/python3.12/site-packages/cloup/warnings.py",
+    "lib/python3.12/site-packages/cloup/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/__pycache__/_commands.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/__pycache__/_context.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/__pycache__/_option_groups.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/__pycache__/_params.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/__pycache__/_sections.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/__pycache__/_util.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/__pycache__/_version.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/constraints/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/constraints/__pycache__/_conditional.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/constraints/__pycache__/_core.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/constraints/__pycache__/_support.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/constraints/__pycache__/common.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/constraints/__pycache__/conditions.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/constraints/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/formatting/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/formatting/__pycache__/_formatter.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/formatting/__pycache__/_util.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/formatting/__pycache__/sep.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/__pycache__/styling.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/__pycache__/types.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/__pycache__/typing.cpython-312.pyc",
+    "lib/python3.12/site-packages/cloup/__pycache__/warnings.cpython-312.pyc"
+  ],
+  "fn": "cloup-3.0.7-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/cloup-3.0.7-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "3ae4590e9b03d464a4d40105d3a39f00",
+  "name": "cloup",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/cloup-3.0.7-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/cloup-3.0.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/cloup-3.0.7.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "260925e46f7404a438d60fe69bf951471899e5448dbf26224b63401d538b7909",
+        "sha256_in_prefix": "260925e46f7404a438d60fe69bf951471899e5448dbf26224b63401d538b7909",
+        "size_in_bytes": 1525
+      },
+      {
+        "_path": "site-packages/cloup-3.0.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "25e7096bea594a91ae8ca11daeb101e0815ce4793400fd2c70c6137f7d18eee3",
+        "sha256_in_prefix": "25e7096bea594a91ae8ca11daeb101e0815ce4793400fd2c70c6137f7d18eee3",
+        "size_in_bytes": 6332
+      },
+      {
+        "_path": "site-packages/cloup-3.0.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "920d93b6ed7664fa77eff6db670fca6bb85e1bf3ad9cbfee9c46d2d659b52dd0",
+        "sha256_in_prefix": "920d93b6ed7664fa77eff6db670fca6bb85e1bf3ad9cbfee9c46d2d659b52dd0",
+        "size_in_bytes": 3798
+      },
+      {
+        "_path": "site-packages/cloup-3.0.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cloup-3.0.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ac5e046724765d54ba8ab98e1d0209c76494a972d9291314ae3b20f14c0df974",
+        "sha256_in_prefix": "ac5e046724765d54ba8ab98e1d0209c76494a972d9291314ae3b20f14c0df974",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/cloup-3.0.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9b4f9f0160f289ce557c36caa132d400f71c31dbc8ca70e46bdc201664e2e140",
+        "sha256_in_prefix": "9b4f9f0160f289ce557c36caa132d400f71c31dbc8ca70e46bdc201664e2e140",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/cloup-3.0.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3d6e447ca43e7a6e8fb658198ff39ad7c942069faffb850563977598f5048a0e",
+        "sha256_in_prefix": "3d6e447ca43e7a6e8fb658198ff39ad7c942069faffb850563977598f5048a0e",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/cloup/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0b9fcd4a6747412a6817d34691c42b447ffdd6316faaa7551f224ac37360429a",
+        "sha256_in_prefix": "0b9fcd4a6747412a6817d34691c42b447ffdd6316faaa7551f224ac37360429a",
+        "size_in_bytes": 2073
+      },
+      {
+        "_path": "site-packages/cloup/_commands.py",
+        "path_type": "hardlink",
+        "sha256": "da506f52b97a82afa41931fb3bf2fb7a5853dc281905b48f3e0a77686dbedeea",
+        "sha256_in_prefix": "da506f52b97a82afa41931fb3bf2fb7a5853dc281905b48f3e0a77686dbedeea",
+        "size_in_bytes": 30058
+      },
+      {
+        "_path": "site-packages/cloup/_context.py",
+        "path_type": "hardlink",
+        "sha256": "ab874024613b575d4da397086e749b81584177f3dc9d2faf438a073132ca9beb",
+        "sha256_in_prefix": "ab874024613b575d4da397086e749b81584177f3dc9d2faf438a073132ca9beb",
+        "size_in_bytes": 11828
+      },
+      {
+        "_path": "site-packages/cloup/_option_groups.py",
+        "path_type": "hardlink",
+        "sha256": "91403736969c538c28144b428feaf8386adb213320501aef18a3f28a4db7288a",
+        "sha256_in_prefix": "91403736969c538c28144b428feaf8386adb213320501aef18a3f28a4db7288a",
+        "size_in_bytes": 14161
+      },
+      {
+        "_path": "site-packages/cloup/_params.py",
+        "path_type": "hardlink",
+        "sha256": "1c2cf2042ed152a6e5f41f913dbc79d2e37831e512c8af63e0a5c4ac0b149751",
+        "sha256_in_prefix": "1c2cf2042ed152a6e5f41f913dbc79d2e37831e512c8af63e0a5c4ac0b149751",
+        "size_in_bytes": 1917
+      },
+      {
+        "_path": "site-packages/cloup/_params.pyi",
+        "path_type": "hardlink",
+        "sha256": "7d1d3f42e381471fcf9b4e5dbb544ff6417d4b0ef6f863807495359ed87098ef",
+        "sha256_in_prefix": "7d1d3f42e381471fcf9b4e5dbb544ff6417d4b0ef6f863807495359ed87098ef",
+        "size_in_bytes": 2936
+      },
+      {
+        "_path": "site-packages/cloup/_sections.py",
+        "path_type": "hardlink",
+        "sha256": "73199d76b069a6553b19dc0251fbc7ebedb9e4cd4d5caa4e28b7cda2c3573698",
+        "sha256_in_prefix": "73199d76b069a6553b19dc0251fbc7ebedb9e4cd4d5caa4e28b7cda2c3573698",
+        "size_in_bytes": 10255
+      },
+      {
+        "_path": "site-packages/cloup/_util.py",
+        "path_type": "hardlink",
+        "sha256": "43a701779783c2eb9090a374db12ccd6afad0e6269611838aa7bbccb64164dd6",
+        "sha256_in_prefix": "43a701779783c2eb9090a374db12ccd6afad0e6269611838aa7bbccb64164dd6",
+        "size_in_bytes": 4839
+      },
+      {
+        "_path": "site-packages/cloup/_version.py",
+        "path_type": "hardlink",
+        "sha256": "1b905c5a0616580acebeed6f8ad7c00c618ce252a2ed8a7fab259da1bad321d8",
+        "sha256_in_prefix": "1b905c5a0616580acebeed6f8ad7c00c618ce252a2ed8a7fab259da1bad321d8",
+        "size_in_bytes": 511
+      },
+      {
+        "_path": "site-packages/cloup/constraints/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "125310d8146f7c4df8b7240fbe87aa742e1af7fc6670f62161328d8374399b48",
+        "sha256_in_prefix": "125310d8146f7c4df8b7240fbe87aa742e1af7fc6670f62161328d8374399b48",
+        "size_in_bytes": 1273
+      },
+      {
+        "_path": "site-packages/cloup/constraints/_conditional.py",
+        "path_type": "hardlink",
+        "sha256": "394c6794a3639f6ff2bddae39ceaaad036035c2f7b537b34f17165e161f3f53b",
+        "sha256_in_prefix": "394c6794a3639f6ff2bddae39ceaaad036035c2f7b537b34f17165e161f3f53b",
+        "size_in_bytes": 3025
+      },
+      {
+        "_path": "site-packages/cloup/constraints/_core.py",
+        "path_type": "hardlink",
+        "sha256": "8030e4f185110a8f554293392a46553ec2a345548a6c4e8d877df835c703eb77",
+        "sha256_in_prefix": "8030e4f185110a8f554293392a46553ec2a345548a6c4e8d877df835c703eb77",
+        "size_in_bytes": 21254
+      },
+      {
+        "_path": "site-packages/cloup/constraints/_support.py",
+        "path_type": "hardlink",
+        "sha256": "95baa00d6a436a36a23127c98dda4f70aef2336fc584911dca2382ed644cf03d",
+        "sha256_in_prefix": "95baa00d6a436a36a23127c98dda4f70aef2336fc584911dca2382ed644cf03d",
+        "size_in_bytes": 8058
+      },
+      {
+        "_path": "site-packages/cloup/constraints/common.py",
+        "path_type": "hardlink",
+        "sha256": "2d5108e1fcf196546b094def20a2e0ede35bac24e5db9f839bb17015fb3b2a33",
+        "sha256_in_prefix": "2d5108e1fcf196546b094def20a2e0ede35bac24e5db9f839bb17015fb3b2a33",
+        "size_in_bytes": 3890
+      },
+      {
+        "_path": "site-packages/cloup/constraints/conditions.py",
+        "path_type": "hardlink",
+        "sha256": "efe565bc93ca90e4d0a1f2c40607bfe8443fab18390fbe050cd62582c5eb057d",
+        "sha256_in_prefix": "efe565bc93ca90e4d0a1f2c40607bfe8443fab18390fbe050cd62582c5eb057d",
+        "size_in_bytes": 9420
+      },
+      {
+        "_path": "site-packages/cloup/constraints/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "4980acdac8bac28ef35e6d3b0ec09c7dc002a4278ebfd12faa5c0dea0eeda1c2",
+        "sha256_in_prefix": "4980acdac8bac28ef35e6d3b0ec09c7dc002a4278ebfd12faa5c0dea0eeda1c2",
+        "size_in_bytes": 1816
+      },
+      {
+        "_path": "site-packages/cloup/formatting/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d20d2f96b24617104304a9a87deeb0b65699741f303b20ddf2bbe969e85b4b81",
+        "sha256_in_prefix": "d20d2f96b24617104304a9a87deeb0b65699741f303b20ddf2bbe969e85b4b81",
+        "size_in_bytes": 244
+      },
+      {
+        "_path": "site-packages/cloup/formatting/_formatter.py",
+        "path_type": "hardlink",
+        "sha256": "3b7158788d8adde41ff70ba6392518b45203aa4831abed97e684d38b96383f77",
+        "sha256_in_prefix": "3b7158788d8adde41ff70ba6392518b45203aa4831abed97e684d38b96383f77",
+        "size_in_bytes": 17404
+      },
+      {
+        "_path": "site-packages/cloup/formatting/_util.py",
+        "path_type": "hardlink",
+        "sha256": "c44c84cb16f90509c3ff9c8aebfb5d9ef06b854dd3626f1ef56aaba10a674992",
+        "sha256_in_prefix": "c44c84cb16f90509c3ff9c8aebfb5d9ef06b854dd3626f1ef56aaba10a674992",
+        "size_in_bytes": 801
+      },
+      {
+        "_path": "site-packages/cloup/formatting/sep.py",
+        "path_type": "hardlink",
+        "sha256": "c75a09cdbfb8763a4cb49da78280135b4c7f8af95c050bcde3c762339e326686",
+        "sha256_in_prefix": "c75a09cdbfb8763a4cb49da78280135b4c7f8af95c050bcde3c762339e326686",
+        "size_in_bytes": 8174
+      },
+      {
+        "_path": "site-packages/cloup/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cloup/styling.py",
+        "path_type": "hardlink",
+        "sha256": "94813c3202e7d3c4f4fc33e4a950427848863b2e54e02ac6a4d042725a2d1b8f",
+        "sha256_in_prefix": "94813c3202e7d3c4f4fc33e4a950427848863b2e54e02ac6a4d042725a2d1b8f",
+        "size_in_bytes": 7196
+      },
+      {
+        "_path": "site-packages/cloup/types.py",
+        "path_type": "hardlink",
+        "sha256": "03ffaf16b00a01bf93384d72cb1c6112663378cd8d7c7a4e8093410611e92169",
+        "sha256_in_prefix": "03ffaf16b00a01bf93384d72cb1c6112663378cd8d7c7a4e8093410611e92169",
+        "size_in_bytes": 1350
+      },
+      {
+        "_path": "site-packages/cloup/typing.py",
+        "path_type": "hardlink",
+        "sha256": "2a617120ebbcd3d1be6d29915283ba7763141ea414a47810f3e01c9b91add82b",
+        "sha256_in_prefix": "2a617120ebbcd3d1be6d29915283ba7763141ea414a47810f3e01c9b91add82b",
+        "size_in_bytes": 801
+      },
+      {
+        "_path": "site-packages/cloup/warnings.py",
+        "path_type": "hardlink",
+        "sha256": "46a16a5b6cebc77b9b7e18ee04a0b34fd5f3ce6d11304d90ff0eefc0fbb8dc09",
+        "sha256_in_prefix": "46a16a5b6cebc77b9b7e18ee04a0b34fd5f3ce6d11304d90ff0eefc0fbb8dc09",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/__pycache__/_commands.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/__pycache__/_context.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/__pycache__/_option_groups.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/__pycache__/_params.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/__pycache__/_sections.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/__pycache__/_util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/__pycache__/_version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/constraints/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/constraints/__pycache__/_conditional.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/constraints/__pycache__/_core.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/constraints/__pycache__/_support.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/constraints/__pycache__/common.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/constraints/__pycache__/conditions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/constraints/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/formatting/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/formatting/__pycache__/_formatter.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/formatting/__pycache__/_util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/formatting/__pycache__/sep.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/__pycache__/styling.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/__pycache__/types.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/__pycache__/typing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cloup/__pycache__/warnings.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a29a389dcc87f6fb52095390b17c459c7e42fc3be5c801a70de67f400247c160",
+  "size": 48356,
+  "subdir": "noarch",
+  "timestamp": 1742227104000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cloup-3.0.7-pyhd8ed1ab_0.conda",
+  "version": "3.0.7"
+}

@@ -1,0 +1,113 @@
+{
+  "build": "py312h798cee4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "python_abi 3.12.* *_cp312",
+    "python >=3.12,<3.13.0a0",
+    "python >=3.12,<3.13.0a0 *_cpython",
+    "cairo >=1.18.0,<2.0a0"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/pycairo-1.27.0-py312h798cee4_0",
+  "files": [
+    "include/pycairo/py3cairo.h",
+    "lib/pkgconfig/py3cairo.pc",
+    "lib/python3.12/site-packages/cairo/__init__.py",
+    "lib/python3.12/site-packages/cairo/__init__.pyi",
+    "lib/python3.12/site-packages/cairo/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cairo/_cairo.cpython-312-darwin.so",
+    "lib/python3.12/site-packages/cairo/include/py3cairo.h",
+    "lib/python3.12/site-packages/cairo/py.typed",
+    "lib/python3.12/site-packages/pycairo-1.27.0.dist-info/METADATA"
+  ],
+  "fn": "pycairo-1.27.0-py312h798cee4_0.conda",
+  "license": "LGPL-2.1-only OR MPL-1.1",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/pycairo-1.27.0-py312h798cee4_0",
+    "type": 1
+  },
+  "md5": "545c360a65024e98b17c744b3c4eb6d9",
+  "name": "pycairo",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/pycairo-1.27.0-py312h798cee4_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/pycairo/py3cairo.h",
+        "path_type": "hardlink",
+        "sha256": "23f1242683f664a5e16271eea48881cf445d4780b2e93a84f18d145dc75571e1",
+        "sha256_in_prefix": "23f1242683f664a5e16271eea48881cf445d4780b2e93a84f18d145dc75571e1",
+        "size_in_bytes": 8778
+      },
+      {
+        "_path": "lib/pkgconfig/py3cairo.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/pycairo_1725885991431/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "08db2ef3495225bdaa804cf4da3b0a1bfed3750c4e9795c41f460956cef75f9f",
+        "sha256_in_prefix": "42680c423d7a828bb58484e5e52828b7b528ce48b5e2db7298ef1cbc13d3ddb7",
+        "size_in_bytes": 413
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cairo/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5c81ff76ff32f215f157da4f0fb44eef466d7dcc4ff7924ccdcfc19f1bfbf134",
+        "sha256_in_prefix": "5c81ff76ff32f215f157da4f0fb44eef466d7dcc4ff7924ccdcfc19f1bfbf134",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cairo/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "29f1fde487128966eda90a5c808f5fc5510f5430acf49cf607579c15a7d73558",
+        "sha256_in_prefix": "29f1fde487128966eda90a5c808f5fc5510f5430acf49cf607579c15a7d73558",
+        "size_in_bytes": 217323
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cairo/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b46b8142cee488d56ae9badb3f15c2ef6e046ab42feaa1c7f06d52cf2a87dc8a",
+        "sha256_in_prefix": "b46b8142cee488d56ae9badb3f15c2ef6e046ab42feaa1c7f06d52cf2a87dc8a",
+        "size_in_bytes": 1163
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cairo/_cairo.cpython-312-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/pycairo_1725885991431/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "8c198a7a0f44cb7f73a51aa38086e765fc9b2b6ee0db532e7193537e942e44c4",
+        "sha256_in_prefix": "eb2d6c14be5de7058054ae3198e1f32d862220e758b364f26e314045f8c91359",
+        "size_in_bytes": 239008
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cairo/include/py3cairo.h",
+        "path_type": "hardlink",
+        "sha256": "23f1242683f664a5e16271eea48881cf445d4780b2e93a84f18d145dc75571e1",
+        "sha256_in_prefix": "23f1242683f664a5e16271eea48881cf445d4780b2e93a84f18d145dc75571e1",
+        "size_in_bytes": 8778
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cairo/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pycairo-1.27.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a57952a57ec9412f65d0291b226d53df40cd8a9951baf59380318ebc3d810632",
+        "sha256_in_prefix": "a57952a57ec9412f65d0291b226d53df40cd8a9951baf59380318ebc3d810632",
+        "size_in_bytes": 321
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ef41017992953502c83b924b46d5c236b76f822f62df0148fddd7e051fca8982",
+  "size": 105566,
+  "subdir": "osx-arm64",
+  "timestamp": 1725886214000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pycairo-1.27.0-py312h798cee4_0.conda",
+  "version": "1.27.0"
+}

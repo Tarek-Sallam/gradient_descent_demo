@@ -1,0 +1,44 @@
+{
+  "build": "h7f72211_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=18",
+    "tbb >=2021.13.0",
+    "libopenvino 2025.0.0 h3f17238_3"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/libopenvino-auto-batch-plugin-2025.0.0-h7f72211_3",
+  "files": [
+    "lib/openvino-2025.0.0/libopenvino_auto_batch_plugin.so"
+  ],
+  "fn": "libopenvino-auto-batch-plugin-2025.0.0-h7f72211_3.conda",
+  "license": "",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/libopenvino-auto-batch-plugin-2025.0.0-h7f72211_3",
+    "type": 1
+  },
+  "md5": "0f17b7f12b079ff6e30b01d9e0009c7d",
+  "name": "libopenvino-auto-batch-plugin",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/libopenvino-auto-batch-plugin-2025.0.0-h7f72211_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/openvino-2025.0.0/libopenvino_auto_batch_plugin.so",
+        "path_type": "hardlink",
+        "sha256": "0bae724d399c10a6882e045f64dd9b2014373641ea811058c1b99b9f173f6cdc",
+        "sha256_in_prefix": "0bae724d399c10a6882e045f64dd9b2014373641ea811058c1b99b9f173f6cdc",
+        "size_in_bytes": 329248
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d8992f2b7b59cb9d0962fd05f5c10c29e60196663fc956f51d96f11350f2ec82",
+  "size": 104368,
+  "subdir": "osx-arm64",
+  "timestamp": 1742042427000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenvino-auto-batch-plugin-2025.0.0-h7f72211_3.conda",
+  "version": "2025.0.0"
+}

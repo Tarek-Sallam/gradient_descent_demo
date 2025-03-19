@@ -1,0 +1,549 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/svgelements-1.9.6-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.12/site-packages/svgelements-1.9.6.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/svgelements-1.9.6.dist-info/LICENSE",
+    "lib/python3.12/site-packages/svgelements-1.9.6.dist-info/METADATA",
+    "lib/python3.12/site-packages/svgelements-1.9.6.dist-info/RECORD",
+    "lib/python3.12/site-packages/svgelements-1.9.6.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/svgelements-1.9.6.dist-info/WHEEL",
+    "lib/python3.12/site-packages/svgelements-1.9.6.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/svgelements-1.9.6.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/svgelements-1.9.6.dist-info/zip-safe",
+    "lib/python3.12/site-packages/svgelements/__init__.py",
+    "lib/python3.12/site-packages/svgelements/svgelements.py",
+    "lib/python3.12/site-packages/test/__init__.py",
+    "lib/python3.12/site-packages/test/test_angle.py",
+    "lib/python3.12/site-packages/test/test_approximate.py",
+    "lib/python3.12/site-packages/test/test_arc_length.py",
+    "lib/python3.12/site-packages/test/test_bbox.py",
+    "lib/python3.12/site-packages/test/test_clippath.py",
+    "lib/python3.12/site-packages/test/test_color.py",
+    "lib/python3.12/site-packages/test/test_copy.py",
+    "lib/python3.12/site-packages/test/test_css.py",
+    "lib/python3.12/site-packages/test/test_cubic_bezier.py",
+    "lib/python3.12/site-packages/test/test_descriptive_elements.py",
+    "lib/python3.12/site-packages/test/test_element.py",
+    "lib/python3.12/site-packages/test/test_generation.py",
+    "lib/python3.12/site-packages/test/test_group.py",
+    "lib/python3.12/site-packages/test/test_image.py",
+    "lib/python3.12/site-packages/test/test_intersections.py",
+    "lib/python3.12/site-packages/test/test_length.py",
+    "lib/python3.12/site-packages/test/test_matrix.py",
+    "lib/python3.12/site-packages/test/test_parsing.py",
+    "lib/python3.12/site-packages/test/test_path.py",
+    "lib/python3.12/site-packages/test/test_path_dunder.py",
+    "lib/python3.12/site-packages/test/test_path_segments.py",
+    "lib/python3.12/site-packages/test/test_paths.py",
+    "lib/python3.12/site-packages/test/test_point.py",
+    "lib/python3.12/site-packages/test/test_quadratic_bezier.py",
+    "lib/python3.12/site-packages/test/test_repr.py",
+    "lib/python3.12/site-packages/test/test_shape.py",
+    "lib/python3.12/site-packages/test/test_stroke_width.py",
+    "lib/python3.12/site-packages/test/test_text.py",
+    "lib/python3.12/site-packages/test/test_use.py",
+    "lib/python3.12/site-packages/test/test_viewbox.py",
+    "lib/python3.12/site-packages/test/test_write.py",
+    "lib/python3.12/site-packages/svgelements/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/svgelements/__pycache__/svgelements.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_angle.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_approximate.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_arc_length.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_bbox.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_clippath.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_color.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_copy.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_css.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_cubic_bezier.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_descriptive_elements.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_element.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_generation.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_group.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_image.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_intersections.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_length.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_matrix.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_parsing.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_path.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_path_dunder.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_path_segments.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_paths.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_point.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_quadratic_bezier.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_repr.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_shape.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_stroke_width.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_text.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_use.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_viewbox.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_write.cpython-312.pyc"
+  ],
+  "fn": "svgelements-1.9.6-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/svgelements-1.9.6-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "91460757d3d2c631f1a25d1e42921ad1",
+  "name": "svgelements",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/svgelements-1.9.6-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/svgelements-1.9.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/svgelements-1.9.6.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "897fa8febce28d8ba54db004219fde6e0ab95fdb92b54afe3c48277c1b2beebd",
+        "sha256_in_prefix": "897fa8febce28d8ba54db004219fde6e0ab95fdb92b54afe3c48277c1b2beebd",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "site-packages/svgelements-1.9.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "97cef5f63b6a9f68dc571064a2a11a2a6f9474eef5c2699df274e7d05bb2045f",
+        "sha256_in_prefix": "97cef5f63b6a9f68dc571064a2a11a2a6f9474eef5c2699df274e7d05bb2045f",
+        "size_in_bytes": 43889
+      },
+      {
+        "_path": "site-packages/svgelements-1.9.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d5917a89cc1cec08a90fe39deead4dffbdc28cca6a88fa1eb2b2932fa064663b",
+        "sha256_in_prefix": "d5917a89cc1cec08a90fe39deead4dffbdc28cca6a88fa1eb2b2932fa064663b",
+        "size_in_bytes": 5159
+      },
+      {
+        "_path": "site-packages/svgelements-1.9.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/svgelements-1.9.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9bd580ba99817762460ec5d64062603065c859b418dc5e5cdb10496c186ad276",
+        "sha256_in_prefix": "9bd580ba99817762460ec5d64062603065c859b418dc5e5cdb10496c186ad276",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/svgelements-1.9.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c3f75ecfbc24140806a5cc876c442f82f7894d0ff54daa2103b874b73e9e652f",
+        "sha256_in_prefix": "c3f75ecfbc24140806a5cc876c442f82f7894d0ff54daa2103b874b73e9e652f",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/svgelements-1.9.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ffb4bc3ad84e6381d0d3f4d85e6ca13144f9e69cc75147a6f2e67823bafa1271",
+        "sha256_in_prefix": "ffb4bc3ad84e6381d0d3f4d85e6ca13144f9e69cc75147a6f2e67823bafa1271",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/svgelements-1.9.6.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+        "sha256_in_prefix": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+        "size_in_bytes": 2
+      },
+      {
+        "_path": "site-packages/svgelements/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cf0c98651c7bff08ec91e82b04baec291d54ff7d04e030eb73af6d615f040dd0",
+        "sha256_in_prefix": "cf0c98651c7bff08ec91e82b04baec291d54ff7d04e030eb73af6d615f040dd0",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "site-packages/svgelements/svgelements.py",
+        "path_type": "hardlink",
+        "sha256": "4edfb37ec0ee00cc884c6d7f1fa8084393d3819c2136fa1c78fb0a0fb71f9576",
+        "sha256_in_prefix": "4edfb37ec0ee00cc884c6d7f1fa8084393d3819c2136fa1c78fb0a0fb71f9576",
+        "size_in_bytes": 342609
+      },
+      {
+        "_path": "site-packages/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e467dd7c0b7c77309518b50e7deded4d637c2853e9ebbd30b0483151d94be02d",
+        "sha256_in_prefix": "e467dd7c0b7c77309518b50e7deded4d637c2853e9ebbd30b0483151d94be02d",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "site-packages/test/test_angle.py",
+        "path_type": "hardlink",
+        "sha256": "26fc0335727d1c1a134cce2cdf9602d70f1b018705f156f7e35b6f277701c582",
+        "sha256_in_prefix": "26fc0335727d1c1a134cce2cdf9602d70f1b018705f156f7e35b6f277701c582",
+        "size_in_bytes": 2018
+      },
+      {
+        "_path": "site-packages/test/test_approximate.py",
+        "path_type": "hardlink",
+        "sha256": "982e803709a287eb561b8f5549fb6650a7efe67ca84579faf8657165310d79f0",
+        "sha256_in_prefix": "982e803709a287eb561b8f5549fb6650a7efe67ca84579faf8657165310d79f0",
+        "size_in_bytes": 686
+      },
+      {
+        "_path": "site-packages/test/test_arc_length.py",
+        "path_type": "hardlink",
+        "sha256": "fb79ce39d5004758199dfc482744de784d9600f1d8211cd6d072d8f6b483f104",
+        "sha256_in_prefix": "fb79ce39d5004758199dfc482744de784d9600f1d8211cd6d072d8f6b483f104",
+        "size_in_bytes": 16931
+      },
+      {
+        "_path": "site-packages/test/test_bbox.py",
+        "path_type": "hardlink",
+        "sha256": "c2965fdfbd84e89485c522e53fa9476ca91cdec2cf7e535bad0f7d91d33d25ef",
+        "sha256_in_prefix": "c2965fdfbd84e89485c522e53fa9476ca91cdec2cf7e535bad0f7d91d33d25ef",
+        "size_in_bytes": 11940
+      },
+      {
+        "_path": "site-packages/test/test_clippath.py",
+        "path_type": "hardlink",
+        "sha256": "fa51bd2e47b5fd83a8062fe2eb9167d507ee721f70c5e2764bcf326dc43bdcd2",
+        "sha256_in_prefix": "fa51bd2e47b5fd83a8062fe2eb9167d507ee721f70c5e2764bcf326dc43bdcd2",
+        "size_in_bytes": 3920
+      },
+      {
+        "_path": "site-packages/test/test_color.py",
+        "path_type": "hardlink",
+        "sha256": "76efecad31547cba3ddaab936fa3ebd8338112cfc468c6e28cc4fd34755a6a22",
+        "sha256_in_prefix": "76efecad31547cba3ddaab936fa3ebd8338112cfc468c6e28cc4fd34755a6a22",
+        "size_in_bytes": 11473
+      },
+      {
+        "_path": "site-packages/test/test_copy.py",
+        "path_type": "hardlink",
+        "sha256": "1a1ab93e6e2ad9257c6bee036ab540a50782894891eebfb3970f196eee382354",
+        "sha256_in_prefix": "1a1ab93e6e2ad9257c6bee036ab540a50782894891eebfb3970f196eee382354",
+        "size_in_bytes": 5587
+      },
+      {
+        "_path": "site-packages/test/test_css.py",
+        "path_type": "hardlink",
+        "sha256": "9daffb868602e10fdb8d4d5bc3c4fa32a421b132b8dcbdaab161a913cb662389",
+        "sha256_in_prefix": "9daffb868602e10fdb8d4d5bc3c4fa32a421b132b8dcbdaab161a913cb662389",
+        "size_in_bytes": 3002
+      },
+      {
+        "_path": "site-packages/test/test_cubic_bezier.py",
+        "path_type": "hardlink",
+        "sha256": "3d4b583751d97d33c8516b3fbd83ed98f93f7f7d35fe6402f97604d93173f1d9",
+        "sha256_in_prefix": "3d4b583751d97d33c8516b3fbd83ed98f93f7f7d35fe6402f97604d93173f1d9",
+        "size_in_bytes": 2869
+      },
+      {
+        "_path": "site-packages/test/test_descriptive_elements.py",
+        "path_type": "hardlink",
+        "sha256": "ba0e7d9d9662c1340a27e1b8a78e94eecd5239c28252a67986347d55a46e83c5",
+        "sha256_in_prefix": "ba0e7d9d9662c1340a27e1b8a78e94eecd5239c28252a67986347d55a46e83c5",
+        "size_in_bytes": 581
+      },
+      {
+        "_path": "site-packages/test/test_element.py",
+        "path_type": "hardlink",
+        "sha256": "f3ad5c4edf18055e3ba84c801927330a652ccd6115cde694f0cd27326de3b561",
+        "sha256_in_prefix": "f3ad5c4edf18055e3ba84c801927330a652ccd6115cde694f0cd27326de3b561",
+        "size_in_bytes": 3455
+      },
+      {
+        "_path": "site-packages/test/test_generation.py",
+        "path_type": "hardlink",
+        "sha256": "c73882d4ca86fb3b1bbb08d7591439f406264e3d0d9bd86523d54245709a401c",
+        "sha256_in_prefix": "c73882d4ca86fb3b1bbb08d7591439f406264e3d0d9bd86523d54245709a401c",
+        "size_in_bytes": 2722
+      },
+      {
+        "_path": "site-packages/test/test_group.py",
+        "path_type": "hardlink",
+        "sha256": "9c65709bae78ba3f8f90db1fc04c24ddfe875b6e1eb4766cb79a2473c87aafbb",
+        "sha256_in_prefix": "9c65709bae78ba3f8f90db1fc04c24ddfe875b6e1eb4766cb79a2473c87aafbb",
+        "size_in_bytes": 3558
+      },
+      {
+        "_path": "site-packages/test/test_image.py",
+        "path_type": "hardlink",
+        "sha256": "0016fa2869bb8ec06b04bd1ad0c9e590824cf5542aaefd4c7b7f701547bc5634",
+        "sha256_in_prefix": "0016fa2869bb8ec06b04bd1ad0c9e590824cf5542aaefd4c7b7f701547bc5634",
+        "size_in_bytes": 11025
+      },
+      {
+        "_path": "site-packages/test/test_intersections.py",
+        "path_type": "hardlink",
+        "sha256": "b9da69f705706d11ad50dcf3411fcfc327b5e3e973843c69c1e9069cbb9484c8",
+        "sha256_in_prefix": "b9da69f705706d11ad50dcf3411fcfc327b5e3e973843c69c1e9069cbb9484c8",
+        "size_in_bytes": 2364
+      },
+      {
+        "_path": "site-packages/test/test_length.py",
+        "path_type": "hardlink",
+        "sha256": "6567863b198fd6b26de531e39bfcd4145af48dba01a2ec11f2017304753b2111",
+        "sha256_in_prefix": "6567863b198fd6b26de531e39bfcd4145af48dba01a2ec11f2017304753b2111",
+        "size_in_bytes": 8047
+      },
+      {
+        "_path": "site-packages/test/test_matrix.py",
+        "path_type": "hardlink",
+        "sha256": "841f5beb2e0fe79c32819a17031f055f6c23db68a565fd126a29d503a21ca4ec",
+        "sha256_in_prefix": "841f5beb2e0fe79c32819a17031f055f6c23db68a565fd126a29d503a21ca4ec",
+        "size_in_bytes": 16174
+      },
+      {
+        "_path": "site-packages/test/test_parsing.py",
+        "path_type": "hardlink",
+        "sha256": "70896850b1ef637bfe7b01bf238877ec809404235dd9a63ccd4411755704258f",
+        "sha256_in_prefix": "70896850b1ef637bfe7b01bf238877ec809404235dd9a63ccd4411755704258f",
+        "size_in_bytes": 45351
+      },
+      {
+        "_path": "site-packages/test/test_path.py",
+        "path_type": "hardlink",
+        "sha256": "d4710024311bfdc5d369d05c83afeb18e9748a4e0a53500d66568e75efcf9463",
+        "sha256_in_prefix": "d4710024311bfdc5d369d05c83afeb18e9748a4e0a53500d66568e75efcf9463",
+        "size_in_bytes": 13239
+      },
+      {
+        "_path": "site-packages/test/test_path_dunder.py",
+        "path_type": "hardlink",
+        "sha256": "40d16ed8778386bd36a106cc25265829e1e3f35184fb4562efa120a7d61ddf2a",
+        "sha256_in_prefix": "40d16ed8778386bd36a106cc25265829e1e3f35184fb4562efa120a7d61ddf2a",
+        "size_in_bytes": 3998
+      },
+      {
+        "_path": "site-packages/test/test_path_segments.py",
+        "path_type": "hardlink",
+        "sha256": "2ba5662eafbc110a377cebb5bf8d9d9062cefe132956bd6e0af2fd885f75fde2",
+        "sha256_in_prefix": "2ba5662eafbc110a377cebb5bf8d9d9062cefe132956bd6e0af2fd885f75fde2",
+        "size_in_bytes": 1845
+      },
+      {
+        "_path": "site-packages/test/test_paths.py",
+        "path_type": "hardlink",
+        "sha256": "c70a331e7fdd33af0adf7ee279a642da822f06f4b836bebf5c16cba856f0037d",
+        "sha256_in_prefix": "c70a331e7fdd33af0adf7ee279a642da822f06f4b836bebf5c16cba856f0037d",
+        "size_in_bytes": 35183
+      },
+      {
+        "_path": "site-packages/test/test_point.py",
+        "path_type": "hardlink",
+        "sha256": "769d0fa460966b6615227e395c2c717199a5cbe6b46b0ac2d5ccd9ff62e9ad5b",
+        "sha256_in_prefix": "769d0fa460966b6615227e395c2c717199a5cbe6b46b0ac2d5ccd9ff62e9ad5b",
+        "size_in_bytes": 5696
+      },
+      {
+        "_path": "site-packages/test/test_quadratic_bezier.py",
+        "path_type": "hardlink",
+        "sha256": "0ccd97a5c26d49a790f6e64326b4344e5b6ac424886e4c836499010202cbc9c7",
+        "sha256_in_prefix": "0ccd97a5c26d49a790f6e64326b4344e5b6ac424886e4c836499010202cbc9c7",
+        "size_in_bytes": 1238
+      },
+      {
+        "_path": "site-packages/test/test_repr.py",
+        "path_type": "hardlink",
+        "sha256": "d5f89b96f629686104726b0cea35753841baf54158109c9db69cbf30e7c941d2",
+        "sha256_in_prefix": "d5f89b96f629686104726b0cea35753841baf54158109c9db69cbf30e7c941d2",
+        "size_in_bytes": 8241
+      },
+      {
+        "_path": "site-packages/test/test_shape.py",
+        "path_type": "hardlink",
+        "sha256": "67402cb81cdea585cd5350d9b1615d2e5842c7d22268162f4d42f261afb1cceb",
+        "sha256_in_prefix": "67402cb81cdea585cd5350d9b1615d2e5842c7d22268162f4d42f261afb1cceb",
+        "size_in_bytes": 26841
+      },
+      {
+        "_path": "site-packages/test/test_stroke_width.py",
+        "path_type": "hardlink",
+        "sha256": "220b797d4b8e5f69d195204eb4d336c7061285e142e85b65c99cf73b926d7f9f",
+        "sha256_in_prefix": "220b797d4b8e5f69d195204eb4d336c7061285e142e85b65c99cf73b926d7f9f",
+        "size_in_bytes": 2078
+      },
+      {
+        "_path": "site-packages/test/test_text.py",
+        "path_type": "hardlink",
+        "sha256": "62ea0a20ef8807d92a4c95f182157f8c576935add192f5571a00594d082ff493",
+        "sha256_in_prefix": "62ea0a20ef8807d92a4c95f182157f8c576935add192f5571a00594d082ff493",
+        "size_in_bytes": 7887
+      },
+      {
+        "_path": "site-packages/test/test_use.py",
+        "path_type": "hardlink",
+        "sha256": "dbff3c2419ffc930d33995b14ec20b296a02284b3b102c081496d7bbeb997950",
+        "sha256_in_prefix": "dbff3c2419ffc930d33995b14ec20b296a02284b3b102c081496d7bbeb997950",
+        "size_in_bytes": 11074
+      },
+      {
+        "_path": "site-packages/test/test_viewbox.py",
+        "path_type": "hardlink",
+        "sha256": "027f9258e611e8c8e5fd37d94e589e655363e5e33e3a889e7a8b76b5609d799d",
+        "sha256_in_prefix": "027f9258e611e8c8e5fd37d94e589e655363e5e33e3a889e7a8b76b5609d799d",
+        "size_in_bytes": 13253
+      },
+      {
+        "_path": "site-packages/test/test_write.py",
+        "path_type": "hardlink",
+        "sha256": "582ecab6e6a2cb19211a717d122de74699618b3ec379769d0bce2f77daf55651",
+        "sha256_in_prefix": "582ecab6e6a2cb19211a717d122de74699618b3ec379769d0bce2f77daf55651",
+        "size_in_bytes": 6980
+      },
+      {
+        "_path": "lib/python3.12/site-packages/svgelements/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/svgelements/__pycache__/svgelements.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_angle.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_approximate.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_arc_length.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_bbox.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_clippath.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_color.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_copy.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_css.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_cubic_bezier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_descriptive_elements.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_element.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_generation.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_group.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_image.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_intersections.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_length.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_matrix.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_parsing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_path.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_path_dunder.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_path_segments.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_paths.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_point.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_quadratic_bezier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_repr.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_shape.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_stroke_width.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_text.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_use.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_viewbox.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_write.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3bb745d94bc632a6213b252f9e167d0e99d4ca5bd6126b6fbb7f5eac69116dd0",
+  "size": 116675,
+  "subdir": "noarch",
+  "timestamp": 1692252396000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/svgelements-1.9.6-pyhd8ed1ab_0.conda",
+  "version": "1.9.6"
+}

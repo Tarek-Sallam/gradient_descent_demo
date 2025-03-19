@@ -1,0 +1,47 @@
+{
+  "build": "h3f17238_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=18",
+    "tbb >=2021.13.0",
+    "pugixml >=1.15,<1.16.0a0",
+    "libopenvino 2025.0.0 h3f17238_3"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/libopenvino-arm-cpu-plugin-2025.0.0-h3f17238_3",
+  "files": [
+    "lib/openvino-2025.0.0/libopenvino_arm_cpu_plugin.so"
+  ],
+  "fn": "libopenvino-arm-cpu-plugin-2025.0.0-h3f17238_3.conda",
+  "license": "",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/libopenvino-arm-cpu-plugin-2025.0.0-h3f17238_3",
+    "type": 1
+  },
+  "md5": "ec1181e2f403d8ef1056ffbd147dfc85",
+  "name": "libopenvino-arm-cpu-plugin",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/libopenvino-arm-cpu-plugin-2025.0.0-h3f17238_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/openvino-2025.0.0/libopenvino_arm_cpu_plugin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/openvino-split_1742036225116/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "a50fc1eb1a1b6cfdfea9ef0ecdf9ac3a9ac841c6f7c6496fc9ca7c2575984bd1",
+        "sha256_in_prefix": "f67bccb8ef852d43fb25894b50f7800bc40a1bf7197249eb243d8b4ae61390cb",
+        "size_in_bytes": 61199504
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b4ac5b146e0289e7f244ac0fcd8abdae0b6d657143f12e92e13289e781caeaf4",
+  "size": 7894815,
+  "subdir": "osx-arm64",
+  "timestamp": 1742042384000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenvino-arm-cpu-plugin-2025.0.0-h3f17238_3.conda",
+  "version": "2025.0.0"
+}

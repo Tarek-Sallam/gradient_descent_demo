@@ -1,0 +1,2700 @@
+{
+  "build": "pyh29332c3_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python",
+    "ffmpeg",
+    "python >=3.9",
+    "rich >=12.0.0",
+    "click >=8.0",
+    "typing-extensions >=4.0.0",
+    "importlib-metadata >=3.6",
+    "tqdm >=4.0.0",
+    "networkx >=2.6",
+    "numpy >=2.0",
+    "scipy >=1.13.0",
+    "pillow >=9.1",
+    "watchdog >=2.0.0",
+    "manimpango >=0.5.0,<1.0.0",
+    "skia-pathops >=0.7.0",
+    "beautifulsoup4 >=4.12",
+    "cloup >=2.0.0",
+    "decorator >=4.3.2",
+    "isosurfaces >=0.1.0",
+    "mapbox_earcut >=1.0.0",
+    "moderngl >=5.0.0,<6.0.0",
+    "moderngl-window >=2.0.0",
+    "pycairo >=1.13,<2.0.0",
+    "pydub >=0.20.0",
+    "pygments >=2.0.0",
+    "screeninfo >=0.7",
+    "srt >=3.0.0",
+    "svgelements >=1.8.0",
+    "av >=9.0.0,<14.0.0"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/manim-0.19.0-pyh29332c3_0",
+  "files": [
+    "lib/python3.12/site-packages/manim/__init__.py",
+    "lib/python3.12/site-packages/manim/__main__.py",
+    "lib/python3.12/site-packages/manim/_config/__init__.py",
+    "lib/python3.12/site-packages/manim/_config/cli_colors.py",
+    "lib/python3.12/site-packages/manim/_config/default.cfg",
+    "lib/python3.12/site-packages/manim/_config/logger_utils.py",
+    "lib/python3.12/site-packages/manim/_config/utils.py",
+    "lib/python3.12/site-packages/manim/animation/__init__.py",
+    "lib/python3.12/site-packages/manim/animation/animation.py",
+    "lib/python3.12/site-packages/manim/animation/changing.py",
+    "lib/python3.12/site-packages/manim/animation/composition.py",
+    "lib/python3.12/site-packages/manim/animation/creation.py",
+    "lib/python3.12/site-packages/manim/animation/fading.py",
+    "lib/python3.12/site-packages/manim/animation/growing.py",
+    "lib/python3.12/site-packages/manim/animation/indication.py",
+    "lib/python3.12/site-packages/manim/animation/movement.py",
+    "lib/python3.12/site-packages/manim/animation/numbers.py",
+    "lib/python3.12/site-packages/manim/animation/rotation.py",
+    "lib/python3.12/site-packages/manim/animation/specialized.py",
+    "lib/python3.12/site-packages/manim/animation/speedmodifier.py",
+    "lib/python3.12/site-packages/manim/animation/transform.py",
+    "lib/python3.12/site-packages/manim/animation/transform_matching_parts.py",
+    "lib/python3.12/site-packages/manim/animation/updaters/__init__.py",
+    "lib/python3.12/site-packages/manim/animation/updaters/mobject_update_utils.py",
+    "lib/python3.12/site-packages/manim/animation/updaters/update.py",
+    "lib/python3.12/site-packages/manim/camera/__init__.py",
+    "lib/python3.12/site-packages/manim/camera/camera.py",
+    "lib/python3.12/site-packages/manim/camera/mapping_camera.py",
+    "lib/python3.12/site-packages/manim/camera/moving_camera.py",
+    "lib/python3.12/site-packages/manim/camera/multi_camera.py",
+    "lib/python3.12/site-packages/manim/camera/three_d_camera.py",
+    "lib/python3.12/site-packages/manim/cli/__init__.py",
+    "lib/python3.12/site-packages/manim/cli/cfg/__init__.py",
+    "lib/python3.12/site-packages/manim/cli/cfg/group.py",
+    "lib/python3.12/site-packages/manim/cli/checkhealth/__init__.py",
+    "lib/python3.12/site-packages/manim/cli/checkhealth/checks.py",
+    "lib/python3.12/site-packages/manim/cli/checkhealth/commands.py",
+    "lib/python3.12/site-packages/manim/cli/default_group.py",
+    "lib/python3.12/site-packages/manim/cli/init/__init__.py",
+    "lib/python3.12/site-packages/manim/cli/init/commands.py",
+    "lib/python3.12/site-packages/manim/cli/plugins/__init__.py",
+    "lib/python3.12/site-packages/manim/cli/plugins/commands.py",
+    "lib/python3.12/site-packages/manim/cli/render/__init__.py",
+    "lib/python3.12/site-packages/manim/cli/render/commands.py",
+    "lib/python3.12/site-packages/manim/cli/render/ease_of_access_options.py",
+    "lib/python3.12/site-packages/manim/cli/render/global_options.py",
+    "lib/python3.12/site-packages/manim/cli/render/output_options.py",
+    "lib/python3.12/site-packages/manim/cli/render/render_options.py",
+    "lib/python3.12/site-packages/manim/constants.py",
+    "lib/python3.12/site-packages/manim/gui/__init__.py",
+    "lib/python3.12/site-packages/manim/gui/gui.py",
+    "lib/python3.12/site-packages/manim/mobject/__init__.py",
+    "lib/python3.12/site-packages/manim/mobject/frame.py",
+    "lib/python3.12/site-packages/manim/mobject/geometry/__init__.py",
+    "lib/python3.12/site-packages/manim/mobject/geometry/arc.py",
+    "lib/python3.12/site-packages/manim/mobject/geometry/boolean_ops.py",
+    "lib/python3.12/site-packages/manim/mobject/geometry/labeled.py",
+    "lib/python3.12/site-packages/manim/mobject/geometry/line.py",
+    "lib/python3.12/site-packages/manim/mobject/geometry/polygram.py",
+    "lib/python3.12/site-packages/manim/mobject/geometry/shape_matchers.py",
+    "lib/python3.12/site-packages/manim/mobject/geometry/tips.py",
+    "lib/python3.12/site-packages/manim/mobject/graph.py",
+    "lib/python3.12/site-packages/manim/mobject/graphing/__init__.py",
+    "lib/python3.12/site-packages/manim/mobject/graphing/coordinate_systems.py",
+    "lib/python3.12/site-packages/manim/mobject/graphing/functions.py",
+    "lib/python3.12/site-packages/manim/mobject/graphing/number_line.py",
+    "lib/python3.12/site-packages/manim/mobject/graphing/probability.py",
+    "lib/python3.12/site-packages/manim/mobject/graphing/scale.py",
+    "lib/python3.12/site-packages/manim/mobject/logo.py",
+    "lib/python3.12/site-packages/manim/mobject/matrix.py",
+    "lib/python3.12/site-packages/manim/mobject/mobject.py",
+    "lib/python3.12/site-packages/manim/mobject/opengl/__init__.py",
+    "lib/python3.12/site-packages/manim/mobject/opengl/dot_cloud.py",
+    "lib/python3.12/site-packages/manim/mobject/opengl/opengl_compatibility.py",
+    "lib/python3.12/site-packages/manim/mobject/opengl/opengl_geometry.py",
+    "lib/python3.12/site-packages/manim/mobject/opengl/opengl_image_mobject.py",
+    "lib/python3.12/site-packages/manim/mobject/opengl/opengl_mobject.py",
+    "lib/python3.12/site-packages/manim/mobject/opengl/opengl_point_cloud_mobject.py",
+    "lib/python3.12/site-packages/manim/mobject/opengl/opengl_surface.py",
+    "lib/python3.12/site-packages/manim/mobject/opengl/opengl_three_dimensions.py",
+    "lib/python3.12/site-packages/manim/mobject/opengl/opengl_vectorized_mobject.py",
+    "lib/python3.12/site-packages/manim/mobject/svg/__init__.py",
+    "lib/python3.12/site-packages/manim/mobject/svg/brace.py",
+    "lib/python3.12/site-packages/manim/mobject/svg/svg_mobject.py",
+    "lib/python3.12/site-packages/manim/mobject/table.py",
+    "lib/python3.12/site-packages/manim/mobject/text/__init__.py",
+    "lib/python3.12/site-packages/manim/mobject/text/code_mobject.py",
+    "lib/python3.12/site-packages/manim/mobject/text/numbers.py",
+    "lib/python3.12/site-packages/manim/mobject/text/tex_mobject.py",
+    "lib/python3.12/site-packages/manim/mobject/text/text_mobject.py",
+    "lib/python3.12/site-packages/manim/mobject/three_d/__init__.py",
+    "lib/python3.12/site-packages/manim/mobject/three_d/polyhedra.py",
+    "lib/python3.12/site-packages/manim/mobject/three_d/three_d_utils.py",
+    "lib/python3.12/site-packages/manim/mobject/three_d/three_dimensions.py",
+    "lib/python3.12/site-packages/manim/mobject/types/__init__.py",
+    "lib/python3.12/site-packages/manim/mobject/types/image_mobject.py",
+    "lib/python3.12/site-packages/manim/mobject/types/point_cloud_mobject.py",
+    "lib/python3.12/site-packages/manim/mobject/types/vectorized_mobject.py",
+    "lib/python3.12/site-packages/manim/mobject/utils.py",
+    "lib/python3.12/site-packages/manim/mobject/value_tracker.py",
+    "lib/python3.12/site-packages/manim/mobject/vector_field.py",
+    "lib/python3.12/site-packages/manim/opengl/__init__.py",
+    "lib/python3.12/site-packages/manim/plugins/__init__.py",
+    "lib/python3.12/site-packages/manim/plugins/plugins_flags.py",
+    "lib/python3.12/site-packages/manim/renderer/__init__.py",
+    "lib/python3.12/site-packages/manim/renderer/cairo_renderer.py",
+    "lib/python3.12/site-packages/manim/renderer/opengl_renderer.py",
+    "lib/python3.12/site-packages/manim/renderer/opengl_renderer_window.py",
+    "lib/python3.12/site-packages/manim/renderer/shader.py",
+    "lib/python3.12/site-packages/manim/renderer/shader_wrapper.py",
+    "lib/python3.12/site-packages/manim/renderer/shaders/default/frag.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/default/vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/design.frag",
+    "lib/python3.12/site-packages/manim/renderer/shaders/design_2.frag",
+    "lib/python3.12/site-packages/manim/renderer/shaders/design_3.frag",
+    "lib/python3.12/site-packages/manim/renderer/shaders/image/frag.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/image/vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/include/NOTE.md",
+    "lib/python3.12/site-packages/manim/renderer/shaders/include/add_light.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/include/camera_uniform_declarations.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/include/finalize_color.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/include/get_gl_Position.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/include/get_rotated_surface_unit_normal_vector.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/include/get_unit_normal.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/include/position_point_into_frame.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/include/quadratic_bezier_distance.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/include/quadratic_bezier_geometry_functions.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/manim_coords/frag.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/manim_coords/vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/quadratic_bezier_fill/frag.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/quadratic_bezier_fill/geom.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/quadratic_bezier_fill/vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/quadratic_bezier_stroke/frag.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/quadratic_bezier_stroke/geom.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/quadratic_bezier_stroke/vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/simple_vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/surface/frag.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/surface/vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/test/frag.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/test/vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/textured_surface/frag.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/textured_surface/vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/true_dot/frag.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/true_dot/geom.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/true_dot/vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/vectorized_mobject_fill/frag.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/vectorized_mobject_fill/vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/vectorized_mobject_stroke/frag.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/vectorized_mobject_stroke/vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/vertex_colors/frag.glsl",
+    "lib/python3.12/site-packages/manim/renderer/shaders/vertex_colors/vert.glsl",
+    "lib/python3.12/site-packages/manim/renderer/vectorized_mobject_rendering.py",
+    "lib/python3.12/site-packages/manim/scene/__init__.py",
+    "lib/python3.12/site-packages/manim/scene/moving_camera_scene.py",
+    "lib/python3.12/site-packages/manim/scene/scene.py",
+    "lib/python3.12/site-packages/manim/scene/scene_file_writer.py",
+    "lib/python3.12/site-packages/manim/scene/section.py",
+    "lib/python3.12/site-packages/manim/scene/three_d_scene.py",
+    "lib/python3.12/site-packages/manim/scene/vector_space_scene.py",
+    "lib/python3.12/site-packages/manim/scene/zoomed_scene.py",
+    "lib/python3.12/site-packages/manim/templates/Axes.mtp",
+    "lib/python3.12/site-packages/manim/templates/Default.mtp",
+    "lib/python3.12/site-packages/manim/templates/MovingCamera.mtp",
+    "lib/python3.12/site-packages/manim/templates/template.cfg",
+    "lib/python3.12/site-packages/manim/typing.py",
+    "lib/python3.12/site-packages/manim/utils/__init__.py",
+    "lib/python3.12/site-packages/manim/utils/bezier.py",
+    "lib/python3.12/site-packages/manim/utils/caching.py",
+    "lib/python3.12/site-packages/manim/utils/color/AS2700.py",
+    "lib/python3.12/site-packages/manim/utils/color/BS381.py",
+    "lib/python3.12/site-packages/manim/utils/color/DVIPSNAMES.py",
+    "lib/python3.12/site-packages/manim/utils/color/SVGNAMES.py",
+    "lib/python3.12/site-packages/manim/utils/color/X11.py",
+    "lib/python3.12/site-packages/manim/utils/color/XKCD.py",
+    "lib/python3.12/site-packages/manim/utils/color/__init__.py",
+    "lib/python3.12/site-packages/manim/utils/color/core.py",
+    "lib/python3.12/site-packages/manim/utils/color/manim_colors.py",
+    "lib/python3.12/site-packages/manim/utils/commands.py",
+    "lib/python3.12/site-packages/manim/utils/config_ops.py",
+    "lib/python3.12/site-packages/manim/utils/debug.py",
+    "lib/python3.12/site-packages/manim/utils/deprecation.py",
+    "lib/python3.12/site-packages/manim/utils/docbuild/__init__.py",
+    "lib/python3.12/site-packages/manim/utils/docbuild/autoaliasattr_directive.py",
+    "lib/python3.12/site-packages/manim/utils/docbuild/autocolor_directive.py",
+    "lib/python3.12/site-packages/manim/utils/docbuild/manim_directive.py",
+    "lib/python3.12/site-packages/manim/utils/docbuild/module_parsing.py",
+    "lib/python3.12/site-packages/manim/utils/exceptions.py",
+    "lib/python3.12/site-packages/manim/utils/family.py",
+    "lib/python3.12/site-packages/manim/utils/family_ops.py",
+    "lib/python3.12/site-packages/manim/utils/file_ops.py",
+    "lib/python3.12/site-packages/manim/utils/hashing.py",
+    "lib/python3.12/site-packages/manim/utils/images.py",
+    "lib/python3.12/site-packages/manim/utils/ipython_magic.py",
+    "lib/python3.12/site-packages/manim/utils/iterables.py",
+    "lib/python3.12/site-packages/manim/utils/module_ops.py",
+    "lib/python3.12/site-packages/manim/utils/opengl.py",
+    "lib/python3.12/site-packages/manim/utils/parameter_parsing.py",
+    "lib/python3.12/site-packages/manim/utils/paths.py",
+    "lib/python3.12/site-packages/manim/utils/polylabel.py",
+    "lib/python3.12/site-packages/manim/utils/qhull.py",
+    "lib/python3.12/site-packages/manim/utils/rate_functions.py",
+    "lib/python3.12/site-packages/manim/utils/simple_functions.py",
+    "lib/python3.12/site-packages/manim/utils/sounds.py",
+    "lib/python3.12/site-packages/manim/utils/space_ops.py",
+    "lib/python3.12/site-packages/manim/utils/testing/__init__.py",
+    "lib/python3.12/site-packages/manim/utils/testing/_frames_testers.py",
+    "lib/python3.12/site-packages/manim/utils/testing/_show_diff.py",
+    "lib/python3.12/site-packages/manim/utils/testing/_test_class_makers.py",
+    "lib/python3.12/site-packages/manim/utils/testing/config_graphical_tests_monoframe.cfg",
+    "lib/python3.12/site-packages/manim/utils/testing/config_graphical_tests_multiframes.cfg",
+    "lib/python3.12/site-packages/manim/utils/testing/frames_comparison.py",
+    "lib/python3.12/site-packages/manim/utils/tex.py",
+    "lib/python3.12/site-packages/manim/utils/tex_file_writing.py",
+    "lib/python3.12/site-packages/manim/utils/tex_templates.py",
+    "lib/python3.12/site-packages/manim/utils/unit.py",
+    "lib/python3.12/site-packages/manim-0.19.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/manim-0.19.0.dist-info/LICENSE",
+    "lib/python3.12/site-packages/manim-0.19.0.dist-info/LICENSE.community",
+    "lib/python3.12/site-packages/manim-0.19.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/manim-0.19.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/manim-0.19.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/manim-0.19.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/manim-0.19.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/manim-0.19.0.dist-info/entry_points.txt",
+    "lib/python3.12/site-packages/manim/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/__pycache__/__main__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/_config/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/_config/__pycache__/cli_colors.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/_config/__pycache__/logger_utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/_config/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/animation.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/changing.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/composition.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/creation.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/fading.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/growing.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/indication.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/movement.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/numbers.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/rotation.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/specialized.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/speedmodifier.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/transform.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/__pycache__/transform_matching_parts.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/updaters/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/updaters/__pycache__/mobject_update_utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/animation/updaters/__pycache__/update.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/camera/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/camera/__pycache__/camera.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/camera/__pycache__/mapping_camera.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/camera/__pycache__/moving_camera.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/camera/__pycache__/multi_camera.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/camera/__pycache__/three_d_camera.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/cfg/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/cfg/__pycache__/group.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/checkhealth/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/checkhealth/__pycache__/checks.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/checkhealth/__pycache__/commands.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/__pycache__/default_group.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/init/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/init/__pycache__/commands.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/plugins/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/plugins/__pycache__/commands.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/render/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/render/__pycache__/commands.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/render/__pycache__/ease_of_access_options.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/render/__pycache__/global_options.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/render/__pycache__/output_options.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/cli/render/__pycache__/render_options.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/__pycache__/constants.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/gui/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/gui/__pycache__/gui.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/__pycache__/frame.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/arc.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/boolean_ops.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/labeled.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/line.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/polygram.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/shape_matchers.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/tips.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/__pycache__/graph.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/graphing/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/graphing/__pycache__/coordinate_systems.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/graphing/__pycache__/functions.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/graphing/__pycache__/number_line.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/graphing/__pycache__/probability.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/graphing/__pycache__/scale.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/__pycache__/logo.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/__pycache__/matrix.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/__pycache__/mobject.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/dot_cloud.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_compatibility.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_geometry.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_image_mobject.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_mobject.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_point_cloud_mobject.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_surface.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_three_dimensions.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_vectorized_mobject.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/svg/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/svg/__pycache__/brace.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/svg/__pycache__/svg_mobject.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/__pycache__/table.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/text/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/text/__pycache__/code_mobject.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/text/__pycache__/numbers.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/text/__pycache__/tex_mobject.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/text/__pycache__/text_mobject.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/three_d/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/three_d/__pycache__/polyhedra.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/three_d/__pycache__/three_d_utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/three_d/__pycache__/three_dimensions.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/types/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/types/__pycache__/image_mobject.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/types/__pycache__/point_cloud_mobject.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/types/__pycache__/vectorized_mobject.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/__pycache__/value_tracker.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/mobject/__pycache__/vector_field.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/opengl/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/plugins/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/plugins/__pycache__/plugins_flags.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/renderer/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/renderer/__pycache__/cairo_renderer.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/renderer/__pycache__/opengl_renderer.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/renderer/__pycache__/opengl_renderer_window.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/renderer/__pycache__/shader.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/renderer/__pycache__/shader_wrapper.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/renderer/__pycache__/vectorized_mobject_rendering.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/scene/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/scene/__pycache__/moving_camera_scene.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/scene/__pycache__/scene.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/scene/__pycache__/scene_file_writer.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/scene/__pycache__/section.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/scene/__pycache__/three_d_scene.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/scene/__pycache__/vector_space_scene.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/scene/__pycache__/zoomed_scene.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/__pycache__/typing.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/bezier.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/caching.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/color/__pycache__/AS2700.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/color/__pycache__/BS381.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/color/__pycache__/DVIPSNAMES.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/color/__pycache__/SVGNAMES.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/color/__pycache__/X11.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/color/__pycache__/XKCD.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/color/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/color/__pycache__/core.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/color/__pycache__/manim_colors.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/commands.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/config_ops.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/debug.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/deprecation.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/docbuild/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/docbuild/__pycache__/autoaliasattr_directive.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/docbuild/__pycache__/autocolor_directive.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/docbuild/__pycache__/manim_directive.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/docbuild/__pycache__/module_parsing.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/family.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/family_ops.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/file_ops.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/hashing.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/images.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/ipython_magic.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/iterables.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/module_ops.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/opengl.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/parameter_parsing.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/paths.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/polylabel.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/qhull.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/rate_functions.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/simple_functions.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/sounds.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/space_ops.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/testing/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/testing/__pycache__/_frames_testers.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/testing/__pycache__/_show_diff.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/testing/__pycache__/_test_class_makers.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/testing/__pycache__/frames_comparison.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/tex.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/tex_file_writing.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/tex_templates.cpython-312.pyc",
+    "lib/python3.12/site-packages/manim/utils/__pycache__/unit.cpython-312.pyc",
+    "bin/manim",
+    "bin/manimce"
+  ],
+  "fn": "manim-0.19.0-pyh29332c3_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/manim-0.19.0-pyh29332c3_0",
+    "type": 1
+  },
+  "md5": "97a82f0222a3e9a516a48a6c304cf7a7",
+  "name": "manim",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/manim-0.19.0-pyh29332c3_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/manim/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9fc3e2df011c5a6ba8b7745fbb5dd2c690c7732594022d065f700d8ad662393d",
+        "sha256_in_prefix": "9fc3e2df011c5a6ba8b7745fbb5dd2c690c7732594022d065f700d8ad662393d",
+        "size_in_bytes": 3568
+      },
+      {
+        "_path": "site-packages/manim/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "2286c41176e40dc8c5c0d6c1b9d5ba98381251514ca1bca96de490c8fbb0f5cb",
+        "sha256_in_prefix": "2286c41176e40dc8c5c0d6c1b9d5ba98381251514ca1bca96de490c8fbb0f5cb",
+        "size_in_bytes": 2577
+      },
+      {
+        "_path": "site-packages/manim/_config/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b77ebca4af4670d5ba1b21f9ddf6946139c81c69c634a1935ea580db70656461",
+        "sha256_in_prefix": "b77ebca4af4670d5ba1b21f9ddf6946139c81c69c634a1935ea580db70656461",
+        "size_in_bytes": 2732
+      },
+      {
+        "_path": "site-packages/manim/_config/cli_colors.py",
+        "path_type": "hardlink",
+        "sha256": "0da3d6023a5bd4807476d1df1b23a1c93288d23df89100b866c18be91336a7ce",
+        "sha256_in_prefix": "0da3d6023a5bd4807476d1df1b23a1c93288d23df89100b866c18be91336a7ce",
+        "size_in_bytes": 1888
+      },
+      {
+        "_path": "site-packages/manim/_config/default.cfg",
+        "path_type": "hardlink",
+        "sha256": "defa20cf76e34ae2a6ecbf06a9b6c57ccb257f5000adcca5279b3a12ffbee266",
+        "sha256_in_prefix": "defa20cf76e34ae2a6ecbf06a9b6c57ccb257f5000adcca5279b3a12ffbee266",
+        "size_in_bytes": 5329
+      },
+      {
+        "_path": "site-packages/manim/_config/logger_utils.py",
+        "path_type": "hardlink",
+        "sha256": "1edd7223bc6b4940059f4aad92d37c7a13751ac9bae8cb79cc6d88bac45eee4f",
+        "sha256_in_prefix": "1edd7223bc6b4940059f4aad92d37c7a13751ac9bae8cb79cc6d88bac45eee4f",
+        "size_in_bytes": 5569
+      },
+      {
+        "_path": "site-packages/manim/_config/utils.py",
+        "path_type": "hardlink",
+        "sha256": "dd8de6a41ecef1dcb98e9ac94b60fd860aa4aa74fbdce05680f662c0ed9d00fb",
+        "sha256_in_prefix": "dd8de6a41ecef1dcb98e9ac94b60fd860aa4aa74fbdce05680f662c0ed9d00fb",
+        "size_in_bytes": 62288
+      },
+      {
+        "_path": "site-packages/manim/animation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/animation/animation.py",
+        "path_type": "hardlink",
+        "sha256": "c93acd73202b757702359cddd48f3f67842a6ba52fe55219e466be1c44abc52a",
+        "sha256_in_prefix": "c93acd73202b757702359cddd48f3f67842a6ba52fe55219e466be1c44abc52a",
+        "size_in_bytes": 24671
+      },
+      {
+        "_path": "site-packages/manim/animation/changing.py",
+        "path_type": "hardlink",
+        "sha256": "19d92c3056225dc97fe97dc79e37ebf923621c9f56da140e72e0458f56deb859",
+        "sha256_in_prefix": "19d92c3056225dc97fe97dc79e37ebf923621c9f56da140e72e0458f56deb859",
+        "size_in_bytes": 5523
+      },
+      {
+        "_path": "site-packages/manim/animation/composition.py",
+        "path_type": "hardlink",
+        "sha256": "58a9ca7e02107fb681db05407492cce13fcffdeaffcca3645eaf721a50ee7fd0",
+        "sha256_in_prefix": "58a9ca7e02107fb681db05407492cce13fcffdeaffcca3645eaf721a50ee7fd0",
+        "size_in_bytes": 15519
+      },
+      {
+        "_path": "site-packages/manim/animation/creation.py",
+        "path_type": "hardlink",
+        "sha256": "093d611c4534f79feb4fd9d2d0f6b39c7f46d623f94dd48b2d21b849ff2d52a1",
+        "sha256_in_prefix": "093d611c4534f79feb4fd9d2d0f6b39c7f46d623f94dd48b2d21b849ff2d52a1",
+        "size_in_bytes": 25923
+      },
+      {
+        "_path": "site-packages/manim/animation/fading.py",
+        "path_type": "hardlink",
+        "sha256": "3ab06b241ddf3b96e6159b1c53b37699f109c5f8fad6786b5123289ebfc4d1dc",
+        "sha256_in_prefix": "3ab06b241ddf3b96e6159b1c53b37699f109c5f8fad6786b5123289ebfc4d1dc",
+        "size_in_bytes": 5781
+      },
+      {
+        "_path": "site-packages/manim/animation/growing.py",
+        "path_type": "hardlink",
+        "sha256": "a44530286f143c53698b5a45241bba769bc842bf75917a2cd2841f560b0b68e2",
+        "sha256_in_prefix": "a44530286f143c53698b5a45241bba769bc842bf75917a2cd2841f560b0b68e2",
+        "size_in_bytes": 7154
+      },
+      {
+        "_path": "site-packages/manim/animation/indication.py",
+        "path_type": "hardlink",
+        "sha256": "d4831a9f01738b662bcd0352ce49fa696053727c26271d46228f83bfac56e75d",
+        "sha256_in_prefix": "d4831a9f01738b662bcd0352ce49fa696053727c26271d46228f83bfac56e75d",
+        "size_in_bytes": 22446
+      },
+      {
+        "_path": "site-packages/manim/animation/movement.py",
+        "path_type": "hardlink",
+        "sha256": "0d837757726f401df25af2c2f24e33c61d13bb052d8883b1ee145e79c17c0ce6",
+        "sha256_in_prefix": "0d837757726f401df25af2c2f24e33c61d13bb052d8883b1ee145e79c17c0ce6",
+        "size_in_bytes": 5651
+      },
+      {
+        "_path": "site-packages/manim/animation/numbers.py",
+        "path_type": "hardlink",
+        "sha256": "166a6e45067a501fc8509f1e5301c8a41cfd76c6671ae988c2394b55ce3042c4",
+        "sha256_in_prefix": "166a6e45067a501fc8509f1e5301c8a41cfd76c6671ae988c2394b55ce3042c4",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "site-packages/manim/animation/rotation.py",
+        "path_type": "hardlink",
+        "sha256": "f4696cb8c3907cb4e23b0f3e48453c3ab328b7d708830dfcd6ff9891861cc79b",
+        "sha256_in_prefix": "f4696cb8c3907cb4e23b0f3e48453c3ab328b7d708830dfcd6ff9891861cc79b",
+        "size_in_bytes": 3256
+      },
+      {
+        "_path": "site-packages/manim/animation/specialized.py",
+        "path_type": "hardlink",
+        "sha256": "975412a4bdabcf17effc507c4da2e5891345bb562b64247611660afe9fac75c2",
+        "sha256_in_prefix": "975412a4bdabcf17effc507c4da2e5891345bb562b64247611660afe9fac75c2",
+        "size_in_bytes": 2894
+      },
+      {
+        "_path": "site-packages/manim/animation/speedmodifier.py",
+        "path_type": "hardlink",
+        "sha256": "ad0fcf650f240de4a41c4847c9ec0cbf4c6e00c0e0920bb3735dd412a31f4bad",
+        "sha256_in_prefix": "ad0fcf650f240de4a41c4847c9ec0cbf4c6e00c0e0920bb3735dd412a31f4bad",
+        "size_in_bytes": 9882
+      },
+      {
+        "_path": "site-packages/manim/animation/transform.py",
+        "path_type": "hardlink",
+        "sha256": "ebc534497587e37e167dd528c003413014e8467f60ec335ffbf3cc897f39c276",
+        "sha256_in_prefix": "ebc534497587e37e167dd528c003413014e8467f60ec335ffbf3cc897f39c276",
+        "size_in_bytes": 30631
+      },
+      {
+        "_path": "site-packages/manim/animation/transform_matching_parts.py",
+        "path_type": "hardlink",
+        "sha256": "5ea9a78d0c72d44743e5af0dfd209688bf4d7c735663b65d0f1c51a7fbaad0f7",
+        "sha256_in_prefix": "5ea9a78d0c72d44743e5af0dfd209688bf4d7c735663b65d0f1c51a7fbaad0f7",
+        "size_in_bytes": 10413
+      },
+      {
+        "_path": "site-packages/manim/animation/updaters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8e0285bde4733f014b6d51e44df26bbf7a8322b803fb2b85298b0c464c293c97",
+        "sha256_in_prefix": "8e0285bde4733f014b6d51e44df26bbf7a8322b803fb2b85298b0c464c293c97",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "site-packages/manim/animation/updaters/mobject_update_utils.py",
+        "path_type": "hardlink",
+        "sha256": "1c033f6abd173e2a2f63bd419fb92a1f2a2e7a4503868faf29470cd16e422186",
+        "sha256_in_prefix": "1c033f6abd173e2a2f63bd419fb92a1f2a2e7a4503868faf29470cd16e422186",
+        "size_in_bytes": 6847
+      },
+      {
+        "_path": "site-packages/manim/animation/updaters/update.py",
+        "path_type": "hardlink",
+        "sha256": "1438aa32b40353a0715dae165df3846a1214484da1699eaf3b88ffc4bfd761b3",
+        "sha256_in_prefix": "1438aa32b40353a0715dae165df3846a1214484da1699eaf3b88ffc4bfd761b3",
+        "size_in_bytes": 1719
+      },
+      {
+        "_path": "site-packages/manim/camera/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/camera/camera.py",
+        "path_type": "hardlink",
+        "sha256": "8b50facd8d08b8b9d6074d5ee1ba3ed1c675e95ed0d4fedea076fc7c676a4848",
+        "sha256_in_prefix": "8b50facd8d08b8b9d6074d5ee1ba3ed1c675e95ed0d4fedea076fc7c676a4848",
+        "size_in_bytes": 45504
+      },
+      {
+        "_path": "site-packages/manim/camera/mapping_camera.py",
+        "path_type": "hardlink",
+        "sha256": "c74c664a24b0107daca3c6c07f12145bf97a65d7f1603d4514392d6611422cff",
+        "sha256_in_prefix": "c74c664a24b0107daca3c6c07f12145bf97a65d7f1603d4514392d6611422cff",
+        "size_in_bytes": 4995
+      },
+      {
+        "_path": "site-packages/manim/camera/moving_camera.py",
+        "path_type": "hardlink",
+        "sha256": "0f510812a9c7b56a1dab266d3bd00c899f883103f61b865f31ef679bd930cbf0",
+        "sha256_in_prefix": "0f510812a9c7b56a1dab266d3bd00c899f883103f61b865f31ef679bd930cbf0",
+        "size_in_bytes": 8102
+      },
+      {
+        "_path": "site-packages/manim/camera/multi_camera.py",
+        "path_type": "hardlink",
+        "sha256": "21b0f43bff8c4206ee5e1b0e0c1f1553ed7dc35131484571257330dad45c7014",
+        "sha256_in_prefix": "21b0f43bff8c4206ee5e1b0e0c1f1553ed7dc35131484571257330dad45c7014",
+        "size_in_bytes": 3382
+      },
+      {
+        "_path": "site-packages/manim/camera/three_d_camera.py",
+        "path_type": "hardlink",
+        "sha256": "6bc5755bb76a6be36e368aa245da56625c84eb9acfc6fa072a89ca20f1be8203",
+        "sha256_in_prefix": "6bc5755bb76a6be36e368aa245da56625c84eb9acfc6fa072a89ca20f1be8203",
+        "size_in_bytes": 14744
+      },
+      {
+        "_path": "site-packages/manim/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dcda20463178beaecc8aa50ed250b5ccd1c02e8ea8e2a4026ff10b0d633867c2",
+        "sha256_in_prefix": "dcda20463178beaecc8aa50ed250b5ccd1c02e8ea8e2a4026ff10b0d633867c2",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "site-packages/manim/cli/cfg/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/cli/cfg/group.py",
+        "path_type": "hardlink",
+        "sha256": "946feaae7798732478625d4124b44e54df03c83ae38f58c1b4ade76191efcc94",
+        "sha256_in_prefix": "946feaae7798732478625d4124b44e54df03c83ae38f58c1b4ade76191efcc94",
+        "size_in_bytes": 10442
+      },
+      {
+        "_path": "site-packages/manim/cli/checkhealth/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/cli/checkhealth/checks.py",
+        "path_type": "hardlink",
+        "sha256": "4d0dbe3bd429da649437fc4765e720ac28529a1b9fb598e7ffa69cb171a95f33",
+        "sha256_in_prefix": "4d0dbe3bd429da649437fc4765e720ac28529a1b9fb598e7ffa69cb171a95f33",
+        "size_in_bytes": 6353
+      },
+      {
+        "_path": "site-packages/manim/cli/checkhealth/commands.py",
+        "path_type": "hardlink",
+        "sha256": "3c5fc1e3fcd266ad467187c48c2c0c4c8f77bbd5443362e255246fe4505e0e4e",
+        "sha256_in_prefix": "3c5fc1e3fcd266ad467187c48c2c0c4c8f77bbd5443362e255246fe4505e0e4e",
+        "size_in_bytes": 3151
+      },
+      {
+        "_path": "site-packages/manim/cli/default_group.py",
+        "path_type": "hardlink",
+        "sha256": "e4869ec55c685c840132b8bbb7199140dad7397c07d2d59e789e9404aa4e0a23",
+        "sha256_in_prefix": "e4869ec55c685c840132b8bbb7199140dad7397c07d2d59e789e9404aa4e0a23",
+        "size_in_bytes": 6968
+      },
+      {
+        "_path": "site-packages/manim/cli/init/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/cli/init/commands.py",
+        "path_type": "hardlink",
+        "sha256": "8ab67fdf7cb6e203cebe5a86017f9b0ae935714e03ec4ea768230bd236a5bb93",
+        "sha256_in_prefix": "8ab67fdf7cb6e203cebe5a86017f9b0ae935714e03ec4ea768230bd236a5bb93",
+        "size_in_bytes": 6207
+      },
+      {
+        "_path": "site-packages/manim/cli/plugins/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/cli/plugins/commands.py",
+        "path_type": "hardlink",
+        "sha256": "57e3dc9eb38c7f60c08a500fda6c5304ccb4e70feea0348e5d8ee6bff66417d6",
+        "sha256_in_prefix": "57e3dc9eb38c7f60c08a500fda6c5304ccb4e70feea0348e5d8ee6bff66417d6",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "site-packages/manim/cli/render/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/cli/render/commands.py",
+        "path_type": "hardlink",
+        "sha256": "855016a778c1df6a25c40e9a3585502583cde8651f0a05fd571ba99145ec142e",
+        "sha256_in_prefix": "855016a778c1df6a25c40e9a3585502583cde8651f0a05fd571ba99145ec142e",
+        "size_in_bytes": 5213
+      },
+      {
+        "_path": "site-packages/manim/cli/render/ease_of_access_options.py",
+        "path_type": "hardlink",
+        "sha256": "ac773885cce3dcf902f08492a05c6a6af09c74fd7070b2f083f0881862e9586b",
+        "sha256_in_prefix": "ac773885cce3dcf902f08492a05c6a6af09c74fd7070b2f083f0881862e9586b",
+        "size_in_bytes": 1046
+      },
+      {
+        "_path": "site-packages/manim/cli/render/global_options.py",
+        "path_type": "hardlink",
+        "sha256": "479c261e280dbd094d056268cc7a516f91bc1a89d1c6f6eba50b12754f006664",
+        "sha256_in_prefix": "479c261e280dbd094d056268cc7a516f91bc1a89d1c6f6eba50b12754f006664",
+        "size_in_bytes": 3824
+      },
+      {
+        "_path": "site-packages/manim/cli/render/output_options.py",
+        "path_type": "hardlink",
+        "sha256": "8f80ad426a3ada1dc30c75bb1b52013eec0500cb976b60e246c7169d96046f7c",
+        "sha256_in_prefix": "8f80ad426a3ada1dc30c75bb1b52013eec0500cb976b60e246c7169d96046f7c",
+        "size_in_bytes": 1052
+      },
+      {
+        "_path": "site-packages/manim/cli/render/render_options.py",
+        "path_type": "hardlink",
+        "sha256": "5be626fe5895145fb04c8a720315710ce1317bdfd0b49b90825c5bc4c50507df",
+        "sha256_in_prefix": "5be626fe5895145fb04c8a720315710ce1317bdfd0b49b90825c5bc4c50507df",
+        "size_in_bytes": 5431
+      },
+      {
+        "_path": "site-packages/manim/constants.py",
+        "path_type": "hardlink",
+        "sha256": "d051775c914433a8e6bc74efaf1c4ce8cce6fbe567957172a317be42151babd0",
+        "sha256_in_prefix": "d051775c914433a8e6bc74efaf1c4ce8cce6fbe567957172a317be42151babd0",
+        "size_in_bytes": 8432
+      },
+      {
+        "_path": "site-packages/manim/gui/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/gui/gui.py",
+        "path_type": "hardlink",
+        "sha256": "56e707fdf86adca891fa1bd27d2c532bad3d109a498077c9fdd227da408fb155",
+        "sha256_in_prefix": "56e707fdf86adca891fa1bd27d2c532bad3d109a498077c9fdd227da408fb155",
+        "size_in_bytes": 2702
+      },
+      {
+        "_path": "site-packages/manim/mobject/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/mobject/frame.py",
+        "path_type": "hardlink",
+        "sha256": "053c6f0a9005c83dee9840c50269f0eedc0ff33dff92b6b67593bfa269b0f329",
+        "sha256_in_prefix": "053c6f0a9005c83dee9840c50269f0eedc0ff33dff92b6b67593bfa269b0f329",
+        "size_in_bytes": 877
+      },
+      {
+        "_path": "site-packages/manim/mobject/geometry/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d9ca2e928c4a5c313a2e6a830dc17f7210593d861bea87b7cb84fc76e57c2ef9",
+        "sha256_in_prefix": "d9ca2e928c4a5c313a2e6a830dc17f7210593d861bea87b7cb84fc76e57c2ef9",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "site-packages/manim/mobject/geometry/arc.py",
+        "path_type": "hardlink",
+        "sha256": "4088af776ec66455170e617be85225800f9078f083e0e4a9e912bfaf6ede69c2",
+        "sha256_in_prefix": "4088af776ec66455170e617be85225800f9078f083e0e4a9e912bfaf6ede69c2",
+        "size_in_bytes": 43342
+      },
+      {
+        "_path": "site-packages/manim/mobject/geometry/boolean_ops.py",
+        "path_type": "hardlink",
+        "sha256": "8d93fd1d6b9b296752dbcdb7bf6de4f7f565777e457cc3259f74026d1f83b524",
+        "sha256_in_prefix": "8d93fd1d6b9b296752dbcdb7bf6de4f7f565777e457cc3259f74026d1f83b524",
+        "size_in_bytes": 10337
+      },
+      {
+        "_path": "site-packages/manim/mobject/geometry/labeled.py",
+        "path_type": "hardlink",
+        "sha256": "f357c5cce7fd31ed98d19bbc92861d223a8fb521c2e931ca537dd29ce2150f25",
+        "sha256_in_prefix": "f357c5cce7fd31ed98d19bbc92861d223a8fb521c2e931ca537dd29ce2150f25",
+        "size_in_bytes": 12782
+      },
+      {
+        "_path": "site-packages/manim/mobject/geometry/line.py",
+        "path_type": "hardlink",
+        "sha256": "6574cbb54ea4a2e3ab1733e2871977331fc7075639013be25ebdfb31f2520bc0",
+        "sha256_in_prefix": "6574cbb54ea4a2e3ab1733e2871977331fc7075639013be25ebdfb31f2520bc0",
+        "size_in_bytes": 40634
+      },
+      {
+        "_path": "site-packages/manim/mobject/geometry/polygram.py",
+        "path_type": "hardlink",
+        "sha256": "6180fb37c0cd599c5e9d35c58605f5a83f6058182932887c1361f7df372e2adc",
+        "sha256_in_prefix": "6180fb37c0cd599c5e9d35c58605f5a83f6058182932887c1361f7df372e2adc",
+        "size_in_bytes": 26942
+      },
+      {
+        "_path": "site-packages/manim/mobject/geometry/shape_matchers.py",
+        "path_type": "hardlink",
+        "sha256": "0a126a22c571e5472d385c2b8c0720e5ed8b10decca4418ab802e1897a0940dc",
+        "sha256_in_prefix": "0a126a22c571e5472d385c2b8c0720e5ed8b10decca4418ab802e1897a0940dc",
+        "size_in_bytes": 6722
+      },
+      {
+        "_path": "site-packages/manim/mobject/geometry/tips.py",
+        "path_type": "hardlink",
+        "sha256": "5827d51f9de3edd84fe718fc477d0adcd5cd75cb1d7056b81e1b34d075787729",
+        "sha256_in_prefix": "5827d51f9de3edd84fe718fc477d0adcd5cd75cb1d7056b81e1b34d075787729",
+        "size_in_bytes": 10453
+      },
+      {
+        "_path": "site-packages/manim/mobject/graph.py",
+        "path_type": "hardlink",
+        "sha256": "dfa6681ba5ee948520c7ef9854a82b6f094f923078950af890784eb2ab402cfa",
+        "sha256_in_prefix": "dfa6681ba5ee948520c7ef9854a82b6f094f923078950af890784eb2ab402cfa",
+        "size_in_bytes": 65145
+      },
+      {
+        "_path": "site-packages/manim/mobject/graphing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2dff6dc8b9714c17243cb308ed9002bbc63146bb0c1313a8aa98beeb9ece310f",
+        "sha256_in_prefix": "2dff6dc8b9714c17243cb308ed9002bbc63146bb0c1313a8aa98beeb9ece310f",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "site-packages/manim/mobject/graphing/coordinate_systems.py",
+        "path_type": "hardlink",
+        "sha256": "88006d9f4c31b174777cea861b503a3e0890f5e6050fae12c5c667972d11cf48",
+        "sha256_in_prefix": "88006d9f4c31b174777cea861b503a3e0890f5e6050fae12c5c667972d11cf48",
+        "size_in_bytes": 120254
+      },
+      {
+        "_path": "site-packages/manim/mobject/graphing/functions.py",
+        "path_type": "hardlink",
+        "sha256": "d92abeac1695b3310b87f180a3f03e66bd536ef047b071ceda1cc8eb60e04abd",
+        "sha256_in_prefix": "d92abeac1695b3310b87f180a3f03e66bd536ef047b071ceda1cc8eb60e04abd",
+        "size_in_bytes": 10935
+      },
+      {
+        "_path": "site-packages/manim/mobject/graphing/number_line.py",
+        "path_type": "hardlink",
+        "sha256": "9a82f479fae1681e2df11ab0cf0b56182b31e0d21768caea0d3a56f3487578cf",
+        "sha256_in_prefix": "9a82f479fae1681e2df11ab0cf0b56182b31e0d21768caea0d3a56f3487578cf",
+        "size_in_bytes": 24237
+      },
+      {
+        "_path": "site-packages/manim/mobject/graphing/probability.py",
+        "path_type": "hardlink",
+        "sha256": "7f489af339ce92ed61304c6dec0cc204df6d4696c8915f6d4d9e78abfe64ce5a",
+        "sha256_in_prefix": "7f489af339ce92ed61304c6dec0cc204df6d4696c8915f6d4d9e78abfe64ce5a",
+        "size_in_bytes": 17554
+      },
+      {
+        "_path": "site-packages/manim/mobject/graphing/scale.py",
+        "path_type": "hardlink",
+        "sha256": "c7de86cb4f7790ad1d4e1ca1e3b60f4cfb9db0f6e789450348ad59445623afe6",
+        "sha256_in_prefix": "c7de86cb4f7790ad1d4e1ca1e3b60f4cfb9db0f6e789450348ad59445623afe6",
+        "size_in_bytes": 5205
+      },
+      {
+        "_path": "site-packages/manim/mobject/logo.py",
+        "path_type": "hardlink",
+        "sha256": "8fbab193201710df4b4b8ae16975b49ceacd6d9ed3306d419324b6125d7e498a",
+        "sha256_in_prefix": "8fbab193201710df4b4b8ae16975b49ceacd6d9ed3306d419324b6125d7e498a",
+        "size_in_bytes": 14232
+      },
+      {
+        "_path": "site-packages/manim/mobject/matrix.py",
+        "path_type": "hardlink",
+        "sha256": "684fc65ef0c487dfe0acfa88cb96a443c141e1dfb5be1b0549d75be09f4a500d",
+        "sha256_in_prefix": "684fc65ef0c487dfe0acfa88cb96a443c141e1dfb5be1b0549d75be09f4a500d",
+        "size_in_bytes": 19564
+      },
+      {
+        "_path": "site-packages/manim/mobject/mobject.py",
+        "path_type": "hardlink",
+        "sha256": "8f43db894e9a0fe52e015b8142f67dc5186f1ded2665e75ba8283dfe93c4ff9e",
+        "sha256_in_prefix": "8f43db894e9a0fe52e015b8142f67dc5186f1ded2665e75ba8283dfe93c4ff9e",
+        "size_in_bytes": 104253
+      },
+      {
+        "_path": "site-packages/manim/mobject/opengl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/mobject/opengl/dot_cloud.py",
+        "path_type": "hardlink",
+        "sha256": "42bb11c7f9db0a7ebed53b18b4ac82be48470a02773cdb3e6d1cf51070e835e1",
+        "sha256_in_prefix": "42bb11c7f9db0a7ebed53b18b4ac82be48470a02773cdb3e6d1cf51070e835e1",
+        "size_in_bytes": 1474
+      },
+      {
+        "_path": "site-packages/manim/mobject/opengl/opengl_compatibility.py",
+        "path_type": "hardlink",
+        "sha256": "cbe068897bad0ae1ee8009d335dbf47de90bdfe2d3ce3868609a2e07b270a4e9",
+        "sha256_in_prefix": "cbe068897bad0ae1ee8009d335dbf47de90bdfe2d3ce3868609a2e07b270a4e9",
+        "size_in_bytes": 1589
+      },
+      {
+        "_path": "site-packages/manim/mobject/opengl/opengl_geometry.py",
+        "path_type": "hardlink",
+        "sha256": "8e49c5e1d7ddc51be862144108f10ac96132960405e47d1d0e351d96ff703799",
+        "sha256_in_prefix": "8e49c5e1d7ddc51be862144108f10ac96132960405e47d1d0e351d96ff703799",
+        "size_in_bytes": 27171
+      },
+      {
+        "_path": "site-packages/manim/mobject/opengl/opengl_image_mobject.py",
+        "path_type": "hardlink",
+        "sha256": "679d1c679233863c4c9c5c1f287afaec41d7f0bb4610972125755c4b6a0859b1",
+        "sha256_in_prefix": "679d1c679233863c4c9c5c1f287afaec41d7f0bb4610972125755c4b6a0859b1",
+        "size_in_bytes": 2493
+      },
+      {
+        "_path": "site-packages/manim/mobject/opengl/opengl_mobject.py",
+        "path_type": "hardlink",
+        "sha256": "dc35beee6597a1bc3fd113e4ad6f6ba3ff7010072882e7c7454d445ee18c4caa",
+        "sha256_in_prefix": "dc35beee6597a1bc3fd113e4ad6f6ba3ff7010072882e7c7454d445ee18c4caa",
+        "size_in_bytes": 103451
+      },
+      {
+        "_path": "site-packages/manim/mobject/opengl/opengl_point_cloud_mobject.py",
+        "path_type": "hardlink",
+        "sha256": "4f22c2d762d3c7b176ad23d7d3a465084c9ee06c3f5bbb97e4e1c3a94cb871a5",
+        "sha256_in_prefix": "4f22c2d762d3c7b176ad23d7d3a465084c9ee06c3f5bbb97e4e1c3a94cb871a5",
+        "size_in_bytes": 6255
+      },
+      {
+        "_path": "site-packages/manim/mobject/opengl/opengl_surface.py",
+        "path_type": "hardlink",
+        "sha256": "c641d6221b661b88ff37ad5f018aaac066c932a76781e0efbe89b38ef3406d89",
+        "sha256_in_prefix": "c641d6221b661b88ff37ad5f018aaac066c932a76781e0efbe89b38ef3406d89",
+        "size_in_bytes": 16156
+      },
+      {
+        "_path": "site-packages/manim/mobject/opengl/opengl_three_dimensions.py",
+        "path_type": "hardlink",
+        "sha256": "fcc7c39b13468ba1798e03130b057dbc7c5a50033f8e74daa042cbd69bf4a545",
+        "sha256_in_prefix": "fcc7c39b13468ba1798e03130b057dbc7c5a50033f8e74daa042cbd69bf4a545",
+        "size_in_bytes": 1788
+      },
+      {
+        "_path": "site-packages/manim/mobject/opengl/opengl_vectorized_mobject.py",
+        "path_type": "hardlink",
+        "sha256": "8f21381211d8c6ad65f8e97cc8cf865d91f99198ebea4fc9f9d43bee67cfbe4b",
+        "sha256_in_prefix": "8f21381211d8c6ad65f8e97cc8cf865d91f99198ebea4fc9f9d43bee67cfbe4b",
+        "size_in_bytes": 63504
+      },
+      {
+        "_path": "site-packages/manim/mobject/svg/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8fcf8f164500b31e04f9eec01e6dc2a0c8e8db65652b33ce45002cc855a749de",
+        "sha256_in_prefix": "8fcf8f164500b31e04f9eec01e6dc2a0c8e8db65652b33ce45002cc855a749de",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "site-packages/manim/mobject/svg/brace.py",
+        "path_type": "hardlink",
+        "sha256": "5e6de072de5b93b29a3f1e045f012505402f5f91915ebea447bb39c4f17c734c",
+        "sha256_in_prefix": "5e6de072de5b93b29a3f1e045f012505402f5f91915ebea447bb39c4f17c734c",
+        "size_in_bytes": 13870
+      },
+      {
+        "_path": "site-packages/manim/mobject/svg/svg_mobject.py",
+        "path_type": "hardlink",
+        "sha256": "038486e6b5b974d85bc17c13c9df1931705296e8cdebf4e556a6fdd0f34aad4c",
+        "sha256_in_prefix": "038486e6b5b974d85bc17c13c9df1931705296e8cdebf4e556a6fdd0f34aad4c",
+        "size_in_bytes": 21015
+      },
+      {
+        "_path": "site-packages/manim/mobject/table.py",
+        "path_type": "hardlink",
+        "sha256": "a25785d8edbea2cf429086ffc6b04dfac449ebad33005e01680e1554dc20a8b1",
+        "sha256_in_prefix": "a25785d8edbea2cf429086ffc6b04dfac449ebad33005e01680e1554dc20a8b1",
+        "size_in_bytes": 41871
+      },
+      {
+        "_path": "site-packages/manim/mobject/text/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0301c6f33797d87c9cc3ca06d8769c7479a1a47db84100e71d74e502655d814d",
+        "sha256_in_prefix": "0301c6f33797d87c9cc3ca06d8769c7479a1a47db84100e71d74e502655d814d",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "site-packages/manim/mobject/text/code_mobject.py",
+        "path_type": "hardlink",
+        "sha256": "6dc20b30d3d823082fd8395adad81674f6aca16bb116aa19d521d3de6b7d9a1d",
+        "sha256_in_prefix": "6dc20b30d3d823082fd8395adad81674f6aca16bb116aa19d521d3de6b7d9a1d",
+        "size_in_bytes": 9209
+      },
+      {
+        "_path": "site-packages/manim/mobject/text/numbers.py",
+        "path_type": "hardlink",
+        "sha256": "a9edd4f4aac6f8db049ce16a349c4a3222bbe5ac32f054c5489274fde21cfe9c",
+        "sha256_in_prefix": "a9edd4f4aac6f8db049ce16a349c4a3222bbe5ac32f054c5489274fde21cfe9c",
+        "size_in_bytes": 16921
+      },
+      {
+        "_path": "site-packages/manim/mobject/text/tex_mobject.py",
+        "path_type": "hardlink",
+        "sha256": "92a39f249400edbe349752eb2e29f38a4df75d59738fc0533c14891d3875aa66",
+        "sha256_in_prefix": "92a39f249400edbe349752eb2e29f38a4df75d59738fc0533c14891d3875aa66",
+        "size_in_bytes": 18400
+      },
+      {
+        "_path": "site-packages/manim/mobject/text/text_mobject.py",
+        "path_type": "hardlink",
+        "sha256": "32a86c526e6f36be09ef4605e5a7926e8c98e3a48d5b5907158a99cc7097aef3",
+        "sha256_in_prefix": "32a86c526e6f36be09ef4605e5a7926e8c98e3a48d5b5907158a99cc7097aef3",
+        "size_in_bytes": 58640
+      },
+      {
+        "_path": "site-packages/manim/mobject/three_d/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ca2b1c74bbb5d9e128ca0c86a74e55efcf73868baa1000e29fba300240bdc94e",
+        "sha256_in_prefix": "ca2b1c74bbb5d9e128ca0c86a74e55efcf73868baa1000e29fba300240bdc94e",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "site-packages/manim/mobject/three_d/polyhedra.py",
+        "path_type": "hardlink",
+        "sha256": "aa89013daf8af8acadfb47dc14d72a14c2f7d18bffca4c6202478cba29b31f27",
+        "sha256_in_prefix": "aa89013daf8af8acadfb47dc14d72a14c2f7d18bffca4c6202478cba29b31f27",
+        "size_in_bytes": 15626
+      },
+      {
+        "_path": "site-packages/manim/mobject/three_d/three_d_utils.py",
+        "path_type": "hardlink",
+        "sha256": "97ecfd2b68bafb8effd489d5d42529900d5a95bcd34d62afe6978791c7b20c6e",
+        "sha256_in_prefix": "97ecfd2b68bafb8effd489d5d42529900d5a95bcd34d62afe6978791c7b20c6e",
+        "size_in_bytes": 2099
+      },
+      {
+        "_path": "site-packages/manim/mobject/three_d/three_dimensions.py",
+        "path_type": "hardlink",
+        "sha256": "043d433641af4202b5c88e430b47c724b6c420cf8d98745faf7950d1d5c6c72b",
+        "sha256_in_prefix": "043d433641af4202b5c88e430b47c724b6c420cf8d98745faf7950d1d5c6c72b",
+        "size_in_bytes": 39317
+      },
+      {
+        "_path": "site-packages/manim/mobject/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1fe4b4e09347cac2a4f4e6ecdad72d5d5a13c88cc32fb26766aa87b751ae5926",
+        "sha256_in_prefix": "1fe4b4e09347cac2a4f4e6ecdad72d5d5a13c88cc32fb26766aa87b751ae5926",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "site-packages/manim/mobject/types/image_mobject.py",
+        "path_type": "hardlink",
+        "sha256": "023351f5e057dfb019d15c6f830b95f81b6618173ccd0d9ccac563ef2a857187",
+        "sha256_in_prefix": "023351f5e057dfb019d15c6f830b95f81b6618173ccd0d9ccac563ef2a857187",
+        "size_in_bytes": 12094
+      },
+      {
+        "_path": "site-packages/manim/mobject/types/point_cloud_mobject.py",
+        "path_type": "hardlink",
+        "sha256": "fd18acd9619c3851a303ca3d9a90b470f9a3926142bb54b042cfe5235b73f0a5",
+        "sha256_in_prefix": "fd18acd9619c3851a303ca3d9a90b470f9a3926142bb54b042cfe5235b73f0a5",
+        "size_in_bytes": 13690
+      },
+      {
+        "_path": "site-packages/manim/mobject/types/vectorized_mobject.py",
+        "path_type": "hardlink",
+        "sha256": "814a3ab2c1e2ff0b07b37e57b01de4a687fbe8030c6a63b8e90e8ec14a07ab41",
+        "sha256_in_prefix": "814a3ab2c1e2ff0b07b37e57b01de4a687fbe8030c6a63b8e90e8ec14a07ab41",
+        "size_in_bytes": 99934
+      },
+      {
+        "_path": "site-packages/manim/mobject/utils.py",
+        "path_type": "hardlink",
+        "sha256": "8e9e5a2a4102791bbfd25ac8845b96ed018fe2f7a2def30da25aee2b88a4e644",
+        "sha256_in_prefix": "8e9e5a2a4102791bbfd25ac8845b96ed018fe2f7a2def30da25aee2b88a4e644",
+        "size_in_bytes": 3273
+      },
+      {
+        "_path": "site-packages/manim/mobject/value_tracker.py",
+        "path_type": "hardlink",
+        "sha256": "aa41ddc9dcaa8f13db6d26bf45aa593f0d73e21ed11b27df3f822cc943ead66a",
+        "sha256_in_prefix": "aa41ddc9dcaa8f13db6d26bf45aa593f0d73e21ed11b27df3f822cc943ead66a",
+        "size_in_bytes": 6343
+      },
+      {
+        "_path": "site-packages/manim/mobject/vector_field.py",
+        "path_type": "hardlink",
+        "sha256": "0db8efba313396bbd93286147bc9fb4fecff490e97697216c349bc96681489f9",
+        "sha256_in_prefix": "0db8efba313396bbd93286147bc9fb4fecff490e97697216c349bc96681489f9",
+        "size_in_bytes": 39605
+      },
+      {
+        "_path": "site-packages/manim/opengl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2e231be6c94018d97e68c9e4510a5e9529092e376fefd3ef05fea051cb1579ea",
+        "sha256_in_prefix": "2e231be6c94018d97e68c9e4510a5e9529092e376fefd3ef05fea051cb1579ea",
+        "size_in_bytes": 584
+      },
+      {
+        "_path": "site-packages/manim/plugins/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4f026534bed7a0a91ccc45762ae21233e996f184d59e0c54916bcc918b772ea7",
+        "sha256_in_prefix": "4f026534bed7a0a91ccc45762ae21233e996f184d59e0c54916bcc918b772ea7",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "site-packages/manim/plugins/plugins_flags.py",
+        "path_type": "hardlink",
+        "sha256": "2f3bb98074e8b715af4600cc85df26e8f4b5aeee5f469cf250692531b4d3d549",
+        "sha256_in_prefix": "2f3bb98074e8b715af4600cc85df26e8f4b5aeee5f469cf250692531b4d3d549",
+        "size_in_bytes": 709
+      },
+      {
+        "_path": "site-packages/manim/renderer/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/renderer/cairo_renderer.py",
+        "path_type": "hardlink",
+        "sha256": "d2bc6c69d1bb4c08a4fa090e864d07286f8a2a6e714bc212afd43924a3e5b69b",
+        "sha256_in_prefix": "d2bc6c69d1bb4c08a4fa090e864d07286f8a2a6e714bc212afd43924a3e5b69b",
+        "size_in_bytes": 9167
+      },
+      {
+        "_path": "site-packages/manim/renderer/opengl_renderer.py",
+        "path_type": "hardlink",
+        "sha256": "e4b0338b5124c1885538628ed856a8a42ea5685508a5267577d580107f057d56",
+        "sha256_in_prefix": "e4b0338b5124c1885538628ed856a8a42ea5685508a5267577d580107f057d56",
+        "size_in_bytes": 20735
+      },
+      {
+        "_path": "site-packages/manim/renderer/opengl_renderer_window.py",
+        "path_type": "hardlink",
+        "sha256": "1da8e78089db095461f371afd47a8f0ba9e90d919592d3d169a3f601f075da9d",
+        "sha256_in_prefix": "1da8e78089db095461f371afd47a8f0ba9e90d919592d3d169a3f601f075da9d",
+        "size_in_bytes": 4909
+      },
+      {
+        "_path": "site-packages/manim/renderer/shader.py",
+        "path_type": "hardlink",
+        "sha256": "4d96858668f03e49dc5b165d26b1a09205c3ecb222d1693b8fdb9c10cc7a5ea7",
+        "sha256_in_prefix": "4d96858668f03e49dc5b165d26b1a09205c3ecb222d1693b8fdb9c10cc7a5ea7",
+        "size_in_bytes": 14715
+      },
+      {
+        "_path": "site-packages/manim/renderer/shader_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "b45889c94cdb8f1ea0ed1be0ac321896e7e369bdce115f2b54366afd995b2ab6",
+        "sha256_in_prefix": "b45889c94cdb8f1ea0ed1be0ac321896e7e369bdce115f2b54366afd995b2ab6",
+        "size_in_bytes": 5944
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/default/frag.glsl",
+        "path_type": "hardlink",
+        "sha256": "14442633b454c1c665c4fbb99640dc117a3247611f2a3342f61a5a3dc7bf6411",
+        "sha256_in_prefix": "14442633b454c1c665c4fbb99640dc117a3247611f2a3342f61a5a3dc7bf6411",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/default/vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "d2d84a224f42cee48b18b87ee91caf1590ec9e8493a550b4bf658d8ebc8c1883",
+        "sha256_in_prefix": "d2d84a224f42cee48b18b87ee91caf1590ec9e8493a550b4bf658d8ebc8c1883",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/design.frag",
+        "path_type": "hardlink",
+        "sha256": "76b8e06135444e0a1cc71c351ea08aec373758f4bc918332e239a1c11cbb1036",
+        "sha256_in_prefix": "76b8e06135444e0a1cc71c351ea08aec373758f4bc918332e239a1c11cbb1036",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/design_2.frag",
+        "path_type": "hardlink",
+        "sha256": "d136c6cb6897c0779855a7af1fbab7547d0054ce782a938d765f5b5b808ed625",
+        "sha256_in_prefix": "d136c6cb6897c0779855a7af1fbab7547d0054ce782a938d765f5b5b808ed625",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/design_3.frag",
+        "path_type": "hardlink",
+        "sha256": "525495d1399cb98986e449ad359420538916a348fb9de0721029706d70f487ac",
+        "sha256_in_prefix": "525495d1399cb98986e449ad359420538916a348fb9de0721029706d70f487ac",
+        "size_in_bytes": 1301
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/image/frag.glsl",
+        "path_type": "hardlink",
+        "sha256": "519ed8ca6fb6b691279f05e90fff9220e5eab7c70d4f19c2cc5a1451e472452d",
+        "sha256_in_prefix": "519ed8ca6fb6b691279f05e90fff9220e5eab7c70d4f19c2cc5a1451e472452d",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/image/vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "1dfbb7972af23aee4cbd2d27a0962557ed2fc0e1bbb4d50591928c8d57e0eb9f",
+        "sha256_in_prefix": "1dfbb7972af23aee4cbd2d27a0962557ed2fc0e1bbb4d50591928c8d57e0eb9f",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/include/NOTE.md",
+        "path_type": "hardlink",
+        "sha256": "40a86dfc06208b416046c0f51e21be0146593ea1009686892bae06824b8df266",
+        "sha256_in_prefix": "40a86dfc06208b416046c0f51e21be0146593ea1009686892bae06824b8df266",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/include/add_light.glsl",
+        "path_type": "hardlink",
+        "sha256": "31efa2764b0b88b5bd3917b99a67a481a93544bde6dbe27f61fb5caa5f670eb6",
+        "sha256_in_prefix": "31efa2764b0b88b5bd3917b99a67a481a93544bde6dbe27f61fb5caa5f670eb6",
+        "size_in_bytes": 1600
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/include/camera_uniform_declarations.glsl",
+        "path_type": "hardlink",
+        "sha256": "fbe07f4eb756a6aeac56cfa02bbcab9096085e64a43c4fe4ff6ecd36cea63a81",
+        "sha256_in_prefix": "fbe07f4eb756a6aeac56cfa02bbcab9096085e64a43c4fe4ff6ecd36cea63a81",
+        "size_in_bytes": 254
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/include/finalize_color.glsl",
+        "path_type": "hardlink",
+        "sha256": "f02782e3a3d3acd0372c1e12a255b0fc41ddcfcec7e291669b7fabe62cac0f3f",
+        "sha256_in_prefix": "f02782e3a3d3acd0372c1e12a255b0fc41ddcfcec7e291669b7fabe62cac0f3f",
+        "size_in_bytes": 1864
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/include/get_gl_Position.glsl",
+        "path_type": "hardlink",
+        "sha256": "a9a79e5e540e201662b110b7b1c1318352e81693b11d74ea6d961c9483db55a7",
+        "sha256_in_prefix": "a9a79e5e540e201662b110b7b1c1318352e81693b11d74ea6d961c9483db55a7",
+        "size_in_bytes": 1245
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/include/get_rotated_surface_unit_normal_vector.glsl",
+        "path_type": "hardlink",
+        "sha256": "efa11f2ac2b5bf0b8d6bbffd860c3e5bf0b1de2677ce9558e0a03a15aebd1b0d",
+        "sha256_in_prefix": "efa11f2ac2b5bf0b8d6bbffd860c3e5bf0b1de2677ce9558e0a03a15aebd1b0d",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/include/get_unit_normal.glsl",
+        "path_type": "hardlink",
+        "sha256": "6e601253c52fb16ba735c8fe91db492a384134bbc6e6951d627e220cece0d53c",
+        "sha256_in_prefix": "6e601253c52fb16ba735c8fe91db492a384134bbc6e6951d627e220cece0d53c",
+        "size_in_bytes": 773
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/include/position_point_into_frame.glsl",
+        "path_type": "hardlink",
+        "sha256": "e0a320b4edb195a012791eae0f618a24c7c08bb7ee8982f7daefeb14ab45e481",
+        "sha256_in_prefix": "e0a320b4edb195a012791eae0f618a24c7c08bb7ee8982f7daefeb14ab45e481",
+        "size_in_bytes": 742
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/include/quadratic_bezier_distance.glsl",
+        "path_type": "hardlink",
+        "sha256": "ba3ae9af225f287fcc6394807786bc4f853f64b5f5a346c1bba0dd99390ec537",
+        "sha256_in_prefix": "ba3ae9af225f287fcc6394807786bc4f853f64b5f5a346c1bba0dd99390ec537",
+        "size_in_bytes": 2853
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/include/quadratic_bezier_geometry_functions.glsl",
+        "path_type": "hardlink",
+        "sha256": "a634108de7103ae82ca1980dd9c5d8e47286d6e304eab274103a852600aa5fb9",
+        "sha256_in_prefix": "a634108de7103ae82ca1980dd9c5d8e47286d6e304eab274103a852600aa5fb9",
+        "size_in_bytes": 2747
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/manim_coords/frag.glsl",
+        "path_type": "hardlink",
+        "sha256": "14442633b454c1c665c4fbb99640dc117a3247611f2a3342f61a5a3dc7bf6411",
+        "sha256_in_prefix": "14442633b454c1c665c4fbb99640dc117a3247611f2a3342f61a5a3dc7bf6411",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/manim_coords/vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "18c290353e184d688769ea3c56de587da16a25a7ae904571cf8ad83351357d13",
+        "sha256_in_prefix": "18c290353e184d688769ea3c56de587da16a25a7ae904571cf8ad83351357d13",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/quadratic_bezier_fill/frag.glsl",
+        "path_type": "hardlink",
+        "sha256": "613331b2c481cbd270e3eecce792f6a57d027545b487d701bad988b8ff17f54c",
+        "sha256_in_prefix": "613331b2c481cbd270e3eecce792f6a57d027545b487d701bad988b8ff17f54c",
+        "size_in_bytes": 1836
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/quadratic_bezier_fill/geom.glsl",
+        "path_type": "hardlink",
+        "sha256": "8ca5f3c99f3ce1b766725d123921c3eb18916353b3e8e4c45807033d752a2eb7",
+        "sha256_in_prefix": "8ca5f3c99f3ce1b766725d123921c3eb18916353b3e8e4c45807033d752a2eb7",
+        "size_in_bytes": 3544
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/quadratic_bezier_fill/vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "66a3c880f00efef0038df772bab93b1850d4caff396c6d27080c9812c2b847e7",
+        "sha256_in_prefix": "66a3c880f00efef0038df772bab93b1850d4caff396c6d27080c9812c2b847e7",
+        "size_in_bytes": 523
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/quadratic_bezier_stroke/frag.glsl",
+        "path_type": "hardlink",
+        "sha256": "63984b021c32811216b52fa6ab690d60569ef7d73145a00e7c16a9e20569b770",
+        "sha256_in_prefix": "63984b021c32811216b52fa6ab690d60569ef7d73145a00e7c16a9e20569b770",
+        "size_in_bytes": 2683
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/quadratic_bezier_stroke/geom.glsl",
+        "path_type": "hardlink",
+        "sha256": "0e441955088e2d2ffedc85b4d8beec864193e0331d130999e4839b5b75108a91",
+        "sha256_in_prefix": "0e441955088e2d2ffedc85b4d8beec864193e0331d130999e4839b5b75108a91",
+        "size_in_bytes": 9059
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/quadratic_bezier_stroke/vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "b4a86b19214346f6f313c4eeabb1c15f6f0fa39681a4be089b1ab696f99ab3e6",
+        "sha256_in_prefix": "b4a86b19214346f6f313c4eeabb1c15f6f0fa39681a4be089b1ab696f99ab3e6",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/simple_vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "4db92dad71c58f1fc4de187fa4885d441e3dc0fd25063c15af7a5585233d6411",
+        "sha256_in_prefix": "4db92dad71c58f1fc4de187fa4885d441e3dc0fd25063c15af7a5585233d6411",
+        "size_in_bytes": 296
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/surface/frag.glsl",
+        "path_type": "hardlink",
+        "sha256": "f3d8ea0a4069f9feee965888088050543fbaae55e6ccb10e6a54afaf16cb258e",
+        "sha256_in_prefix": "f3d8ea0a4069f9feee965888088050543fbaae55e6ccb10e6a54afaf16cb258e",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/surface/vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "23b2536237b4f554cf9a4418e9a62d3bca04d058e84c179055481163a312903a",
+        "sha256_in_prefix": "23b2536237b4f554cf9a4418e9a62d3bca04d058e84c179055481163a312903a",
+        "size_in_bytes": 567
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/test/frag.glsl",
+        "path_type": "hardlink",
+        "sha256": "bc4e21d892da6385ca82714b660e71d3b8c19cb1be679632cd56f5f3dc94cec0",
+        "sha256_in_prefix": "bc4e21d892da6385ca82714b660e71d3b8c19cb1be679632cd56f5f3dc94cec0",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/test/vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "feb4df9707a996c683343634be6ef42b4c14b7310b6de6ae392ecac7f7c27375",
+        "sha256_in_prefix": "feb4df9707a996c683343634be6ef42b4c14b7310b6de6ae392ecac7f7c27375",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/textured_surface/frag.glsl",
+        "path_type": "hardlink",
+        "sha256": "ec71ce9500b48c437547b3747eb5293cea921e3f0f6591da39476c77fb5f1760",
+        "sha256_in_prefix": "ec71ce9500b48c437547b3747eb5293cea921e3f0f6591da39476c77fb5f1760",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/textured_surface/vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "d756718880f126239ebf72d1a67847e7b28a1c8ee366b8bc7a06989bd45f1add",
+        "sha256_in_prefix": "d756718880f126239ebf72d1a67847e7b28a1c8ee366b8bc7a06989bd45f1add",
+        "size_in_bytes": 647
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/true_dot/frag.glsl",
+        "path_type": "hardlink",
+        "sha256": "20de06b89066c2bd7b201831360fa63f3930384415da0814092c5b6cc7eddc47",
+        "sha256_in_prefix": "20de06b89066c2bd7b201831360fa63f3930384415da0814092c5b6cc7eddc47",
+        "size_in_bytes": 791
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/true_dot/geom.glsl",
+        "path_type": "hardlink",
+        "sha256": "0f2ce7edd988080ebecc7fda3404c18aafce9ade94d941783011bd82cb6882bc",
+        "sha256_in_prefix": "0f2ce7edd988080ebecc7fda3404c18aafce9ade94d941783011bd82cb6882bc",
+        "size_in_bytes": 1101
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/true_dot/vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "2d4624392f96623f0311bd0273258fa2fb257afbacf35f9c81bb29255ada63fa",
+        "sha256_in_prefix": "2d4624392f96623f0311bd0273258fa2fb257afbacf35f9c81bb29255ada63fa",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/vectorized_mobject_fill/frag.glsl",
+        "path_type": "hardlink",
+        "sha256": "5055400a1a29730e27ac45273f2c15f6b8c5a21636fd14dedea41eae61a105ba",
+        "sha256_in_prefix": "5055400a1a29730e27ac45273f2c15f6b8c5a21636fd14dedea41eae61a105ba",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/vectorized_mobject_fill/vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "b80bee428ba50ffda727d271be7bad338b1a1647b6993a54ddce3aff6642ea5c",
+        "sha256_in_prefix": "b80bee428ba50ffda727d271be7bad338b1a1647b6993a54ddce3aff6642ea5c",
+        "size_in_bytes": 435
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/vectorized_mobject_stroke/frag.glsl",
+        "path_type": "hardlink",
+        "sha256": "4606ddc22f94550c939a29076108a8a3cbe7b7d8489c0e1323379b040473a17e",
+        "sha256_in_prefix": "4606ddc22f94550c939a29076108a8a3cbe7b7d8489c0e1323379b040473a17e",
+        "size_in_bytes": 2720
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/vectorized_mobject_stroke/vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "c8e2a75c7c83289f34e7f46f7a82cb5491545d11741ca04145f2a48e345a79b6",
+        "sha256_in_prefix": "c8e2a75c7c83289f34e7f46f7a82cb5491545d11741ca04145f2a48e345a79b6",
+        "size_in_bytes": 4430
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/vertex_colors/frag.glsl",
+        "path_type": "hardlink",
+        "sha256": "9c663d8b2be8632f697e3b62143b19d53150b171d0da4933d12d089a097690ee",
+        "sha256_in_prefix": "9c663d8b2be8632f697e3b62143b19d53150b171d0da4933d12d089a097690ee",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/manim/renderer/shaders/vertex_colors/vert.glsl",
+        "path_type": "hardlink",
+        "sha256": "2351d0c30292d299a77d59cb00c017b14258e329d77fb85adc2699b9290fb212",
+        "sha256_in_prefix": "2351d0c30292d299a77d59cb00c017b14258e329d77fb85adc2699b9290fb212",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "site-packages/manim/renderer/vectorized_mobject_rendering.py",
+        "path_type": "hardlink",
+        "sha256": "e49c2664a19140465660891d7a36c979e2a11c3cdd217c1164f9cd0f43179c2c",
+        "sha256_in_prefix": "e49c2664a19140465660891d7a36c979e2a11c3cdd217c1164f9cd0f43179c2c",
+        "size_in_bytes": 9391
+      },
+      {
+        "_path": "site-packages/manim/scene/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/scene/moving_camera_scene.py",
+        "path_type": "hardlink",
+        "sha256": "6c1db9a9945e7dbadec688890bfda105523a4ec44c8ed468ae9eeb151794773f",
+        "sha256_in_prefix": "6c1db9a9945e7dbadec688890bfda105523a4ec44c8ed468ae9eeb151794773f",
+        "size_in_bytes": 4676
+      },
+      {
+        "_path": "site-packages/manim/scene/scene.py",
+        "path_type": "hardlink",
+        "sha256": "6a731dd29d84043acb76930a3ed3bbe7003991986e7aff606cc965ca53ae6d78",
+        "sha256_in_prefix": "6a731dd29d84043acb76930a3ed3bbe7003991986e7aff606cc965ca53ae6d78",
+        "size_in_bytes": 62389
+      },
+      {
+        "_path": "site-packages/manim/scene/scene_file_writer.py",
+        "path_type": "hardlink",
+        "sha256": "e983dbb51f7b0da46cbdefc54aa24b6e5f0d217a1f6f9d64a3b8c33e46b6ea16",
+        "sha256_in_prefix": "e983dbb51f7b0da46cbdefc54aa24b6e5f0d217a1f6f9d64a3b8c33e46b6ea16",
+        "size_in_bytes": 33191
+      },
+      {
+        "_path": "site-packages/manim/scene/section.py",
+        "path_type": "hardlink",
+        "sha256": "715714c6b2857af41704fffeec05396a38b0c3b534a7d69c69adeab935532792",
+        "sha256_in_prefix": "715714c6b2857af41704fffeec05396a38b0c3b534a7d69c69adeab935532792",
+        "size_in_bytes": 3725
+      },
+      {
+        "_path": "site-packages/manim/scene/three_d_scene.py",
+        "path_type": "hardlink",
+        "sha256": "4ddd77496a4ff5460838ad99f21333bac8fc71af2396e0dad5b9263c2e4169e3",
+        "sha256_in_prefix": "4ddd77496a4ff5460838ad99f21333bac8fc71af2396e0dad5b9263c2e4169e3",
+        "size_in_bytes": 19708
+      },
+      {
+        "_path": "site-packages/manim/scene/vector_space_scene.py",
+        "path_type": "hardlink",
+        "sha256": "3040b7864597d039df279581b2b8f620089b78a86a5fc87ce0cb8bddf1870ac7",
+        "sha256_in_prefix": "3040b7864597d039df279581b2b8f620089b78a86a5fc87ce0cb8bddf1870ac7",
+        "size_in_bytes": 38310
+      },
+      {
+        "_path": "site-packages/manim/scene/zoomed_scene.py",
+        "path_type": "hardlink",
+        "sha256": "782e963bc398393f95ed112d52585776a4f223d1eb74f5853a7958f746e51140",
+        "sha256_in_prefix": "782e963bc398393f95ed112d52585776a4f223d1eb74f5853a7958f746e51140",
+        "size_in_bytes": 6980
+      },
+      {
+        "_path": "site-packages/manim/templates/Axes.mtp",
+        "path_type": "hardlink",
+        "sha256": "81f3119c1d0f8d71749babbd21c6c8fe99b8f1e0eac4293294a20259d0c03fe3",
+        "sha256_in_prefix": "81f3119c1d0f8d71749babbd21c6c8fe99b8f1e0eac4293294a20259d0c03fe3",
+        "size_in_bytes": 313
+      },
+      {
+        "_path": "site-packages/manim/templates/Default.mtp",
+        "path_type": "hardlink",
+        "sha256": "007a8880c63eae320769eb854a08b89f629768b3919800a34dd3e152716065d6",
+        "sha256_in_prefix": "007a8880c63eae320769eb854a08b89f629768b3919800a34dd3e152716065d6",
+        "size_in_bytes": 547
+      },
+      {
+        "_path": "site-packages/manim/templates/MovingCamera.mtp",
+        "path_type": "hardlink",
+        "sha256": "34b893d993eeb4a4f3b7c02cda00c90ea5cc04d07c77eed8dcf1574b41e131ab",
+        "sha256_in_prefix": "34b893d993eeb4a4f3b7c02cda00c90ea5cc04d07c77eed8dcf1574b41e131ab",
+        "size_in_bytes": 327
+      },
+      {
+        "_path": "site-packages/manim/templates/template.cfg",
+        "path_type": "hardlink",
+        "sha256": "5ca88a5f698c4fbc7fdfe1223ca0211d4a6e896fcae3f454e88bb56583b3433c",
+        "sha256_in_prefix": "5ca88a5f698c4fbc7fdfe1223ca0211d4a6e896fcae3f454e88bb56583b3433c",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "site-packages/manim/typing.py",
+        "path_type": "hardlink",
+        "sha256": "eb3b05574bffab272d601b121e175f92d33116a6c3873f88145fc9638d5162ee",
+        "sha256_in_prefix": "eb3b05574bffab272d601b121e175f92d33116a6c3873f88145fc9638d5162ee",
+        "size_in_bytes": 23927
+      },
+      {
+        "_path": "site-packages/manim/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim/utils/bezier.py",
+        "path_type": "hardlink",
+        "sha256": "814f8582cf8eea971b48cd5ddb2e48724a6c2558766aa87a92610de69af92809",
+        "sha256_in_prefix": "814f8582cf8eea971b48cd5ddb2e48724a6c2558766aa87a92610de69af92809",
+        "size_in_bytes": 69427
+      },
+      {
+        "_path": "site-packages/manim/utils/caching.py",
+        "path_type": "hardlink",
+        "sha256": "0d120f7ab84eeae43d218aee159259a5b9b186d3ff48d10389276da6eed8d1d8",
+        "sha256_in_prefix": "0d120f7ab84eeae43d218aee159259a5b9b186d3ff48d10389276da6eed8d1d8",
+        "size_in_bytes": 3080
+      },
+      {
+        "_path": "site-packages/manim/utils/color/AS2700.py",
+        "path_type": "hardlink",
+        "sha256": "9fdc873d1de15344003ba4666f8c299297c14432828e7e1cdd6114057968bd22",
+        "sha256_in_prefix": "9fdc873d1de15344003ba4666f8c299297c14432828e7e1cdd6114057968bd22",
+        "size_in_bytes": 8743
+      },
+      {
+        "_path": "site-packages/manim/utils/color/BS381.py",
+        "path_type": "hardlink",
+        "sha256": "179936d504bd268f4b04809a2ccffe7e69a744e3b0bd60709581fbe0a9b2cebc",
+        "sha256_in_prefix": "179936d504bd268f4b04809a2ccffe7e69a744e3b0bd60709581fbe0a9b2cebc",
+        "size_in_bytes": 11050
+      },
+      {
+        "_path": "site-packages/manim/utils/color/DVIPSNAMES.py",
+        "path_type": "hardlink",
+        "sha256": "2ab2bc314016f6b4be25a39e53f4d2b2bf3a2f20934b11c38f43a04c4c98a973",
+        "sha256_in_prefix": "2ab2bc314016f6b4be25a39e53f4d2b2bf3a2f20934b11c38f43a04c4c98a973",
+        "size_in_bytes": 2974
+      },
+      {
+        "_path": "site-packages/manim/utils/color/SVGNAMES.py",
+        "path_type": "hardlink",
+        "sha256": "4d5ce9fb209bab8bbd127f00f7e7280d9358f3a3767687cbe3df6b61ba5340e0",
+        "sha256_in_prefix": "4d5ce9fb209bab8bbd127f00f7e7280d9358f3a3767687cbe3df6b61ba5340e0",
+        "size_in_bytes": 5852
+      },
+      {
+        "_path": "site-packages/manim/utils/color/X11.py",
+        "path_type": "hardlink",
+        "sha256": "e81b40656d71c2acccd8bf785bfc24942e898ec103a17a912a6d03c4081b9652",
+        "sha256_in_prefix": "e81b40656d71c2acccd8bf785bfc24942e898ec103a17a912a6d03c4081b9652",
+        "size_in_bytes": 17702
+      },
+      {
+        "_path": "site-packages/manim/utils/color/XKCD.py",
+        "path_type": "hardlink",
+        "sha256": "92519c59353d8c0288354f4fb7818394d67f1e67e8021caa7bfd5628cbd866eb",
+        "sha256_in_prefix": "92519c59353d8c0288354f4fb7818394d67f1e67e8021caa7bfd5628cbd866eb",
+        "size_in_bytes": 32650
+      },
+      {
+        "_path": "site-packages/manim/utils/color/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f9dd8c72ac1d901479a13e3a11cef079a29e38d4ebb3382612b349a659bf6171",
+        "sha256_in_prefix": "f9dd8c72ac1d901479a13e3a11cef079a29e38d4ebb3382612b349a659bf6171",
+        "size_in_bytes": 1326
+      },
+      {
+        "_path": "site-packages/manim/utils/color/core.py",
+        "path_type": "hardlink",
+        "sha256": "2d2129dc43d537d6e606a4a9c25f3f7bad083e99538eb277193a272941a887c9",
+        "sha256_in_prefix": "2d2129dc43d537d6e606a4a9c25f3f7bad083e99538eb277193a272941a887c9",
+        "size_in_bytes": 49720
+      },
+      {
+        "_path": "site-packages/manim/utils/color/manim_colors.py",
+        "path_type": "hardlink",
+        "sha256": "350bdf3dcca270d2df01e8615be6508877c52ce85b727b06c260c9e7c523b606",
+        "sha256_in_prefix": "350bdf3dcca270d2df01e8615be6508877c52ce85b727b06c260c9e7c523b606",
+        "size_in_bytes": 6805
+      },
+      {
+        "_path": "site-packages/manim/utils/commands.py",
+        "path_type": "hardlink",
+        "sha256": "4ebc703c22897936e7aef369db644de8278df1aff167934b9e901262c54e94ba",
+        "sha256_in_prefix": "4ebc703c22897936e7aef369db644de8278df1aff167934b9e901262c54e94ba",
+        "size_in_bytes": 2035
+      },
+      {
+        "_path": "site-packages/manim/utils/config_ops.py",
+        "path_type": "hardlink",
+        "sha256": "8ed537a5e58078536e88fe7c5088e578a2c3825ad15b2943340ee5329e8acb73",
+        "sha256_in_prefix": "8ed537a5e58078536e88fe7c5088e578a2c3825ad15b2943340ee5329e8acb73",
+        "size_in_bytes": 2416
+      },
+      {
+        "_path": "site-packages/manim/utils/debug.py",
+        "path_type": "hardlink",
+        "sha256": "e1fac3d46bc37f3252d824e68dc1ef4424820c957e692444ab2a0b0f5d80c42e",
+        "sha256_in_prefix": "e1fac3d46bc37f3252d824e68dc1ef4424820c957e692444ab2a0b0f5d80c42e",
+        "size_in_bytes": 2359
+      },
+      {
+        "_path": "site-packages/manim/utils/deprecation.py",
+        "path_type": "hardlink",
+        "sha256": "e94462712b53f49b0fcc94761cb46c00c27271fe2b222b3bfa078dad272599ee",
+        "sha256_in_prefix": "e94462712b53f49b0fcc94761cb46c00c27271fe2b222b3bfa078dad272599ee",
+        "size_in_bytes": 16207
+      },
+      {
+        "_path": "site-packages/manim/utils/docbuild/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "40fc95143887dc407d8f6c4b3b50c1da3bb9241ddc098e91f48490ceb6451490",
+        "sha256_in_prefix": "40fc95143887dc407d8f6c4b3b50c1da3bb9241ddc098e91f48490ceb6451490",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "site-packages/manim/utils/docbuild/autoaliasattr_directive.py",
+        "path_type": "hardlink",
+        "sha256": "7c84e56c8413865565bf42e63200dc721648429268f58b48144d13e5c1e4d52a",
+        "sha256_in_prefix": "7c84e56c8413865565bf42e63200dc721648429268f58b48144d13e5c1e4d52a",
+        "size_in_bytes": 9287
+      },
+      {
+        "_path": "site-packages/manim/utils/docbuild/autocolor_directive.py",
+        "path_type": "hardlink",
+        "sha256": "4e7367482471a8802cd799db88c01323e38d1a3d3837536923ecb4b59d3a84d0",
+        "sha256_in_prefix": "4e7367482471a8802cd799db88c01323e38d1a3d3837536923ecb4b59d3a84d0",
+        "size_in_bytes": 3210
+      },
+      {
+        "_path": "site-packages/manim/utils/docbuild/manim_directive.py",
+        "path_type": "hardlink",
+        "sha256": "b99acbf144a5e5233da30b66cb048734e10725a18ad8cf8311c4198ab9791a0c",
+        "sha256_in_prefix": "b99acbf144a5e5233da30b66cb048734e10725a18ad8cf8311c4198ab9791a0c",
+        "size_in_bytes": 14764
+      },
+      {
+        "_path": "site-packages/manim/utils/docbuild/module_parsing.py",
+        "path_type": "hardlink",
+        "sha256": "6e67e4a311cc916b7b0342255ed8e2ae7108a426d706f0af6709754330844c4d",
+        "sha256_in_prefix": "6e67e4a311cc916b7b0342255ed8e2ae7108a426d706f0af6709754330844c4d",
+        "size_in_bytes": 10066
+      },
+      {
+        "_path": "site-packages/manim/utils/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "2c338813a55c6a2e0da7acbcdd4b8c59d892213678dc0739044fe33d7285af4d",
+        "sha256_in_prefix": "2c338813a55c6a2e0da7acbcdd4b8c59d892213678dc0739044fe33d7285af4d",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "site-packages/manim/utils/family.py",
+        "path_type": "hardlink",
+        "sha256": "5b500588f1d0ac5c81e93aee9589eb8474aa1a203412d835a032f94ae4cd8281",
+        "sha256_in_prefix": "5b500588f1d0ac5c81e93aee9589eb8474aa1a203412d835a032f94ae4cd8281",
+        "size_in_bytes": 1256
+      },
+      {
+        "_path": "site-packages/manim/utils/family_ops.py",
+        "path_type": "hardlink",
+        "sha256": "20132c1a55836a0f3d22ff6493eccb803dc373f4e744658c2355c189424cf8f1",
+        "sha256_in_prefix": "20132c1a55836a0f3d22ff6493eccb803dc373f4e744658c2355c189424cf8f1",
+        "size_in_bytes": 1765
+      },
+      {
+        "_path": "site-packages/manim/utils/file_ops.py",
+        "path_type": "hardlink",
+        "sha256": "03d10a97f698eb9a8bbd97abfa5b081ce675b6c751b74c2d3f2688721520196d",
+        "sha256_in_prefix": "03d10a97f698eb9a8bbd97abfa5b081ce675b6c751b74c2d3f2688721520196d",
+        "size_in_bytes": 8019
+      },
+      {
+        "_path": "site-packages/manim/utils/hashing.py",
+        "path_type": "hardlink",
+        "sha256": "3ef4e5ca1fdb8f2d5ffcd9ec8c8797178e106df35facef67984b0e3d92158a1f",
+        "sha256_in_prefix": "3ef4e5ca1fdb8f2d5ffcd9ec8c8797178e106df35facef67984b0e3d92158a1f",
+        "size_in_bytes": 13671
+      },
+      {
+        "_path": "site-packages/manim/utils/images.py",
+        "path_type": "hardlink",
+        "sha256": "b66edad515f3504e0e5475492c45c25947b3ec91dcb2bfd0ca76dec7285ec397",
+        "sha256_in_prefix": "b66edad515f3504e0e5475492c45c25947b3ec91dcb2bfd0ca76dec7285ec397",
+        "size_in_bytes": 1836
+      },
+      {
+        "_path": "site-packages/manim/utils/ipython_magic.py",
+        "path_type": "hardlink",
+        "sha256": "16fc280ed31227e18b56a119a31cea2768df68288358d117460e078953e69bbc",
+        "sha256_in_prefix": "16fc280ed31227e18b56a119a31cea2768df68288358d117460e078953e69bbc",
+        "size_in_bytes": 7995
+      },
+      {
+        "_path": "site-packages/manim/utils/iterables.py",
+        "path_type": "hardlink",
+        "sha256": "0374e4fd04da97105c278e1eece1b6c96179e81baf2f2e2f2a538ce85980b95a",
+        "sha256_in_prefix": "0374e4fd04da97105c278e1eece1b6c96179e81baf2f2e2f2a538ce85980b95a",
+        "size_in_bytes": 13211
+      },
+      {
+        "_path": "site-packages/manim/utils/module_ops.py",
+        "path_type": "hardlink",
+        "sha256": "c8a8583c13d1d22ac279e224d08ebb91945c2d2db46db7f1396df372f95d8729",
+        "sha256_in_prefix": "c8a8583c13d1d22ac279e224d08ebb91945c2d2db46db7f1396df372f95d8729",
+        "size_in_bytes": 5673
+      },
+      {
+        "_path": "site-packages/manim/utils/opengl.py",
+        "path_type": "hardlink",
+        "sha256": "82202a3bf06ec08a7b346946a04f12e9549651367db1093d816831d0d8f1891b",
+        "sha256_in_prefix": "82202a3bf06ec08a7b346946a04f12e9549651367db1093d816831d0d8f1891b",
+        "size_in_bytes": 4779
+      },
+      {
+        "_path": "site-packages/manim/utils/parameter_parsing.py",
+        "path_type": "hardlink",
+        "sha256": "adc08f06dcdf203a89b04b3ec5221b2c9977c1a38ca43184cf645f9c2682d5db",
+        "sha256_in_prefix": "adc08f06dcdf203a89b04b3ec5221b2c9977c1a38ca43184cf645f9c2682d5db",
+        "size_in_bytes": 787
+      },
+      {
+        "_path": "site-packages/manim/utils/paths.py",
+        "path_type": "hardlink",
+        "sha256": "6b09de4d5234cb3c8531fdbbfca48c09646ccb48c9013a4b56fb3ded1463bf65",
+        "sha256_in_prefix": "6b09de4d5234cb3c8531fdbbfca48c09646ccb48c9013a4b56fb3ded1463bf65",
+        "size_in_bytes": 11364
+      },
+      {
+        "_path": "site-packages/manim/utils/polylabel.py",
+        "path_type": "hardlink",
+        "sha256": "984c679460ba8ae666710476cb7fff87c30787841a6c34486cd4819dee80a7f7",
+        "sha256_in_prefix": "984c679460ba8ae666710476cb7fff87c30787841a6c34486cd4819dee80a7f7",
+        "size_in_bytes": 5360
+      },
+      {
+        "_path": "site-packages/manim/utils/qhull.py",
+        "path_type": "hardlink",
+        "sha256": "50518f87d61e339f64e9bb276d853f72f674776e796ddec6e5f264e9225994df",
+        "sha256_in_prefix": "50518f87d61e339f64e9bb276d853f72f674776e796ddec6e5f264e9225994df",
+        "size_in_bytes": 7797
+      },
+      {
+        "_path": "site-packages/manim/utils/rate_functions.py",
+        "path_type": "hardlink",
+        "sha256": "bbd0e0119e26f1fb30bdf14b6925f609e9b1349712c8335a803d63342d3f1209",
+        "sha256_in_prefix": "bbd0e0119e26f1fb30bdf14b6925f609e9b1349712c8335a803d63342d3f1209",
+        "size_in_bytes": 13735
+      },
+      {
+        "_path": "site-packages/manim/utils/simple_functions.py",
+        "path_type": "hardlink",
+        "sha256": "722ee8e23266b3bf8a6ba60904e11d7c8f58e5569f18ed300322639ddcea197f",
+        "sha256_in_prefix": "722ee8e23266b3bf8a6ba60904e11d7c8f58e5569f18ed300322639ddcea197f",
+        "size_in_bytes": 3636
+      },
+      {
+        "_path": "site-packages/manim/utils/sounds.py",
+        "path_type": "hardlink",
+        "sha256": "71ce7a49ed369eb2e05bd813dd2b958456d67b8a7531cee3965439042b3ead90",
+        "sha256_in_prefix": "71ce7a49ed369eb2e05bd813dd2b958456d67b8a7531cee3965439042b3ead90",
+        "size_in_bytes": 611
+      },
+      {
+        "_path": "site-packages/manim/utils/space_ops.py",
+        "path_type": "hardlink",
+        "sha256": "70d1721503c8341bb78ac6f3129c600778227e4d94a9b984dd83f89cfd345cb5",
+        "sha256_in_prefix": "70d1721503c8341bb78ac6f3129c600778227e4d94a9b984dd83f89cfd345cb5",
+        "size_in_bytes": 23659
+      },
+      {
+        "_path": "site-packages/manim/utils/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "546b8e6163f4f19128b7a010798f5955c645dc6e5250ee7559d0f99af1bdc16e",
+        "sha256_in_prefix": "546b8e6163f4f19128b7a010798f5955c645dc6e5250ee7559d0f99af1bdc16e",
+        "size_in_bytes": 418
+      },
+      {
+        "_path": "site-packages/manim/utils/testing/_frames_testers.py",
+        "path_type": "hardlink",
+        "sha256": "0ab0ba13dd57779af4766d99af0aecd364b265a78516f67a78f6cb5ddcc24a73",
+        "sha256_in_prefix": "0ab0ba13dd57779af4766d99af0aecd364b265a78516f67a78f6cb5ddcc24a73",
+        "size_in_bytes": 4038
+      },
+      {
+        "_path": "site-packages/manim/utils/testing/_show_diff.py",
+        "path_type": "hardlink",
+        "sha256": "cf5424a00c8ff9eb11aca39620a2bf13234c8d2625f1937fabc8caf3a74c0a5d",
+        "sha256_in_prefix": "cf5424a00c8ff9eb11aca39620a2bf13234c8d2625f1937fabc8caf3a74c0a5d",
+        "size_in_bytes": 1768
+      },
+      {
+        "_path": "site-packages/manim/utils/testing/_test_class_makers.py",
+        "path_type": "hardlink",
+        "sha256": "c411f83aa064a56758518cee3e08fc398f445391c3bdb4c9f09033a7bea4397c",
+        "sha256_in_prefix": "c411f83aa064a56758518cee3e08fc398f445391c3bdb4c9f09033a7bea4397c",
+        "size_in_bytes": 2828
+      },
+      {
+        "_path": "site-packages/manim/utils/testing/config_graphical_tests_monoframe.cfg",
+        "path_type": "hardlink",
+        "sha256": "1427f5ebc3d00eb4e2c2ff96baba910f22f89ddc2d7c1bd34bd065db73040321",
+        "sha256_in_prefix": "1427f5ebc3d00eb4e2c2ff96baba910f22f89ddc2d7c1bd34bd065db73040321",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "site-packages/manim/utils/testing/config_graphical_tests_multiframes.cfg",
+        "path_type": "hardlink",
+        "sha256": "6f3ce5e13a51789ec4e0947439acd99d7a75245be37bdadb60fe69dec0c5d32b",
+        "sha256_in_prefix": "6f3ce5e13a51789ec4e0947439acd99d7a75245be37bdadb60fe69dec0c5d32b",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "site-packages/manim/utils/testing/frames_comparison.py",
+        "path_type": "hardlink",
+        "sha256": "516a81e24acf56cb7e4343a98d6938e8410719912dec8d84c0c463c8551d8ff2",
+        "sha256_in_prefix": "516a81e24acf56cb7e4343a98d6938e8410719912dec8d84c0c463c8551d8ff2",
+        "size_in_bytes": 10583
+      },
+      {
+        "_path": "site-packages/manim/utils/tex.py",
+        "path_type": "hardlink",
+        "sha256": "bc49735fc3952122491454b46d519d59f50c461c047523d5346465e636ef40ed",
+        "sha256_in_prefix": "bc49735fc3952122491454b46d519d59f50c461c047523d5346465e636ef40ed",
+        "size_in_bytes": 6787
+      },
+      {
+        "_path": "site-packages/manim/utils/tex_file_writing.py",
+        "path_type": "hardlink",
+        "sha256": "6473031b3ef5dc6db15d4347fee870a2270aa43030a22a34771727b107e2d820",
+        "sha256_in_prefix": "6473031b3ef5dc6db15d4347fee870a2270aa43030a22a34771727b107e2d820",
+        "size_in_bytes": 11454
+      },
+      {
+        "_path": "site-packages/manim/utils/tex_templates.py",
+        "path_type": "hardlink",
+        "sha256": "e141de552f59c9856c4b36540b815916a5bca34d88319485e0a9a0a87799ee5e",
+        "sha256_in_prefix": "e141de552f59c9856c4b36540b815916a5bca34d88319485e0a9a0a87799ee5e",
+        "size_in_bytes": 28533
+      },
+      {
+        "_path": "site-packages/manim/utils/unit.py",
+        "path_type": "hardlink",
+        "sha256": "f97aadf5c1de60d5f64efceef2e5d44d431596b7815fbca030946df794ad75d7",
+        "sha256_in_prefix": "f97aadf5c1de60d5f64efceef2e5d44d431596b7815fbca030946df794ad75d7",
+        "size_in_bytes": 1053
+      },
+      {
+        "_path": "site-packages/manim-0.19.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/manim-0.19.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c6a922fc1cfaed7ac0f87aa1dc77ebf5a3c8d1ccc5ab01da33153f0d013bf019",
+        "sha256_in_prefix": "c6a922fc1cfaed7ac0f87aa1dc77ebf5a3c8d1ccc5ab01da33153f0d013bf019",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "site-packages/manim-0.19.0.dist-info/LICENSE.community",
+        "path_type": "hardlink",
+        "sha256": "78e87bb648bdf08c827dd398a11e29cbdf74c3203969d3738dba3eb09d5c2022",
+        "sha256_in_prefix": "78e87bb648bdf08c827dd398a11e29cbdf74c3203969d3738dba3eb09d5c2022",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "site-packages/manim-0.19.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "68eaa61886fc0054332091523bf061ed947fa3982dbbf5b73b77b2eabae4eee2",
+        "sha256_in_prefix": "68eaa61886fc0054332091523bf061ed947fa3982dbbf5b73b77b2eabae4eee2",
+        "size_in_bytes": 11301
+      },
+      {
+        "_path": "site-packages/manim-0.19.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b783f78f8df65afac38c79c70342a6a428b6fb035b52f037485a98290d5caa98",
+        "sha256_in_prefix": "b783f78f8df65afac38c79c70342a6a428b6fb035b52f037485a98290d5caa98",
+        "size_in_bytes": 30172
+      },
+      {
+        "_path": "site-packages/manim-0.19.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/manim-0.19.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "21865023defa1c9aaa3a9414e8f1e427c7dbded30d0458e0f829fea7001b6853",
+        "sha256_in_prefix": "21865023defa1c9aaa3a9414e8f1e427c7dbded30d0458e0f829fea7001b6853",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/manim-0.19.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "233ae13fcebdd480fdb5cee0dc7f8b3ae86cb7324aa6677db7c15b0013ce4bd3",
+        "sha256_in_prefix": "233ae13fcebdd480fdb5cee0dc7f8b3ae86cb7324aa6677db7c15b0013ce4bd3",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/manim-0.19.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "4ff7f915c5de4781e8cfa05fe2b78104cf0bcf06a516d5b8a575f253baecba8d",
+        "sha256_in_prefix": "4ff7f915c5de4781e8cfa05fe2b78104cf0bcf06a516d5b8a575f253baecba8d",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/_config/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/_config/__pycache__/cli_colors.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/_config/__pycache__/logger_utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/_config/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/animation.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/changing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/composition.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/creation.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/fading.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/growing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/indication.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/movement.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/numbers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/rotation.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/specialized.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/speedmodifier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/transform.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/__pycache__/transform_matching_parts.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/updaters/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/updaters/__pycache__/mobject_update_utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/animation/updaters/__pycache__/update.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/camera/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/camera/__pycache__/camera.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/camera/__pycache__/mapping_camera.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/camera/__pycache__/moving_camera.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/camera/__pycache__/multi_camera.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/camera/__pycache__/three_d_camera.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/cfg/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/cfg/__pycache__/group.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/checkhealth/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/checkhealth/__pycache__/checks.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/checkhealth/__pycache__/commands.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/__pycache__/default_group.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/init/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/init/__pycache__/commands.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/plugins/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/plugins/__pycache__/commands.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/render/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/render/__pycache__/commands.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/render/__pycache__/ease_of_access_options.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/render/__pycache__/global_options.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/render/__pycache__/output_options.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/cli/render/__pycache__/render_options.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/__pycache__/constants.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/gui/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/gui/__pycache__/gui.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/__pycache__/frame.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/arc.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/boolean_ops.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/labeled.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/line.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/polygram.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/shape_matchers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/geometry/__pycache__/tips.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/__pycache__/graph.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/graphing/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/graphing/__pycache__/coordinate_systems.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/graphing/__pycache__/functions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/graphing/__pycache__/number_line.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/graphing/__pycache__/probability.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/graphing/__pycache__/scale.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/__pycache__/logo.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/__pycache__/matrix.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/__pycache__/mobject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/dot_cloud.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_compatibility.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_geometry.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_image_mobject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_mobject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_point_cloud_mobject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_surface.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_three_dimensions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/opengl/__pycache__/opengl_vectorized_mobject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/svg/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/svg/__pycache__/brace.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/svg/__pycache__/svg_mobject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/__pycache__/table.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/text/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/text/__pycache__/code_mobject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/text/__pycache__/numbers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/text/__pycache__/tex_mobject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/text/__pycache__/text_mobject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/three_d/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/three_d/__pycache__/polyhedra.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/three_d/__pycache__/three_d_utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/three_d/__pycache__/three_dimensions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/types/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/types/__pycache__/image_mobject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/types/__pycache__/point_cloud_mobject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/types/__pycache__/vectorized_mobject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/__pycache__/value_tracker.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/mobject/__pycache__/vector_field.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/opengl/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/plugins/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/plugins/__pycache__/plugins_flags.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/renderer/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/renderer/__pycache__/cairo_renderer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/renderer/__pycache__/opengl_renderer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/renderer/__pycache__/opengl_renderer_window.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/renderer/__pycache__/shader.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/renderer/__pycache__/shader_wrapper.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/renderer/__pycache__/vectorized_mobject_rendering.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/scene/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/scene/__pycache__/moving_camera_scene.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/scene/__pycache__/scene.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/scene/__pycache__/scene_file_writer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/scene/__pycache__/section.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/scene/__pycache__/three_d_scene.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/scene/__pycache__/vector_space_scene.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/scene/__pycache__/zoomed_scene.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/__pycache__/typing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/bezier.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/caching.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/color/__pycache__/AS2700.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/color/__pycache__/BS381.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/color/__pycache__/DVIPSNAMES.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/color/__pycache__/SVGNAMES.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/color/__pycache__/X11.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/color/__pycache__/XKCD.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/color/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/color/__pycache__/core.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/color/__pycache__/manim_colors.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/commands.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/config_ops.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/debug.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/deprecation.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/docbuild/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/docbuild/__pycache__/autoaliasattr_directive.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/docbuild/__pycache__/autocolor_directive.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/docbuild/__pycache__/manim_directive.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/docbuild/__pycache__/module_parsing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/family.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/family_ops.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/file_ops.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/hashing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/images.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/ipython_magic.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/iterables.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/module_ops.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/opengl.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/parameter_parsing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/paths.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/polylabel.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/qhull.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/rate_functions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/simple_functions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/sounds.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/space_ops.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/testing/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/testing/__pycache__/_frames_testers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/testing/__pycache__/_show_diff.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/testing/__pycache__/_test_class_makers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/testing/__pycache__/frames_comparison.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/tex.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/tex_file_writing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/tex_templates.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manim/utils/__pycache__/unit.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/manim",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/manimce",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "manim",
+  "sha256": "7ed9d0ada32b4f499bbf37b1f3dcb3357b25398c4d066fe949e94e658e129d80",
+  "size": 469863,
+  "subdir": "noarch",
+  "timestamp": 1737644189000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/manim-0.19.0-pyh29332c3_0.conda",
+  "version": "0.19.0"
+}

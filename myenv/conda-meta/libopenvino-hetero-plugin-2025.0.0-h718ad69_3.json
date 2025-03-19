@@ -1,0 +1,44 @@
+{
+  "build": "h718ad69_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=18",
+    "pugixml >=1.15,<1.16.0a0",
+    "libopenvino 2025.0.0 h3f17238_3"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/libopenvino-hetero-plugin-2025.0.0-h718ad69_3",
+  "files": [
+    "lib/openvino-2025.0.0/libopenvino_hetero_plugin.so"
+  ],
+  "fn": "libopenvino-hetero-plugin-2025.0.0-h718ad69_3.conda",
+  "license": "",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/libopenvino-hetero-plugin-2025.0.0-h718ad69_3",
+    "type": 1
+  },
+  "md5": "2d422a8742205a0b963126e074ac61df",
+  "name": "libopenvino-hetero-plugin",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/libopenvino-hetero-plugin-2025.0.0-h718ad69_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/openvino-2025.0.0/libopenvino_hetero_plugin.so",
+        "path_type": "hardlink",
+        "sha256": "e0d00055f9a251de53a303002f05b894c0eaf96c8814988481446052c1965820",
+        "sha256_in_prefix": "e0d00055f9a251de53a303002f05b894c0eaf96c8814988481446052c1965820",
+        "size_in_bytes": 609072
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a6d29d0f288efcd453bfe31376f6d3fc6a908a3003c1dc02756a5dcc777c3566",
+  "size": 174158,
+  "subdir": "osx-arm64",
+  "timestamp": 1742042462000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenvino-hetero-plugin-2025.0.0-h718ad69_3.conda",
+  "version": "2025.0.0"
+}

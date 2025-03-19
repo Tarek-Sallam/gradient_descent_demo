@@ -1,0 +1,237 @@
+{
+  "build": "py312h81bd7bf_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python_abi 3.12.* *_cp312",
+    "python >=3.12.0rc3,<3.13.0a0",
+    "python >=3.12.0rc3,<3.13.0a0 *_cpython"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/srt-3.5.3-py312h81bd7bf_0",
+  "files": [
+    "bin/srt",
+    "bin/srt-deduplicate",
+    "bin/srt-fixed-timeshift",
+    "bin/srt-linear-timeshift",
+    "bin/srt-lines-matching",
+    "bin/srt-mux",
+    "bin/srt-normalise",
+    "bin/srt-play",
+    "bin/srt-process",
+    "lib/python3.12/site-packages/__pycache__/srt.cpython-312.pyc",
+    "lib/python3.12/site-packages/srt-3.5.3.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/srt-3.5.3.dist-info/LICENSE",
+    "lib/python3.12/site-packages/srt-3.5.3.dist-info/METADATA",
+    "lib/python3.12/site-packages/srt-3.5.3.dist-info/RECORD",
+    "lib/python3.12/site-packages/srt-3.5.3.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/srt-3.5.3.dist-info/WHEEL",
+    "lib/python3.12/site-packages/srt-3.5.3.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/srt-3.5.3.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/srt.py",
+    "lib/python3.12/site-packages/srt_tools/__init__.py",
+    "lib/python3.12/site-packages/srt_tools/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/srt_tools/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/srt_tools/utils.py"
+  ],
+  "fn": "srt-3.5.3-py312h81bd7bf_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/srt-3.5.3-py312h81bd7bf_0",
+    "type": 1
+  },
+  "md5": "74eed6a8e3737f61a21cdafb32b63e38",
+  "name": "srt",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/srt-3.5.3-py312h81bd7bf_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/srt",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/srt_1695880389941/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "8c0d6fa164eef98975d09aaeb7cefd020b04378bea65e41806f976c2a8c07d24",
+        "sha256_in_prefix": "0f99d91ba13b75b04a4b0d2174e987abb401cf0b82c0fbcb9f197c3018b71029",
+        "size_in_bytes": 1572
+      },
+      {
+        "_path": "bin/srt-deduplicate",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/srt_1695880389941/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "726c3114d1e25618fc8063d7ff447c59e202d5e3d76c71c8ab85e6349c6e39b6",
+        "sha256_in_prefix": "7859b98b19c677e2337db74564115d22feb507d6611ef710fd0d94fe222811b8",
+        "size_in_bytes": 3181
+      },
+      {
+        "_path": "bin/srt-fixed-timeshift",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/srt_1695880389941/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "72965bb5ccce38dffb1702ea446275f35b9bad85bd8e8aab6fcba7b514152e6a",
+        "sha256_in_prefix": "c01ac6399598cea3358f6bca3e06237ff70d75f23c02d1c0d2f6d4a5e555e06d",
+        "size_in_bytes": 1601
+      },
+      {
+        "_path": "bin/srt-linear-timeshift",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/srt_1695880389941/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "77662acbed54a4bd7bcb03c3edd4c85b9f9d1367fbad3ecbb574e7937d246070",
+        "sha256_in_prefix": "46c629dbf449d3e6bead3d7654103bbac01edba159d6547ca372775e0a6c8e7e",
+        "size_in_bytes": 3453
+      },
+      {
+        "_path": "bin/srt-lines-matching",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/srt_1695880389941/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "ec85d6317acc72235e547bd96eb6a8cdea12d91ac1f0e416c3ea4fae63281940",
+        "sha256_in_prefix": "04f6b70996c7d2c9be1cb45b004571d982cd2f37f6f885439dc6a4034882be1a",
+        "size_in_bytes": 2697
+      },
+      {
+        "_path": "bin/srt-mux",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/srt_1695880389941/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "918d0b74217ff9803c8baec0ed0e90c07147064b456ccfc79373e3f27b8b81db",
+        "sha256_in_prefix": "6e9365c7d3288d73811855c0e4b9d26bb0838168d10c7a96db1e498a69783340",
+        "size_in_bytes": 3763
+      },
+      {
+        "_path": "bin/srt-normalise",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/srt_1695880389941/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "e5ca3796ad7d0cb794936aac28346915bbf9fec58bf02cd41e7b90f79be2d51b",
+        "sha256_in_prefix": "359630f118aa8e708c23b21b656ef7dde013f222898c54ff7e445983df07fe87",
+        "size_in_bytes": 1037
+      },
+      {
+        "_path": "bin/srt-play",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/srt_1695880389941/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "2ebf713b4162686d882901b99df3ca1d5831544faaae40c69db53009cb28bc7d",
+        "sha256_in_prefix": "e0eb65e6d8fc7d6b3e9ab6f60932436e370c69ceff3a45778b99dffc222e9a95",
+        "size_in_bytes": 1790
+      },
+      {
+        "_path": "bin/srt-process",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/srt_1695880389941/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "3d14e71119ffd2a30f2e7a327d39d2b7bc6ef3f8e8a97aa8c3bb61b11f4d6c9b",
+        "sha256_in_prefix": "51c25a7ac591564bade0140d537720e349842af9c978b93fc4d5601e08b4cd39",
+        "size_in_bytes": 1875
+      },
+      {
+        "_path": "lib/python3.12/site-packages/__pycache__/srt.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b7eb8d9b17f7bd1672c6a9649d03ae79dd9ead1c788af4c2ea7c8386a170a6a",
+        "sha256_in_prefix": "8b7eb8d9b17f7bd1672c6a9649d03ae79dd9ead1c788af4c2ea7c8386a170a6a",
+        "size_in_bytes": 19557
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt-3.5.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt-3.5.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "23fc2fec09b621a22699a1fa8685b5b21c64fde7f9385ca6e5f2f29d0a4bc776",
+        "sha256_in_prefix": "23fc2fec09b621a22699a1fa8685b5b21c64fde7f9385ca6e5f2f29d0a4bc776",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt-3.5.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "56e1c7ac9389030fcf0726b91af7bd7f74be46e931d1a460a426ae7365f1e892",
+        "sha256_in_prefix": "56e1c7ac9389030fcf0726b91af7bd7f74be46e931d1a460a426ae7365f1e892",
+        "size_in_bytes": 7082
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt-3.5.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "13ea6528540bd60491cd6249c19a4a0429ae3a8fba859ef2640c6fbcf26c954d",
+        "sha256_in_prefix": "13ea6528540bd60491cd6249c19a4a0429ae3a8fba859ef2640c6fbcf26c954d",
+        "size_in_bytes": 1732
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt-3.5.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt-3.5.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt-3.5.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d02eff833938254cf7096c496ff37d7ce1c4952367ea2d7520a0e05d5e8b12c5",
+        "sha256_in_prefix": "d02eff833938254cf7096c496ff37d7ce1c4952367ea2d7520a0e05d5e8b12c5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt-3.5.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "041c3b5d1f994614ff29cde6ea3f4488250d5c7afff958df597c30be2371eb2a",
+        "sha256_in_prefix": "041c3b5d1f994614ff29cde6ea3f4488250d5c7afff958df597c30be2371eb2a",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt.py",
+        "path_type": "hardlink",
+        "sha256": "26c30c92f3b6624d6f135a2cef0f3065a969a6ccd6eb49b3ff42f20d1319dd3c",
+        "sha256_in_prefix": "26c30c92f3b6624d6f135a2cef0f3065a969a6ccd6eb49b3ff42f20d1319dd3c",
+        "size_in_bytes": 18592
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt_tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt_tools/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "73b968d2360fc9a7874997d6ceaf9aa5acc015ca4fe513ee287ce4bac52486ac",
+        "sha256_in_prefix": "73b968d2360fc9a7874997d6ceaf9aa5acc015ca4fe513ee287ce4bac52486ac",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt_tools/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "be8797fe848fc0204bf5c4412b07e7144be38b19ef03f724b572626512c60906",
+        "sha256_in_prefix": "be8797fe848fc0204bf5c4412b07e7144be38b19ef03f724b572626512c60906",
+        "size_in_bytes": 8638
+      },
+      {
+        "_path": "lib/python3.12/site-packages/srt_tools/utils.py",
+        "path_type": "hardlink",
+        "sha256": "86f6844e061cfd3b808e6229618511d52854878e3e55512657aa8f7a98ce95dd",
+        "sha256_in_prefix": "86f6844e061cfd3b808e6229618511d52854878e3e55512657aa8f7a98ce95dd",
+        "size_in_bytes": 7442
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "92b035d27ce0c72ca76204fd679227fc9b31d659628872b06f57a9af7793b7d9",
+  "size": 33923,
+  "subdir": "osx-arm64",
+  "timestamp": 1695880763000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/srt-3.5.3-py312h81bd7bf_0.conda",
+  "version": "3.5.3"
+}

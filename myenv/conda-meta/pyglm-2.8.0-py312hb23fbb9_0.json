@@ -1,0 +1,231 @@
+{
+  "build": "py312hb23fbb9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "python_abi 3.12.* *_cp312",
+    "libcxx >=18",
+    "python >=3.12,<3.13.0a0",
+    "python >=3.12,<3.13.0a0 *_cpython"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/pyglm-2.8.0-py312hb23fbb9_0",
+  "files": [
+    "lib/python3.12/site-packages/glm/__init__.py",
+    "lib/python3.12/site-packages/glm/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/glm/py.typed",
+    "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/COPYING",
+    "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/LICENSE",
+    "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/pyglm-stubs/LICENSE",
+    "lib/python3.12/site-packages/pyglm-stubs/__init__.py",
+    "lib/python3.12/site-packages/pyglm-stubs/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pyglm-stubs/glm/__init__.py",
+    "lib/python3.12/site-packages/pyglm-stubs/glm/__init__.pyi",
+    "lib/python3.12/site-packages/pyglm-stubs/glm/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pyglm/__init__.py",
+    "lib/python3.12/site-packages/pyglm/__init__.pyi",
+    "lib/python3.12/site-packages/pyglm/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pyglm/__pycache__/glm_typing.cpython-312.pyc",
+    "lib/python3.12/site-packages/pyglm/glm.cpython-312-darwin.so",
+    "lib/python3.12/site-packages/pyglm/glm_typing.py"
+  ],
+  "fn": "pyglm-2.8.0-py312hb23fbb9_0.conda",
+  "license": "Zlib",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/pyglm-2.8.0-py312hb23fbb9_0",
+    "type": 1
+  },
+  "md5": "1e1bc8ad903658d11d31bd9a0735e260",
+  "name": "pyglm",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/pyglm-2.8.0-py312hb23fbb9_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/glm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "22705385de6f76bd82d7084288308bf891789e9a973ee2a084b9755635f5409b",
+        "sha256_in_prefix": "22705385de6f76bd82d7084288308bf891789e9a973ee2a084b9755635f5409b",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glm/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b86d5f2e48b07051db582697a6944253e42027da5ed2ac7f53fe608ec886aa57",
+        "sha256_in_prefix": "b86d5f2e48b07051db582697a6944253e42027da5ed2ac7f53fe608ec886aa57",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glm/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "39233f2e249e36dac3a11a36af833ce73eb6a76ab364071d0b099bbe408b950e",
+        "sha256_in_prefix": "39233f2e249e36dac3a11a36af833ce73eb6a76ab364071d0b099bbe408b950e",
+        "size_in_bytes": 4287
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "13c6ae8a8f9499e8787518db94b1607ac209ae5ad5ec68abfc377cdb1d09aaa1",
+        "sha256_in_prefix": "13c6ae8a8f9499e8787518db94b1607ac209ae5ad5ec68abfc377cdb1d09aaa1",
+        "size_in_bytes": 867
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "90c2785eb9851ac09ab61d827d3764dd7cf0d4e4c6045578b406ab2052b59a2c",
+        "sha256_in_prefix": "90c2785eb9851ac09ab61d827d3764dd7cf0d4e4c6045578b406ab2052b59a2c",
+        "size_in_bytes": 13622
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "53e951a560a79632d8ff1697acc726247a1276c6281a3f1e7732b949f7bf897d",
+        "sha256_in_prefix": "53e951a560a79632d8ff1697acc726247a1276c6281a3f1e7732b949f7bf897d",
+        "size_in_bytes": 1765
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "56e8ccdf2a530b2516ea17130dd2b67a3d00455331954d438e587fcd69c382a9",
+        "sha256_in_prefix": "56e8ccdf2a530b2516ea17130dd2b67a3d00455331954d438e587fcd69c382a9",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "cd6afb870216647272b0f1c6cce985c5cbe6aef65410bca049c33dafb5c18158",
+        "sha256_in_prefix": "cd6afb870216647272b0f1c6cce985c5cbe6aef65410bca049c33dafb5c18158",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-2.8.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c8d023977ed277a4dd7e5b03ca21ceaaa077519447b543ba2af71bcd2050b389",
+        "sha256_in_prefix": "c8d023977ed277a4dd7e5b03ca21ceaaa077519447b543ba2af71bcd2050b389",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-stubs/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "2708a89cbda896d338dcb2bb5c3b7cba9b404df4b5a604b36cfcc7216c0d9c23",
+        "sha256_in_prefix": "2708a89cbda896d338dcb2bb5c3b7cba9b404df4b5a604b36cfcc7216c0d9c23",
+        "size_in_bytes": 1048
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-stubs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-stubs/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "27a0926243ed568e0bb4f433b49d4a9778d1411738325563101c24b75518f8c4",
+        "sha256_in_prefix": "27a0926243ed568e0bb4f433b49d4a9778d1411738325563101c24b75518f8c4",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-stubs/glm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-stubs/glm/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "e08b4ec6948e1c0c2dfadd7296230bbaeea0c5e24f4025bd3573075fdd0cac90",
+        "sha256_in_prefix": "e08b4ec6948e1c0c2dfadd7296230bbaeea0c5e24f4025bd3573075fdd0cac90",
+        "size_in_bytes": 725562
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm-stubs/glm/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f45424e4b7ad1c1ab36fa5aadcd3e20207a59756ad7a6b3b91dac2d3306d5bc",
+        "sha256_in_prefix": "5f45424e4b7ad1c1ab36fa5aadcd3e20207a59756ad7a6b3b91dac2d3306d5bc",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "061ec134dd206685976f0042f29a2872578e0a45b3ac4002f819ac9c19f1cbef",
+        "sha256_in_prefix": "061ec134dd206685976f0042f29a2872578e0a45b3ac4002f819ac9c19f1cbef",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "3a86737438c2143d8bcf4f64e8b308d2a16895b508fbdfcf0a4bb388a567cbab",
+        "sha256_in_prefix": "3a86737438c2143d8bcf4f64e8b308d2a16895b508fbdfcf0a4bb388a567cbab",
+        "size_in_bytes": 725558
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9473d6d051cd88c1a103fa76be8eeafb01be39fb47734def6f5e6bb5c542d5c",
+        "sha256_in_prefix": "c9473d6d051cd88c1a103fa76be8eeafb01be39fb47734def6f5e6bb5c542d5c",
+        "size_in_bytes": 271
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm/__pycache__/glm_typing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "194c5c3c7f036fb0027307372ba31e74f32a240ae12b3d49826ed48ae129bbe5",
+        "sha256_in_prefix": "194c5c3c7f036fb0027307372ba31e74f32a240ae12b3d49826ed48ae129bbe5",
+        "size_in_bytes": 142236
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm/glm.cpython-312-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/pyglm_1738776524073/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "6dac83389da138aa2853f86477c8e028601e3575683c5441703acaf6810379a4",
+        "sha256_in_prefix": "f3a8b4f5da063d6b4ccc6629a83b83662461659395201294aae8281849c8dcbe",
+        "size_in_bytes": 4567296
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pyglm/glm_typing.py",
+        "path_type": "hardlink",
+        "sha256": "c477c137391afbe8c29a5a549803b45288365e73f1e68c457f307c87f5a433ae",
+        "sha256_in_prefix": "c477c137391afbe8c29a5a549803b45288365e73f1e68c457f307c87f5a433ae",
+        "size_in_bytes": 76973
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "75ccd59b91166dca8ee48b25a5255bb25c9a47086e595c465104b2cc395ab793",
+  "size": 898244,
+  "subdir": "osx-arm64",
+  "timestamp": 1738777014000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pyglm-2.8.0-py312hb23fbb9_0.conda",
+  "version": "2.8.0"
+}

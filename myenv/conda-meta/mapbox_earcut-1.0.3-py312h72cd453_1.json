@@ -1,0 +1,103 @@
+{
+  "build": "py312h72cd453_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libgd",
+    "__osx >=11.0",
+    "python_abi 3.12.* *_cp312",
+    "libcxx >=18",
+    "python >=3.12,<3.13.0a0",
+    "python >=3.12,<3.13.0a0 *_cpython",
+    "numpy >=1.19,<3"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/mapbox_earcut-1.0.3-py312h72cd453_1",
+  "files": [
+    "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/METADATA",
+    "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/RECORD",
+    "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/WHEEL",
+    "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/licenses/LICENSE.md",
+    "lib/python3.12/site-packages/mapbox_earcut.cpython-312-darwin.so"
+  ],
+  "fn": "mapbox_earcut-1.0.3-py312h72cd453_1.conda",
+  "license": "ISC AND BSD-3-Clause",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/mapbox_earcut-1.0.3-py312h72cd453_1",
+    "type": 1
+  },
+  "md5": "d3982b0910b64a83de94103192afc26f",
+  "name": "mapbox_earcut",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/mapbox_earcut-1.0.3-py312h72cd453_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1775af46a66005be4404961abe7df58484a80713832691d6a3d629bdbb0d7203",
+        "sha256_in_prefix": "1775af46a66005be4404961abe7df58484a80713832691d6a3d629bdbb0d7203",
+        "size_in_bytes": 2242
+      },
+      {
+        "_path": "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e00984cc0b6afa14174dfa4b490ef4709fad8173599c248106790fed6720c34b",
+        "sha256_in_prefix": "e00984cc0b6afa14174dfa4b490ef4709fad8173599c248106790fed6720c34b",
+        "size_in_bytes": 719
+      },
+      {
+        "_path": "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6d2da4c70535a62a057df84d42695fbe30f41f57e505fe59b715788c38fc36f7",
+        "sha256_in_prefix": "6d2da4c70535a62a057df84d42695fbe30f41f57e505fe59b715788c38fc36f7",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "279aa3cc16f5f8634bb55f4672fd2aa7ec6dd78391c9a054c7b798ebc9d252da",
+        "sha256_in_prefix": "279aa3cc16f5f8634bb55f4672fd2aa7ec6dd78391c9a054c7b798ebc9d252da",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "lib/python3.12/site-packages/mapbox_earcut-1.0.3.dist-info/licenses/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "89ad38409121961753c5aa8863eceacd954183e9b3a7720d88be53fb1a3ecd87",
+        "sha256_in_prefix": "89ad38409121961753c5aa8863eceacd954183e9b3a7720d88be53fb1a3ecd87",
+        "size_in_bytes": 938
+      },
+      {
+        "_path": "lib/python3.12/site-packages/mapbox_earcut.cpython-312-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "ae9818d1d71002f0de473fe224b783ddea48349b5bf07779b158affc14fa2ca3",
+        "sha256_in_prefix": "ae9818d1d71002f0de473fe224b783ddea48349b5bf07779b158affc14fa2ca3",
+        "size_in_bytes": 198592
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b01dbdb742948b64f1166ad9c8fe4a5bb7b2348ee8e6b4e940076c38f95a463f",
+  "size": 66504,
+  "subdir": "osx-arm64",
+  "timestamp": 1736469663000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/mapbox_earcut-1.0.3-py312h72cd453_1.conda",
+  "version": "1.0.3"
+}

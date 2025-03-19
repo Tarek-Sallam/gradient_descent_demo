@@ -1,0 +1,293 @@
+{
+  "build": "pyhff2d567_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "build <0"
+  ],
+  "depends": [
+    "colorama",
+    "pyproject_hooks",
+    "python >=3.9",
+    "tomli >=1.1.0",
+    "packaging >=19.0",
+    "importlib-metadata >=4.6"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/python-build-1.2.2.post1-pyhff2d567_1",
+  "files": [
+    "lib/python3.12/site-packages/build-1.2.2.post1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/build-1.2.2.post1.dist-info/LICENSE",
+    "lib/python3.12/site-packages/build-1.2.2.post1.dist-info/METADATA",
+    "lib/python3.12/site-packages/build-1.2.2.post1.dist-info/RECORD",
+    "lib/python3.12/site-packages/build-1.2.2.post1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/build-1.2.2.post1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/build-1.2.2.post1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/build-1.2.2.post1.dist-info/entry_points.txt",
+    "lib/python3.12/site-packages/build/__init__.py",
+    "lib/python3.12/site-packages/build/__main__.py",
+    "lib/python3.12/site-packages/build/_builder.py",
+    "lib/python3.12/site-packages/build/_compat/__init__.py",
+    "lib/python3.12/site-packages/build/_compat/importlib.py",
+    "lib/python3.12/site-packages/build/_compat/tarfile.py",
+    "lib/python3.12/site-packages/build/_compat/tomllib.py",
+    "lib/python3.12/site-packages/build/_ctx.py",
+    "lib/python3.12/site-packages/build/_exceptions.py",
+    "lib/python3.12/site-packages/build/_types.py",
+    "lib/python3.12/site-packages/build/_util.py",
+    "lib/python3.12/site-packages/build/env.py",
+    "lib/python3.12/site-packages/build/py.typed",
+    "lib/python3.12/site-packages/build/util.py",
+    "lib/python3.12/site-packages/build/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/build/__pycache__/__main__.cpython-312.pyc",
+    "lib/python3.12/site-packages/build/__pycache__/_builder.cpython-312.pyc",
+    "lib/python3.12/site-packages/build/_compat/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/build/_compat/__pycache__/importlib.cpython-312.pyc",
+    "lib/python3.12/site-packages/build/_compat/__pycache__/tarfile.cpython-312.pyc",
+    "lib/python3.12/site-packages/build/_compat/__pycache__/tomllib.cpython-312.pyc",
+    "lib/python3.12/site-packages/build/__pycache__/_ctx.cpython-312.pyc",
+    "lib/python3.12/site-packages/build/__pycache__/_exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/build/__pycache__/_types.cpython-312.pyc",
+    "lib/python3.12/site-packages/build/__pycache__/_util.cpython-312.pyc",
+    "lib/python3.12/site-packages/build/__pycache__/env.cpython-312.pyc",
+    "lib/python3.12/site-packages/build/__pycache__/util.cpython-312.pyc",
+    "bin/python-build",
+    "bin/pyproject-build"
+  ],
+  "fn": "python-build-1.2.2.post1-pyhff2d567_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/python-build-1.2.2.post1-pyhff2d567_1",
+    "type": 1
+  },
+  "md5": "0903621fe8a9f37286596529528f4f74",
+  "name": "python-build",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/python-build-1.2.2.post1-pyhff2d567_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/build-1.2.2.post1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/build-1.2.2.post1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "aaf9a29ca5907971ccf07de025375db34539a8d5eeebce20b46099805722106f",
+        "sha256_in_prefix": "aaf9a29ca5907971ccf07de025375db34539a8d5eeebce20b46099805722106f",
+        "size_in_bytes": 1113
+      },
+      {
+        "_path": "site-packages/build-1.2.2.post1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0b07dede38d2911d04ffaa2a06cfe849879c2ed10cfbe725f2d199fb9cdf646f",
+        "sha256_in_prefix": "0b07dede38d2911d04ffaa2a06cfe849879c2ed10cfbe725f2d199fb9cdf646f",
+        "size_in_bytes": 6450
+      },
+      {
+        "_path": "site-packages/build-1.2.2.post1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "874c73d94e6e445e64a8fc12567365125be3e7115d5eab781853daeb43c7448a",
+        "sha256_in_prefix": "874c73d94e6e445e64a8fc12567365125be3e7115d5eab781853daeb43c7448a",
+        "size_in_bytes": 2440
+      },
+      {
+        "_path": "site-packages/build-1.2.2.post1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/build-1.2.2.post1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0a950253178741b44de54191407611268acee407fe432fdf1cc72d710f034862",
+        "sha256_in_prefix": "0a950253178741b44de54191407611268acee407fe432fdf1cc72d710f034862",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/build-1.2.2.post1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "931109e9ce2f9f062c0d3761a94853ffc5705c92e16f338b6ee97db1c7bbc45e",
+        "sha256_in_prefix": "931109e9ce2f9f062c0d3761a94853ffc5705c92e16f338b6ee97db1c7bbc45e",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/build-1.2.2.post1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "3186db33a24662e6e02234e070ba4d219a5cd0f59b8bd991016ed586d733952f",
+        "sha256_in_prefix": "3186db33a24662e6e02234e070ba4d219a5cd0f59b8bd991016ed586d733952f",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/build/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e28c55582fccfe1453452c83ad4e1dd10fb784f57a2744e1186cea416a766165",
+        "sha256_in_prefix": "e28c55582fccfe1453452c83ad4e1dd10fb784f57a2744e1186cea416a766165",
+        "size_in_bytes": 843
+      },
+      {
+        "_path": "site-packages/build/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "a6fce563afabf155c7483de1ed28003484e5e6f0d5d5931d10fc7c9ff2f2b2e0",
+        "sha256_in_prefix": "a6fce563afabf155c7483de1ed28003484e5e6f0d5d5931d10fc7c9ff2f2b2e0",
+        "size_in_bytes": 14227
+      },
+      {
+        "_path": "site-packages/build/_builder.py",
+        "path_type": "hardlink",
+        "sha256": "676b831d9c62978dc72df859e8a29cdea8dde5936225f2b566ee968092c94c0e",
+        "sha256_in_prefix": "676b831d9c62978dc72df859e8a29cdea8dde5936225f2b566ee968092c94c0e",
+        "size_in_bytes": 13469
+      },
+      {
+        "_path": "site-packages/build/_compat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/build/_compat/importlib.py",
+        "path_type": "hardlink",
+        "sha256": "99d518627e5c89abc143acc513eda08450e8b4a642e10b9f6ca3323e0e61dd62",
+        "sha256_in_prefix": "99d518627e5c89abc143acc513eda08450e8b4a642e10b9f6ca3323e0e61dd62",
+        "size_in_bytes": 467
+      },
+      {
+        "_path": "site-packages/build/_compat/tarfile.py",
+        "path_type": "hardlink",
+        "sha256": "f3eb039db1bef666793ac99254f02bc44e8a23a74f7b4c17db27f87ad0d2ab19",
+        "sha256_in_prefix": "f3eb039db1bef666793ac99254f02bc44e8a23a74f7b4c17db27f87ad0d2ab19",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "site-packages/build/_compat/tomllib.py",
+        "path_type": "hardlink",
+        "sha256": "253faaf5f06efef3ade1f3d62a1d9b20abdf928eb7df3ffbe05fd33ff635edcb",
+        "sha256_in_prefix": "253faaf5f06efef3ade1f3d62a1d9b20abdf928eb7df3ffbe05fd33ff635edcb",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "site-packages/build/_ctx.py",
+        "path_type": "hardlink",
+        "sha256": "404073418613d81bb28f478791328843718adcb115eab102fb68918ae538b13f",
+        "sha256_in_prefix": "404073418613d81bb28f478791328843718adcb115eab102fb68918ae538b13f",
+        "size_in_bytes": 2880
+      },
+      {
+        "_path": "site-packages/build/_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "971118af8d9e1bec207cb6dc321964b3871cd2ef8fdf330cf2c6d6ada20dc08e",
+        "sha256_in_prefix": "971118af8d9e1bec207cb6dc321964b3871cd2ef8fdf330cf2c6d6ada20dc08e",
+        "size_in_bytes": 1625
+      },
+      {
+        "_path": "site-packages/build/_types.py",
+        "path_type": "hardlink",
+        "sha256": "89fdbe23fd05d47196861b9f66a662043bc077f9e208c48a687026587508b1e8",
+        "sha256_in_prefix": "89fdbe23fd05d47196861b9f66a662043bc077f9e208c48a687026587508b1e8",
+        "size_in_bytes": 673
+      },
+      {
+        "_path": "site-packages/build/_util.py",
+        "path_type": "hardlink",
+        "sha256": "0f8c45c680383d3dbbc5a96ff5afb97e50ad66064734568aa6220cd97a5d33db",
+        "sha256_in_prefix": "0f8c45c680383d3dbbc5a96ff5afb97e50ad66064734568aa6220cd97a5d33db",
+        "size_in_bytes": 2325
+      },
+      {
+        "_path": "site-packages/build/env.py",
+        "path_type": "hardlink",
+        "sha256": "9437b71dfa8daf8048f66305b06629e186c5fc82721417ceef839fb45f352a63",
+        "sha256_in_prefix": "9437b71dfa8daf8048f66305b06629e186c5fc82721417ceef839fb45f352a63",
+        "size_in_bytes": 13473
+      },
+      {
+        "_path": "site-packages/build/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/build/util.py",
+        "path_type": "hardlink",
+        "sha256": "8811cfa54d76f28dc46f174539348eddae0d92d3bd0e74d6889a1705e76a9aed",
+        "sha256_in_prefix": "8811cfa54d76f28dc46f174539348eddae0d92d3bd0e74d6889a1705e76a9aed",
+        "size_in_bytes": 1776
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/__pycache__/_builder.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/_compat/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/_compat/__pycache__/importlib.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/_compat/__pycache__/tarfile.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/_compat/__pycache__/tomllib.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/__pycache__/_ctx.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/__pycache__/_exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/__pycache__/_types.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/__pycache__/_util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/__pycache__/env.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/build/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/python-build",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/pyproject-build",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "da40ab7413029351852268ca479e5cc642011c72317bd02dba28235c5c5ec955",
+  "size": 25108,
+  "subdir": "noarch",
+  "timestamp": 1733230700000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-build-1.2.2.post1-pyhff2d567_1.conda",
+  "version": "1.2.2.post1"
+}

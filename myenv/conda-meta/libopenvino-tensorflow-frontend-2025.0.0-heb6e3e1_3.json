@@ -1,0 +1,56 @@
+{
+  "build": "heb6e3e1_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=18",
+    "libabseil * cxx17*",
+    "snappy >=1.2.1,<1.3.0a0",
+    "libprotobuf >=5.29.3,<5.29.4.0a0",
+    "libabseil >=20250127.0,<20250128.0a0",
+    "libopenvino 2025.0.0 h3f17238_3"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/libopenvino-tensorflow-frontend-2025.0.0-heb6e3e1_3",
+  "files": [
+    "lib/libopenvino_tensorflow_frontend.2025.0.0.dylib",
+    "lib/libopenvino_tensorflow_frontend.2500.dylib"
+  ],
+  "fn": "libopenvino-tensorflow-frontend-2025.0.0-heb6e3e1_3.conda",
+  "license": "",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/libopenvino-tensorflow-frontend-2025.0.0-heb6e3e1_3",
+    "type": 1
+  },
+  "md5": "b3d717c7190032e55234d4f728053248",
+  "name": "libopenvino-tensorflow-frontend",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/libopenvino-tensorflow-frontend-2025.0.0-heb6e3e1_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libopenvino_tensorflow_frontend.2025.0.0.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/openvino-split_1742036225116/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "2ce54c9a4e152d539fcbcba4fb6150bef21d13dc1b77534b575c7434c1c9cac9",
+        "sha256_in_prefix": "38122dcffb2b1b36db2485ecb117c6a11f4806a0bff58e5f3dfa0facc7a7d482",
+        "size_in_bytes": 4747520
+      },
+      {
+        "_path": "lib/libopenvino_tensorflow_frontend.2500.dylib",
+        "path_type": "softlink",
+        "sha256": "2ce54c9a4e152d539fcbcba4fb6150bef21d13dc1b77534b575c7434c1c9cac9",
+        "size_in_bytes": 4747520
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d463cd39d3d9165d6a42341cb8d61237613dd8b7e16f74a0a7d9bd2de3a236bf",
+  "size": 945306,
+  "subdir": "osx-arm64",
+  "timestamp": 1742042598000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenvino-tensorflow-frontend-2025.0.0-heb6e3e1_3.conda",
+  "version": "2025.0.0"
+}

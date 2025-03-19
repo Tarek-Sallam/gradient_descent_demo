@@ -1,0 +1,53 @@
+{
+  "build": "h1ae5b81_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=18",
+    "libabseil * cxx17*",
+    "libprotobuf >=5.29.3,<5.29.4.0a0",
+    "libabseil >=20250127.0,<20250128.0a0",
+    "libopenvino 2025.0.0 h3f17238_3"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/libopenvino-onnx-frontend-2025.0.0-h1ae5b81_3",
+  "files": [
+    "lib/libopenvino_onnx_frontend.2025.0.0.dylib",
+    "lib/libopenvino_onnx_frontend.2500.dylib"
+  ],
+  "fn": "libopenvino-onnx-frontend-2025.0.0-h1ae5b81_3.conda",
+  "license": "",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/libopenvino-onnx-frontend-2025.0.0-h1ae5b81_3",
+    "type": 1
+  },
+  "md5": "b086f7f97f8e6e1d1398e2f8f3c763ff",
+  "name": "libopenvino-onnx-frontend",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/libopenvino-onnx-frontend-2025.0.0-h1ae5b81_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libopenvino_onnx_frontend.2025.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "251e652e02fc8e53da3204d13982be897b183269664fabde307c472f5d370d96",
+        "sha256_in_prefix": "251e652e02fc8e53da3204d13982be897b183269664fabde307c472f5d370d96",
+        "size_in_bytes": 6934256
+      },
+      {
+        "_path": "lib/libopenvino_onnx_frontend.2500.dylib",
+        "path_type": "softlink",
+        "sha256": "251e652e02fc8e53da3204d13982be897b183269664fabde307c472f5d370d96",
+        "size_in_bytes": 6934256
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fea1dcfd136637f75a2c3044a1ee8af3ac9ab0ca89e5b44a4896f73267821f7a",
+  "size": 1284556,
+  "subdir": "osx-arm64",
+  "timestamp": 1742042510000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenvino-onnx-frontend-2025.0.0-h1ae5b81_3.conda",
+  "version": "2025.0.0"
+}

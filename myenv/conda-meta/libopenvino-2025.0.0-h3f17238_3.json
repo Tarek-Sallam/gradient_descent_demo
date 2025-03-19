@@ -1,0 +1,66 @@
+{
+  "build": "h3f17238_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=18",
+    "tbb >=2021.13.0",
+    "pugixml >=1.15,<1.16.0a0"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/libopenvino-2025.0.0-h3f17238_3",
+  "files": [
+    "lib/libopenvino.2025.0.0.dylib",
+    "lib/libopenvino.2500.dylib",
+    "lib/libopenvino_c.2025.0.0.dylib",
+    "lib/libopenvino_c.2500.dylib"
+  ],
+  "fn": "libopenvino-2025.0.0-h3f17238_3.conda",
+  "license": "",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/libopenvino-2025.0.0-h3f17238_3",
+    "type": 1
+  },
+  "md5": "219301646c04667a4513b1d5a360e903",
+  "name": "libopenvino",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/libopenvino-2025.0.0-h3f17238_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libopenvino.2025.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "73b722969b3fea7597bdf41f4e60aeceba6f7513677681582caa0a3af3ddc426",
+        "sha256_in_prefix": "73b722969b3fea7597bdf41f4e60aeceba6f7513677681582caa0a3af3ddc426",
+        "size_in_bytes": 22753632
+      },
+      {
+        "_path": "lib/libopenvino.2500.dylib",
+        "path_type": "softlink",
+        "sha256": "73b722969b3fea7597bdf41f4e60aeceba6f7513677681582caa0a3af3ddc426",
+        "size_in_bytes": 22753632
+      },
+      {
+        "_path": "lib/libopenvino_c.2025.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "ab27e4d20061a48e11d53d38a4af1844cb1c69e97e87f6f17b90e2b51cdaaf1f",
+        "sha256_in_prefix": "ab27e4d20061a48e11d53d38a4af1844cb1c69e97e87f6f17b90e2b51cdaaf1f",
+        "size_in_bytes": 383280
+      },
+      {
+        "_path": "lib/libopenvino_c.2500.dylib",
+        "path_type": "softlink",
+        "sha256": "ab27e4d20061a48e11d53d38a4af1844cb1c69e97e87f6f17b90e2b51cdaaf1f",
+        "size_in_bytes": 383280
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4c67becaa1cd8b5970d80daa85c637eac06adb52a060515e1179ebd1fae4c7b5",
+  "size": 4139593,
+  "subdir": "osx-arm64",
+  "timestamp": 1742042352000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenvino-2025.0.0-h3f17238_3.conda",
+  "version": "2025.0.0"
+}

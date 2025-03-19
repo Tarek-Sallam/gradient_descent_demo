@@ -1,0 +1,141 @@
+{
+  "build": "py312hde4cb15_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "python_abi 3.12.* *_cp312",
+    "python >=3.12,<3.13.0a0",
+    "python >=3.12,<3.13.0a0 *_cpython",
+    "libcxx >=17"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/glcontext-3.0.0-py312hde4cb15_1",
+  "files": [
+    "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/LICENSE",
+    "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/glcontext/__init__.py",
+    "lib/python3.12/site-packages/glcontext/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/glcontext/__pycache__/empty.cpython-312.pyc",
+    "lib/python3.12/site-packages/glcontext/darwin.cpython-312-darwin.so",
+    "lib/python3.12/site-packages/glcontext/empty.py"
+  ],
+  "fn": "glcontext-3.0.0-py312hde4cb15_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/glcontext-3.0.0-py312hde4cb15_1",
+    "type": 1
+  },
+  "md5": "4d4a86ee862db47d5a50b256dc2b0369",
+  "name": "glcontext",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/glcontext-3.0.0-py312hde4cb15_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5343a2b496db3237e032a11fcd5c6d183b4a8f2882fb3d96dab1fc1124f139c1",
+        "sha256_in_prefix": "5343a2b496db3237e032a11fcd5c6d183b4a8f2882fb3d96dab1fc1124f139c1",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "917b89305d945ae75b21ea20588b0fce56f7c4b06ee7d51ed3407efac22add59",
+        "sha256_in_prefix": "917b89305d945ae75b21ea20588b0fce56f7c4b06ee7d51ed3407efac22add59",
+        "size_in_bytes": 6003
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3f947a0b2422593ab2b04e19dd89ef114da8d2a2261294d43a6637e51a916efa",
+        "sha256_in_prefix": "3f947a0b2422593ab2b04e19dd89ef114da8d2a2261294d43a6637e51a916efa",
+        "size_in_bytes": 1027
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b2d742c21ca3882e8bcc723e7c489b88742d4d42c482f7c2145fb991ac07f4fc",
+        "sha256_in_prefix": "b2d742c21ca3882e8bcc723e7c489b88742d4d42c482f7c2145fb991ac07f4fc",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c8ff5a8fde6154d91ba9f87fab9952b1856489fa4b45870d5680f00af92bd673",
+        "sha256_in_prefix": "c8ff5a8fde6154d91ba9f87fab9952b1856489fa4b45870d5680f00af92bd673",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glcontext-3.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "228b1742427d47846fac6dae1d926d2100076282a6bd37814dbfb3770cc52c31",
+        "sha256_in_prefix": "228b1742427d47846fac6dae1d926d2100076282a6bd37814dbfb3770cc52c31",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glcontext/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a0608cfa3c35b18fda8fbf35fa03960b71e1855dabfafcc50f69a5260a683443",
+        "sha256_in_prefix": "a0608cfa3c35b18fda8fbf35fa03960b71e1855dabfafcc50f69a5260a683443",
+        "size_in_bytes": 4225
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glcontext/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "09be0e5d13ab9ce96149d3551d750f40018ede39ee98df48120e235cbcabed40",
+        "sha256_in_prefix": "09be0e5d13ab9ce96149d3551d750f40018ede39ee98df48120e235cbcabed40",
+        "size_in_bytes": 5827
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glcontext/__pycache__/empty.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa2af14a386a66352f5447de1b0e035756efd9348e3a26b40240c3cd84b28e2d",
+        "sha256_in_prefix": "aa2af14a386a66352f5447de1b0e035756efd9348e3a26b40240c3cd84b28e2d",
+        "size_in_bytes": 1084
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glcontext/darwin.cpython-312-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "6924c2e9b9095bf099c81c349e6434b0f92b12c6773f6477d033cc890082ace6",
+        "sha256_in_prefix": "6924c2e9b9095bf099c81c349e6434b0f92b12c6773f6477d033cc890082ace6",
+        "size_in_bytes": 53744
+      },
+      {
+        "_path": "lib/python3.12/site-packages/glcontext/empty.py",
+        "path_type": "hardlink",
+        "sha256": "36945674f5a36bf985def14e33464587432341125078a15afb4924575fdebf6f",
+        "sha256_in_prefix": "36945674f5a36bf985def14e33464587432341125078a15afb4924575fdebf6f",
+        "size_in_bytes": 282
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "54da8376a984acf3c97ef5153448b20f8e43cc3e24de73e7c28d0b17321507fc",
+  "size": 18138,
+  "subdir": "osx-arm64",
+  "timestamp": 1725374451000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/glcontext-3.0.0-py312hde4cb15_1.conda",
+  "version": "3.0.0"
+}

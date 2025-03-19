@@ -1,0 +1,129 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "more-itertools",
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/jaraco.functools-4.1.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.12/site-packages/jaraco.functools-4.1.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/jaraco.functools-4.1.0.dist-info/LICENSE",
+    "lib/python3.12/site-packages/jaraco.functools-4.1.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/jaraco.functools-4.1.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/jaraco.functools-4.1.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/jaraco.functools-4.1.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/jaraco.functools-4.1.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/jaraco.functools-4.1.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/jaraco/functools/__init__.py",
+    "lib/python3.12/site-packages/jaraco/functools/__init__.pyi",
+    "lib/python3.12/site-packages/jaraco/functools/py.typed",
+    "lib/python3.12/site-packages/jaraco/functools/__pycache__/__init__.cpython-312.pyc"
+  ],
+  "fn": "jaraco.functools-4.1.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/jaraco.functools-4.1.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "eb257d223050a5a27f5fdf5c9debc8ec",
+  "name": "jaraco.functools",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/jaraco.functools-4.1.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/jaraco.functools-4.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/jaraco.functools-4.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+        "sha256_in_prefix": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "site-packages/jaraco.functools-4.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e44f28d87cb481713af2120589671853f475afd8bc7e9fc51d7d0c9a6744372a",
+        "sha256_in_prefix": "e44f28d87cb481713af2120589671853f475afd8bc7e9fc51d7d0c9a6744372a",
+        "size_in_bytes": 2875
+      },
+      {
+        "_path": "site-packages/jaraco.functools-4.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5bf57a7abd0fc51685e51e2b1cbc805b1e94d905cbe49144c206ab2a7e476306",
+        "sha256_in_prefix": "5bf57a7abd0fc51685e51e2b1cbc805b1e94d905cbe49144c206ab2a7e476306",
+        "size_in_bytes": 1044
+      },
+      {
+        "_path": "site-packages/jaraco.functools-4.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/jaraco.functools-4.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/jaraco.functools-4.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b5d33c0361c25bdb83a1da89b71a1f376b1f49a322039d8e20bbf18c58585025",
+        "sha256_in_prefix": "b5d33c0361c25bdb83a1da89b71a1f376b1f49a322039d8e20bbf18c58585025",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "site-packages/jaraco.functools-4.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d099cddcb7d71f82c845f5cbf9014e18227341664edc42f1e11d5dfe5a2ea103",
+        "sha256_in_prefix": "d099cddcb7d71f82c845f5cbf9014e18227341664edc42f1e11d5dfe5a2ea103",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/jaraco/functools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a50eda2286daca975438366bf41329f693ccf8d8294b5209f71c3d8803b6249d",
+        "sha256_in_prefix": "a50eda2286daca975438366bf41329f693ccf8d8294b5209f71c3d8803b6249d",
+        "size_in_bytes": 17872
+      },
+      {
+        "_path": "site-packages/jaraco/functools/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "824dddb201f3a3917f53be07cc0be9362bc500f0a43c9d5bdbec8277ad9d7e7c",
+        "sha256_in_prefix": "824dddb201f3a3917f53be07cc0be9362bc500f0a43c9d5bdbec8277ad9d7e7c",
+        "size_in_bytes": 3878
+      },
+      {
+        "_path": "site-packages/jaraco/functools/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jaraco/functools/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "61da3e37149da5c8479c21571eaec61cc4a41678ee872dcb2ff399c30878dddb",
+  "size": 15545,
+  "subdir": "noarch",
+  "timestamp": 1733746481000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/jaraco.functools-4.1.0-pyhd8ed1ab_0.conda",
+  "version": "4.1.0"
+}

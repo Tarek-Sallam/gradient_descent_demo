@@ -1,0 +1,159 @@
+{
+  "build": "py312h4721b07_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "python_abi 3.12.* *_cp312",
+    "python >=3.12,<3.13.0a0",
+    "python >=3.12,<3.13.0a0 *_cpython",
+    "libcxx >=17"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/skia-pathops-0.8.0.post2-py312h4721b07_0",
+  "files": [
+    "lib/python3.12/site-packages/pathops/__init__.py",
+    "lib/python3.12/site-packages/pathops/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pathops/__pycache__/_version.cpython-312.pyc",
+    "lib/python3.12/site-packages/pathops/__pycache__/operations.cpython-312.pyc",
+    "lib/python3.12/site-packages/pathops/_pathops.cpython-312-darwin.so",
+    "lib/python3.12/site-packages/pathops/_version.py",
+    "lib/python3.12/site-packages/pathops/operations.py",
+    "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/LICENSE",
+    "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/METADATA",
+    "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/RECORD",
+    "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/WHEEL",
+    "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/top_level.txt"
+  ],
+  "fn": "skia-pathops-0.8.0.post2-py312h4721b07_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/skia-pathops-0.8.0.post2-py312h4721b07_0",
+    "type": 1
+  },
+  "md5": "e954e2fc9ddb041a658e7676949d051a",
+  "name": "skia-pathops",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/skia-pathops-0.8.0.post2-py312h4721b07_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/pathops/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7b8734d7b7553a8dc33bd4426645a5dcc70d867baf9f6116ea54bbf7c46042dc",
+        "sha256_in_prefix": "7b8734d7b7553a8dc33bd4426645a5dcc70d867baf9f6116ea54bbf7c46042dc",
+        "size_in_bytes": 526
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pathops/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "00bfbe35ce3614c099db927bcbfb4911c03fd735fb285818fc58ab590e95effb",
+        "sha256_in_prefix": "00bfbe35ce3614c099db927bcbfb4911c03fd735fb285818fc58ab590e95effb",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pathops/__pycache__/_version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "db5fc7cb383fd5f77d7ba5e47b7a9e83bcaf74690a7f275ee3b65b0e63d4f8bb",
+        "sha256_in_prefix": "db5fc7cb383fd5f77d7ba5e47b7a9e83bcaf74690a7f275ee3b65b0e63d4f8bb",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pathops/__pycache__/operations.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd966c13db15513bea17c7982eda174f6df9dde55edf1462a66eb63e421383e7",
+        "sha256_in_prefix": "bd966c13db15513bea17c7982eda174f6df9dde55edf1462a66eb63e421383e7",
+        "size_in_bytes": 1633
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pathops/_pathops.cpython-312-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/skia-pathops_1729320251945/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "0856804429bc26063266a91ce3d65edfdadfbecc7f098a25e9de74bae310a486",
+        "sha256_in_prefix": "1bfa5e73b86521e390b6cc9cd5a2e091d547143fd2c8b81d6e8633f2ae6314fd",
+        "size_in_bytes": 3646048
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pathops/_version.py",
+        "path_type": "hardlink",
+        "sha256": "e9feac727d3dbda8987962471cb1670f0a232e8ca74d66962756fdfa2fa80c44",
+        "sha256_in_prefix": "e9feac727d3dbda8987962471cb1670f0a232e8ca74d66962756fdfa2fa80c44",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pathops/operations.py",
+        "path_type": "hardlink",
+        "sha256": "94910fa2f893e020bc7526a9cf1924342c6c5c3609eee7699f1562e5bb895d5d",
+        "sha256_in_prefix": "94910fa2f893e020bc7526a9cf1924342c6c5c3609eee7699f1562e5bb895d5d",
+        "size_in_bytes": 1241
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "110244b02140866ee37d17fa7449436a377ec3b85a481fbb208f4c87964382de",
+        "sha256_in_prefix": "110244b02140866ee37d17fa7449436a377ec3b85a481fbb208f4c87964382de",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d23d1625b83fd92dfd4f24a057ec1a9067e980062cc57a607fee9f0506f9702e",
+        "sha256_in_prefix": "d23d1625b83fd92dfd4f24a057ec1a9067e980062cc57a607fee9f0506f9702e",
+        "size_in_bytes": 2302
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1fdd13214247248dd4af106a9e940b13c1ef9d586cd11e21e4de4ab9163c9e3b",
+        "sha256_in_prefix": "1fdd13214247248dd4af106a9e940b13c1ef9d586cd11e21e4de4ab9163c9e3b",
+        "size_in_bytes": 1227
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9567b2fa7cc675e3cccfb7ec209d5f20c54a88583922439c515aa4b88a5d6f0b",
+        "sha256_in_prefix": "9567b2fa7cc675e3cccfb7ec209d5f20c54a88583922439c515aa4b88a5d6f0b",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "87be9078df73026403c0fb358f1055efcf481af841a73c0de8b80ca5a329e963",
+        "sha256_in_prefix": "87be9078df73026403c0fb358f1055efcf481af841a73c0de8b80ca5a329e963",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "lib/python3.12/site-packages/skia_pathops-0.8.0.post2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "bab1d2eb8931d8e2ade5e6d2f750b8f61498c796b5adfa660d7c38ece855e6e7",
+        "sha256_in_prefix": "bab1d2eb8931d8e2ade5e6d2f750b8f61498c796b5adfa660d7c38ece855e6e7",
+        "size_in_bytes": 8
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d87ec808008eb10a47223220754992fd2b567d31e1e893c19ef50af1b25ab1d5",
+  "size": 1158466,
+  "subdir": "osx-arm64",
+  "timestamp": 1729320756000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/skia-pathops-0.8.0.post2-py312h4721b07_0.conda",
+  "version": "0.8.0.post2"
+}

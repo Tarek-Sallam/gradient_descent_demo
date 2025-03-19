@@ -1,0 +1,80 @@
+{
+  "build": "h0cbf7ec_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=17",
+    "libhwloc >=2.11.2,<2.11.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/tbb-2022.0.0-h0cbf7ec_0",
+  "files": [
+    "lib/libtbb.12.14.dylib",
+    "lib/libtbb.12.dylib",
+    "lib/libtbbmalloc.2.14.dylib",
+    "lib/libtbbmalloc.2.dylib",
+    "lib/libtbbmalloc_proxy.2.14.dylib",
+    "lib/libtbbmalloc_proxy.2.dylib"
+  ],
+  "fn": "tbb-2022.0.0-h0cbf7ec_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/tbb-2022.0.0-h0cbf7ec_0",
+    "type": 1
+  },
+  "md5": "44ba5ad9819821b9b176ba2bb937a79c",
+  "name": "tbb",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/tbb-2022.0.0-h0cbf7ec_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libtbb.12.14.dylib",
+        "path_type": "hardlink",
+        "sha256": "841a98813f828243221ecd34dd80c47583da5b3b78c8108980b478ea2caa0936",
+        "sha256_in_prefix": "841a98813f828243221ecd34dd80c47583da5b3b78c8108980b478ea2caa0936",
+        "size_in_bytes": 368944
+      },
+      {
+        "_path": "lib/libtbb.12.dylib",
+        "path_type": "softlink",
+        "sha256": "841a98813f828243221ecd34dd80c47583da5b3b78c8108980b478ea2caa0936",
+        "size_in_bytes": 368944
+      },
+      {
+        "_path": "lib/libtbbmalloc.2.14.dylib",
+        "path_type": "hardlink",
+        "sha256": "75f6216935ebfa9e2e34aa8519efedf66c904870c59c09758ad88b65e759fb47",
+        "sha256_in_prefix": "75f6216935ebfa9e2e34aa8519efedf66c904870c59c09758ad88b65e759fb47",
+        "size_in_bytes": 111152
+      },
+      {
+        "_path": "lib/libtbbmalloc.2.dylib",
+        "path_type": "softlink",
+        "sha256": "75f6216935ebfa9e2e34aa8519efedf66c904870c59c09758ad88b65e759fb47",
+        "size_in_bytes": 111152
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.2.14.dylib",
+        "path_type": "hardlink",
+        "sha256": "e76cfc07b7ba4217b8d0d35777dabcad2185e27995834124b33282262f045c05",
+        "sha256_in_prefix": "e76cfc07b7ba4217b8d0d35777dabcad2185e27995834124b33282262f045c05",
+        "size_in_bytes": 54656
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.2.dylib",
+        "path_type": "softlink",
+        "sha256": "e76cfc07b7ba4217b8d0d35777dabcad2185e27995834124b33282262f045c05",
+        "size_in_bytes": 54656
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f436517a16494c93e2d779b9cdb91e8f4a9b48cef67fe20a4e75e494c8631dff",
+  "size": 117825,
+  "subdir": "osx-arm64",
+  "timestamp": 1730477755000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/tbb-2022.0.0-h0cbf7ec_0.conda",
+  "version": "2022.0.0"
+}

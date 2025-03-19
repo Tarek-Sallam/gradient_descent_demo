@@ -1,0 +1,50 @@
+{
+  "build": "h493aca8_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libiconv >=1.17,<2.0a0",
+    "libintl 0.23.1 h493aca8_0"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/libintl-devel-0.23.1-h493aca8_0",
+  "files": [
+    "include/libintl.h",
+    "lib/libintl.dylib"
+  ],
+  "fn": "libintl-devel-0.23.1-h493aca8_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/libintl-devel-0.23.1-h493aca8_0",
+    "type": 1
+  },
+  "md5": "f9c6d5edc5951ef4010be8cbde9f12d4",
+  "name": "libintl-devel",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/libintl-devel-0.23.1-h493aca8_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/libintl.h",
+        "path_type": "hardlink",
+        "sha256": "f39e3aaf26720e312a6ff531f051e018dfe4c97ec2633ff61ad31bf575d626e9",
+        "sha256_in_prefix": "f39e3aaf26720e312a6ff531f051e018dfe4c97ec2633ff61ad31bf575d626e9",
+        "size_in_bytes": 41257
+      },
+      {
+        "_path": "lib/libintl.dylib",
+        "path_type": "softlink",
+        "sha256": "b61ff9ec26f81521b80ef958efb50e86208b21856c6079626794587bf47a5ee7",
+        "size_in_bytes": 161760
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5db07fa57b8cb916784353aa035fbf32aa7ee2905e38a8e70b168160372833f0",
+  "size": 39774,
+  "subdir": "osx-arm64",
+  "timestamp": 1739039317000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libintl-devel-0.23.1-h493aca8_0.conda",
+  "version": "0.23.1"
+}

@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=/Users/tarek/Projects/cais/gradient_descent_demo/myenv/bin/gdk-pixbuf-thumbnailer
+Exec=/Users/tarek/Projects/cais/gradient_descent_demo/myenv/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+MimeType=image/svg+xml;image/svg+xml-compressed;

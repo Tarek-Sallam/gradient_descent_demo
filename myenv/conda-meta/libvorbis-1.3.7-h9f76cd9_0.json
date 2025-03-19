@@ -1,0 +1,186 @@
+{
+  "build": "h9f76cd9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=11.0.0",
+    "libogg >=1.3.4,<1.4.0a0"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/libvorbis-1.3.7-h9f76cd9_0",
+  "files": [
+    "include/vorbis/codec.h",
+    "include/vorbis/vorbisenc.h",
+    "include/vorbis/vorbisfile.h",
+    "lib/cmake/Vorbis/VorbisConfig.cmake",
+    "lib/cmake/Vorbis/VorbisConfigVersion.cmake",
+    "lib/cmake/Vorbis/VorbisTargets-release.cmake",
+    "lib/cmake/Vorbis/VorbisTargets.cmake",
+    "lib/libvorbis.0.4.9.dylib",
+    "lib/libvorbis.0.dylib",
+    "lib/libvorbis.dylib",
+    "lib/libvorbisenc.2.0.12.dylib",
+    "lib/libvorbisenc.2.dylib",
+    "lib/libvorbisenc.dylib",
+    "lib/libvorbisfile.3.3.8.dylib",
+    "lib/libvorbisfile.3.dylib",
+    "lib/libvorbisfile.dylib",
+    "lib/pkgconfig/vorbis.pc",
+    "lib/pkgconfig/vorbisenc.pc",
+    "lib/pkgconfig/vorbisfile.pc"
+  ],
+  "fn": "libvorbis-1.3.7-h9f76cd9_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/libvorbis-1.3.7-h9f76cd9_0",
+    "type": 1
+  },
+  "md5": "92a1a88d1a1d468c19d9e1659ac8d3df",
+  "name": "libvorbis",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/libvorbis-1.3.7-h9f76cd9_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/vorbis/codec.h",
+        "path_type": "hardlink",
+        "sha256": "1d031e3cbae7defe966426e33802450a56388a1323eec1ec629e6d4095c676c5",
+        "sha256_in_prefix": "1d031e3cbae7defe966426e33802450a56388a1323eec1ec629e6d4095c676c5",
+        "size_in_bytes": 8387
+      },
+      {
+        "_path": "include/vorbis/vorbisenc.h",
+        "path_type": "hardlink",
+        "sha256": "d2aba0527252dc265ffc40bc9b1955d5ac0dc8d5e16d9376fa366c05fa27dc7f",
+        "sha256_in_prefix": "d2aba0527252dc265ffc40bc9b1955d5ac0dc8d5e16d9376fa366c05fa27dc7f",
+        "size_in_bytes": 16990
+      },
+      {
+        "_path": "include/vorbis/vorbisfile.h",
+        "path_type": "hardlink",
+        "sha256": "7d98264e57b0190ef0a2701a0bea5f982e82fc1bedd93cd9408a2fff7790f803",
+        "sha256_in_prefix": "7d98264e57b0190ef0a2701a0bea5f982e82fc1bedd93cd9408a2fff7790f803",
+        "size_in_bytes": 7990
+      },
+      {
+        "_path": "lib/cmake/Vorbis/VorbisConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "15d7787d026bf77e74bd967ba4f557814d207db0e7f18a8fc8f3ff7d07e93eba",
+        "sha256_in_prefix": "15d7787d026bf77e74bd967ba4f557814d207db0e7f18a8fc8f3ff7d07e93eba",
+        "size_in_bytes": 1260
+      },
+      {
+        "_path": "lib/cmake/Vorbis/VorbisConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "38abb23a67ba6f2b764dcf6014301b449abe7bc708eb82ceb4e9b69afe1f54b5",
+        "sha256_in_prefix": "38abb23a67ba6f2b764dcf6014301b449abe7bc708eb82ceb4e9b69afe1f54b5",
+        "size_in_bytes": 2742
+      },
+      {
+        "_path": "lib/cmake/Vorbis/VorbisTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "c2b0fcb12bcfd6951e8ee64a58f2485ee9f566dc98dc79fd3249cce688c6a979",
+        "sha256_in_prefix": "c2b0fcb12bcfd6951e8ee64a58f2485ee9f566dc98dc79fd3249cce688c6a979",
+        "size_in_bytes": 1830
+      },
+      {
+        "_path": "lib/cmake/Vorbis/VorbisTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "55d5b9c6f7e21bbb037688b52cad04b5e6884dcb18015e96a4f170aad9102263",
+        "sha256_in_prefix": "55d5b9c6f7e21bbb037688b52cad04b5e6884dcb18015e96a4f170aad9102263",
+        "size_in_bytes": 3967
+      },
+      {
+        "_path": "lib/libvorbis.0.4.9.dylib",
+        "path_type": "softlink",
+        "sha256": "ab8281f1741cd4e456678718e1bb686908fa2a9c99027e446d1e775e7871cc0c",
+        "size_in_bytes": 226832
+      },
+      {
+        "_path": "lib/libvorbis.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "ab8281f1741cd4e456678718e1bb686908fa2a9c99027e446d1e775e7871cc0c",
+        "sha256_in_prefix": "ab8281f1741cd4e456678718e1bb686908fa2a9c99027e446d1e775e7871cc0c",
+        "size_in_bytes": 226832
+      },
+      {
+        "_path": "lib/libvorbis.dylib",
+        "path_type": "softlink",
+        "sha256": "ab8281f1741cd4e456678718e1bb686908fa2a9c99027e446d1e775e7871cc0c",
+        "size_in_bytes": 226832
+      },
+      {
+        "_path": "lib/libvorbisenc.2.0.12.dylib",
+        "path_type": "softlink",
+        "sha256": "b679995e9675149a79cd7cbd49a0b9fc356ddf7e0c3b7669ac67c3e16b2202a4",
+        "size_in_bytes": 733728
+      },
+      {
+        "_path": "lib/libvorbisenc.2.dylib",
+        "path_type": "hardlink",
+        "sha256": "b679995e9675149a79cd7cbd49a0b9fc356ddf7e0c3b7669ac67c3e16b2202a4",
+        "sha256_in_prefix": "b679995e9675149a79cd7cbd49a0b9fc356ddf7e0c3b7669ac67c3e16b2202a4",
+        "size_in_bytes": 733728
+      },
+      {
+        "_path": "lib/libvorbisenc.dylib",
+        "path_type": "softlink",
+        "sha256": "b679995e9675149a79cd7cbd49a0b9fc356ddf7e0c3b7669ac67c3e16b2202a4",
+        "size_in_bytes": 733728
+      },
+      {
+        "_path": "lib/libvorbisfile.3.3.8.dylib",
+        "path_type": "softlink",
+        "sha256": "6508ae66e6ca744f62b9d8a89c31c33217c4b9d12de87d85c72a7c7a8260901a",
+        "size_in_bytes": 89424
+      },
+      {
+        "_path": "lib/libvorbisfile.3.dylib",
+        "path_type": "hardlink",
+        "sha256": "6508ae66e6ca744f62b9d8a89c31c33217c4b9d12de87d85c72a7c7a8260901a",
+        "sha256_in_prefix": "6508ae66e6ca744f62b9d8a89c31c33217c4b9d12de87d85c72a7c7a8260901a",
+        "size_in_bytes": 89424
+      },
+      {
+        "_path": "lib/libvorbisfile.dylib",
+        "path_type": "softlink",
+        "sha256": "6508ae66e6ca744f62b9d8a89c31c33217c4b9d12de87d85c72a7c7a8260901a",
+        "size_in_bytes": 89424
+      },
+      {
+        "_path": "lib/pkgconfig/vorbis.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libvorbis_1610609662829/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "7b08d7f8f0d4c2d2f76c634f714f8eab8e89ad44569226027acc57f15275d51e",
+        "sha256_in_prefix": "8b892925fe8f33b286f0af081f8fa36c6629a2b3cfe14f7dfc5122e91fd579f2",
+        "size_in_bytes": 1296
+      },
+      {
+        "_path": "lib/pkgconfig/vorbisenc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libvorbis_1610609662829/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "7ce31b476ba4208674fc807fc45a9a10c03a7d4e2e595dea5e554572c007e164",
+        "sha256_in_prefix": "4854f1d4119bde2af858cd709f757058849bb5fb748c06a20820cca2d856a208",
+        "size_in_bytes": 1360
+      },
+      {
+        "_path": "lib/pkgconfig/vorbisfile.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libvorbis_1610609662829/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "531aef405d1164f576cdca0b00f962f157ba09c7d7514f3051461382d323c8bb",
+        "sha256_in_prefix": "305b7123149a29d495339ef262969b96335bed6ab79ec61334a9ad256c7b2bac",
+        "size_in_bytes": 1386
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "60457217e20d8b24a8390c81338a8fa69c8656b440c067cd82f802a09da93cb9",
+  "size": 254839,
+  "subdir": "osx-arm64",
+  "timestamp": 1610609991000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libvorbis-1.3.7-h9f76cd9_0.tar.bz2",
+  "version": "1.3.7"
+}

@@ -1,0 +1,1618 @@
+{
+  "build": "pyh29332c3_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python",
+    "numpy",
+    "python >=3.9",
+    "pillow >=10.0.1",
+    "moderngl <6",
+    "pyglet >=2.0.0",
+    "pyglm >=2.7.0,<3"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/moderngl-window-3.1.1-pyh29332c3_1",
+  "files": [
+    "lib/python3.12/site-packages/moderngl_window/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/atlas/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/atlas/base.py",
+    "lib/python3.12/site-packages/moderngl_window/atlas/simple_atlas.py",
+    "lib/python3.12/site-packages/moderngl_window/capture/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/capture/base.py",
+    "lib/python3.12/site-packages/moderngl_window/capture/ffmpeg.py",
+    "lib/python3.12/site-packages/moderngl_window/conf/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/conf/default.py",
+    "lib/python3.12/site-packages/moderngl_window/context/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/context/base/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/context/base/keys.py",
+    "lib/python3.12/site-packages/moderngl_window/context/base/window.py",
+    "lib/python3.12/site-packages/moderngl_window/context/glfw/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/context/glfw/keys.py",
+    "lib/python3.12/site-packages/moderngl_window/context/glfw/window.py",
+    "lib/python3.12/site-packages/moderngl_window/context/headless/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/context/headless/keys.py",
+    "lib/python3.12/site-packages/moderngl_window/context/headless/window.py",
+    "lib/python3.12/site-packages/moderngl_window/context/pygame2/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/context/pygame2/keys.py",
+    "lib/python3.12/site-packages/moderngl_window/context/pygame2/window.py",
+    "lib/python3.12/site-packages/moderngl_window/context/pyglet/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/context/pyglet/keys.py",
+    "lib/python3.12/site-packages/moderngl_window/context/pyglet/window.py",
+    "lib/python3.12/site-packages/moderngl_window/context/pyqt5/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/context/pyqt5/keys.py",
+    "lib/python3.12/site-packages/moderngl_window/context/pyqt5/window.py",
+    "lib/python3.12/site-packages/moderngl_window/context/pyside2/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/context/pyside2/keys.py",
+    "lib/python3.12/site-packages/moderngl_window/context/pyside2/window.py",
+    "lib/python3.12/site-packages/moderngl_window/context/sdl2/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/context/sdl2/keys.py",
+    "lib/python3.12/site-packages/moderngl_window/context/sdl2/window.py",
+    "lib/python3.12/site-packages/moderngl_window/context/tk/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/context/tk/keys.py",
+    "lib/python3.12/site-packages/moderngl_window/context/tk/window.py",
+    "lib/python3.12/site-packages/moderngl_window/exceptions.py",
+    "lib/python3.12/site-packages/moderngl_window/finders/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/finders/base.py",
+    "lib/python3.12/site-packages/moderngl_window/finders/data.py",
+    "lib/python3.12/site-packages/moderngl_window/finders/program.py",
+    "lib/python3.12/site-packages/moderngl_window/finders/scene.py",
+    "lib/python3.12/site-packages/moderngl_window/finders/texture.py",
+    "lib/python3.12/site-packages/moderngl_window/geometry/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/geometry/attributes.py",
+    "lib/python3.12/site-packages/moderngl_window/geometry/bbox.py",
+    "lib/python3.12/site-packages/moderngl_window/geometry/cube.py",
+    "lib/python3.12/site-packages/moderngl_window/geometry/quad.py",
+    "lib/python3.12/site-packages/moderngl_window/geometry/sphere.py",
+    "lib/python3.12/site-packages/moderngl_window/integrations/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/integrations/imgui.py",
+    "lib/python3.12/site-packages/moderngl_window/integrations/imgui_bundle.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/base.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/data/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/data/binary.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/data/json.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/data/text.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/program/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/program/separate.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/program/single.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/scene/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/scene/gltf2.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/scene/stl.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/scene/wavefront.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/texture/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/texture/array.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/texture/cube.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/texture/icon.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/texture/pillow.py",
+    "lib/python3.12/site-packages/moderngl_window/loaders/texture/t2d.py",
+    "lib/python3.12/site-packages/moderngl_window/meta/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/meta/base.py",
+    "lib/python3.12/site-packages/moderngl_window/meta/data.py",
+    "lib/python3.12/site-packages/moderngl_window/meta/program.py",
+    "lib/python3.12/site-packages/moderngl_window/meta/scene.py",
+    "lib/python3.12/site-packages/moderngl_window/meta/texture.py",
+    "lib/python3.12/site-packages/moderngl_window/opengl/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/opengl/program.py",
+    "lib/python3.12/site-packages/moderngl_window/opengl/projection.py",
+    "lib/python3.12/site-packages/moderngl_window/opengl/types.py",
+    "lib/python3.12/site-packages/moderngl_window/opengl/vao.py",
+    "lib/python3.12/site-packages/moderngl_window/py.typed",
+    "lib/python3.12/site-packages/moderngl_window/resources/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/resources/base.py",
+    "lib/python3.12/site-packages/moderngl_window/resources/data.py",
+    "lib/python3.12/site-packages/moderngl_window/resources/decorators.py",
+    "lib/python3.12/site-packages/moderngl_window/resources/programs.py",
+    "lib/python3.12/site-packages/moderngl_window/resources/scenes.py",
+    "lib/python3.12/site-packages/moderngl_window/resources/textures.py",
+    "lib/python3.12/site-packages/moderngl_window/resources/tracks.py",
+    "lib/python3.12/site-packages/moderngl_window/scene/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/scene/camera.py",
+    "lib/python3.12/site-packages/moderngl_window/scene/material.py",
+    "lib/python3.12/site-packages/moderngl_window/scene/mesh.py",
+    "lib/python3.12/site-packages/moderngl_window/scene/node.py",
+    "lib/python3.12/site-packages/moderngl_window/scene/programs/scene_default/bbox.glsl",
+    "lib/python3.12/site-packages/moderngl_window/scene/programs/scene_default/color_light.glsl",
+    "lib/python3.12/site-packages/moderngl_window/scene/programs/scene_default/fallback.glsl",
+    "lib/python3.12/site-packages/moderngl_window/scene/programs/scene_default/texture.glsl",
+    "lib/python3.12/site-packages/moderngl_window/scene/programs/scene_default/texture_light.glsl",
+    "lib/python3.12/site-packages/moderngl_window/scene/programs/scene_default/vertex_color.glsl",
+    "lib/python3.12/site-packages/moderngl_window/scene/programs/scene_default/vertex_color_texture.glsl",
+    "lib/python3.12/site-packages/moderngl_window/scene/programs/scene_default/wireframe.glsl",
+    "lib/python3.12/site-packages/moderngl_window/scene/programs.py",
+    "lib/python3.12/site-packages/moderngl_window/scene/scene.py",
+    "lib/python3.12/site-packages/moderngl_window/screenshot.py",
+    "lib/python3.12/site-packages/moderngl_window/text/bitmapped/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/text/bitmapped/base.py",
+    "lib/python3.12/site-packages/moderngl_window/text/bitmapped/bitmapped/programs/text_2d.glsl",
+    "lib/python3.12/site-packages/moderngl_window/text/bitmapped/bitmapped/text/meta.json",
+    "lib/python3.12/site-packages/moderngl_window/text/bitmapped/bitmapped/textures/VeraMono.png",
+    "lib/python3.12/site-packages/moderngl_window/text/bitmapped/text_2d.py",
+    "lib/python3.12/site-packages/moderngl_window/timers/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/timers/base.py",
+    "lib/python3.12/site-packages/moderngl_window/timers/clock.py",
+    "lib/python3.12/site-packages/moderngl_window/utils/__init__.py",
+    "lib/python3.12/site-packages/moderngl_window/utils/keymaps.py",
+    "lib/python3.12/site-packages/moderngl_window/utils/module_loading.py",
+    "lib/python3.12/site-packages/moderngl_window/utils/scheduler.py",
+    "lib/python3.12/site-packages/moderngl_window-3.1.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/moderngl_window-3.1.1.dist-info/LICENSE",
+    "lib/python3.12/site-packages/moderngl_window-3.1.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/moderngl_window-3.1.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/moderngl_window-3.1.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/moderngl_window-3.1.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/moderngl_window-3.1.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/moderngl_window-3.1.1.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/moderngl_window/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/atlas/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/atlas/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/atlas/__pycache__/simple_atlas.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/capture/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/capture/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/capture/__pycache__/ffmpeg.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/conf/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/conf/__pycache__/default.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/base/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/base/__pycache__/keys.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/base/__pycache__/window.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/glfw/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/glfw/__pycache__/keys.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/glfw/__pycache__/window.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/headless/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/headless/__pycache__/keys.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/headless/__pycache__/window.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/pygame2/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/pygame2/__pycache__/keys.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/pygame2/__pycache__/window.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/pyglet/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/pyglet/__pycache__/keys.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/pyglet/__pycache__/window.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/pyqt5/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/pyqt5/__pycache__/keys.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/pyqt5/__pycache__/window.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/pyside2/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/pyside2/__pycache__/keys.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/pyside2/__pycache__/window.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/sdl2/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/sdl2/__pycache__/keys.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/sdl2/__pycache__/window.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/tk/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/tk/__pycache__/keys.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/context/tk/__pycache__/window.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/finders/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/finders/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/finders/__pycache__/data.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/finders/__pycache__/program.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/finders/__pycache__/scene.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/finders/__pycache__/texture.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/geometry/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/geometry/__pycache__/attributes.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/geometry/__pycache__/bbox.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/geometry/__pycache__/cube.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/geometry/__pycache__/quad.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/geometry/__pycache__/sphere.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/integrations/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/integrations/__pycache__/imgui.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/integrations/__pycache__/imgui_bundle.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/data/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/data/__pycache__/binary.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/data/__pycache__/json.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/data/__pycache__/text.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/program/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/program/__pycache__/separate.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/program/__pycache__/single.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/scene/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/scene/__pycache__/gltf2.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/scene/__pycache__/stl.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/scene/__pycache__/wavefront.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/texture/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/texture/__pycache__/array.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/texture/__pycache__/cube.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/texture/__pycache__/icon.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/texture/__pycache__/pillow.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/loaders/texture/__pycache__/t2d.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/meta/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/meta/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/meta/__pycache__/data.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/meta/__pycache__/program.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/meta/__pycache__/scene.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/meta/__pycache__/texture.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/opengl/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/opengl/__pycache__/program.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/opengl/__pycache__/projection.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/opengl/__pycache__/types.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/opengl/__pycache__/vao.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/data.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/decorators.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/programs.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/scenes.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/textures.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/tracks.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/camera.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/material.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/mesh.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/node.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/programs.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/scene.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/__pycache__/screenshot.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/text/bitmapped/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/text/bitmapped/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/text/bitmapped/__pycache__/text_2d.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/timers/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/timers/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/timers/__pycache__/clock.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/utils/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/utils/__pycache__/keymaps.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/utils/__pycache__/module_loading.cpython-312.pyc",
+    "lib/python3.12/site-packages/moderngl_window/utils/__pycache__/scheduler.cpython-312.pyc"
+  ],
+  "fn": "moderngl-window-3.1.1-pyh29332c3_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/moderngl-window-3.1.1-pyh29332c3_1",
+    "type": 1
+  },
+  "md5": "1cfc4fcf9ea3be8e2c08d4859958f6e6",
+  "name": "moderngl-window",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/moderngl-window-3.1.1-pyh29332c3_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/moderngl_window/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f729c8a87079f83b10cc78e0588756e1dade918ef3c2e3e509eac273042b69fa",
+        "sha256_in_prefix": "f729c8a87079f83b10cc78e0588756e1dade918ef3c2e3e509eac273042b69fa",
+        "size_in_bytes": 12750
+      },
+      {
+        "_path": "site-packages/moderngl_window/atlas/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/moderngl_window/atlas/base.py",
+        "path_type": "hardlink",
+        "sha256": "dd7e905c68d91f284ddc15395a367311f87ee4a9d8457e67f986dfee250a3a1f",
+        "sha256_in_prefix": "dd7e905c68d91f284ddc15395a367311f87ee4a9d8457e67f986dfee250a3a1f",
+        "size_in_bytes": 1901
+      },
+      {
+        "_path": "site-packages/moderngl_window/atlas/simple_atlas.py",
+        "path_type": "hardlink",
+        "sha256": "c95bc89de3af94a75bb13d16e60019f885dfe0ef2e9110b2504da8548b746800",
+        "sha256_in_prefix": "c95bc89de3af94a75bb13d16e60019f885dfe0ef2e9110b2504da8548b746800",
+        "size_in_bytes": 5194
+      },
+      {
+        "_path": "site-packages/moderngl_window/capture/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c89c595d9ccde51e3798dc14dad4d6d319d955cc400eeedefcaea60c38b71eb9",
+        "sha256_in_prefix": "c89c595d9ccde51e3798dc14dad4d6d319d955cc400eeedefcaea60c38b71eb9",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/moderngl_window/capture/base.py",
+        "path_type": "hardlink",
+        "sha256": "9c9847c69929af72e885bd0ffe5b3bfe7d98e13e6480721cfeefb76053f72a29",
+        "sha256_in_prefix": "9c9847c69929af72e885bd0ffe5b3bfe7d98e13e6480721cfeefb76053f72a29",
+        "size_in_bytes": 4943
+      },
+      {
+        "_path": "site-packages/moderngl_window/capture/ffmpeg.py",
+        "path_type": "hardlink",
+        "sha256": "24edc68c619f9bde5138298adc7d390dad32cfc26fca1d4d3d174371ffce54ed",
+        "sha256_in_prefix": "24edc68c619f9bde5138298adc7d390dad32cfc26fca1d4d3d174371ffce54ed",
+        "size_in_bytes": 3560
+      },
+      {
+        "_path": "site-packages/moderngl_window/conf/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dd95afd42358dc7b2fbd2daab31d593b8a96c4ffdc14dbc9546165550cb64c71",
+        "sha256_in_prefix": "dd95afd42358dc7b2fbd2daab31d593b8a96c4ffdc14dbc9546165550cb64c71",
+        "size_in_bytes": 10964
+      },
+      {
+        "_path": "site-packages/moderngl_window/conf/default.py",
+        "path_type": "hardlink",
+        "sha256": "dd99b362590c3ed75d4f52d0b05f14543ebe524f2a4f4973c4a8934b1a156b7c",
+        "sha256_in_prefix": "dd99b362590c3ed75d4f52d0b05f14543ebe524f2a4f4973c4a8934b1a156b7c",
+        "size_in_bytes": 1546
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/base/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e8afbe55827a7a26765892bcdafa21e79f6f376741940ae1341970211fe48a3e",
+        "sha256_in_prefix": "e8afbe55827a7a26765892bcdafa21e79f6f376741940ae1341970211fe48a3e",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/base/keys.py",
+        "path_type": "hardlink",
+        "sha256": "07628d753a2ce182221169211b40727c55e216c2f2083c5084c62ab66fa2d8e4",
+        "sha256_in_prefix": "07628d753a2ce182221169211b40727c55e216c2f2083c5084c62ab66fa2d8e4",
+        "size_in_bytes": 3247
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/base/window.py",
+        "path_type": "hardlink",
+        "sha256": "0b41323a4fc7eb7e058a34334bf7a2ce223efe2412135be5146b66f9a39ffbc0",
+        "sha256_in_prefix": "0b41323a4fc7eb7e058a34334bf7a2ce223efe2412135be5146b66f9a39ffbc0",
+        "size_in_bytes": 54603
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/glfw/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fcbf2eeedf31e968ededebfc0c5ede6f7d3d07788876f453afcbc4b59ea0010d",
+        "sha256_in_prefix": "fcbf2eeedf31e968ededebfc0c5ede6f7d3d07788876f453afcbc4b59ea0010d",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/glfw/keys.py",
+        "path_type": "hardlink",
+        "sha256": "cf9ab99adebe24e9b22cfb305aea613cef5d55d78d6cd80e2152884ede24b6fc",
+        "sha256_in_prefix": "cf9ab99adebe24e9b22cfb305aea613cef5d55d78d6cd80e2152884ede24b6fc",
+        "size_in_bytes": 2522
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/glfw/window.py",
+        "path_type": "hardlink",
+        "sha256": "d844423fad96f9cffb9200a9c7aae8b4639e75f895e949ea09d4cdd89ea610e5",
+        "sha256_in_prefix": "d844423fad96f9cffb9200a9c7aae8b4639e75f895e949ea09d4cdd89ea610e5",
+        "size_in_bytes": 14047
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/headless/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "071a3cfb147aa01dd8e021faac6296772cda686fae2f1b81584e8cdf3fbc227a",
+        "sha256_in_prefix": "071a3cfb147aa01dd8e021faac6296772cda686fae2f1b81584e8cdf3fbc227a",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/headless/keys.py",
+        "path_type": "hardlink",
+        "sha256": "f78f862805803f365843822bba59fb2dc599ea532c53bfa8742a618adea7a6a0",
+        "sha256_in_prefix": "f78f862805803f365843822bba59fb2dc599ea532c53bfa8742a618adea7a6a0",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/headless/window.py",
+        "path_type": "hardlink",
+        "sha256": "492cec51e81c8be1195525b86d59e0ac04a289d0b0a3b3095f95a6f762135096",
+        "sha256_in_prefix": "492cec51e81c8be1195525b86d59e0ac04a289d0b0a3b3095f95a6f762135096",
+        "size_in_bytes": 4229
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/pygame2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "071a3cfb147aa01dd8e021faac6296772cda686fae2f1b81584e8cdf3fbc227a",
+        "sha256_in_prefix": "071a3cfb147aa01dd8e021faac6296772cda686fae2f1b81584e8cdf3fbc227a",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/pygame2/keys.py",
+        "path_type": "hardlink",
+        "sha256": "4fd5389535936157c2fc6b8e87a92227d679af8c11e9aa6e88b9dce5273406fb",
+        "sha256_in_prefix": "4fd5389535936157c2fc6b8e87a92227d679af8c11e9aa6e88b9dce5273406fb",
+        "size_in_bytes": 2492
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/pygame2/window.py",
+        "path_type": "hardlink",
+        "sha256": "d8714c27daa7f86af4b50261795211074c7f6424c9ce9d729874fac63d131ddf",
+        "sha256_in_prefix": "d8714c27daa7f86af4b50261795211074c7f6424c9ce9d729874fac63d131ddf",
+        "size_in_bytes": 11361
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/pyglet/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "071a3cfb147aa01dd8e021faac6296772cda686fae2f1b81584e8cdf3fbc227a",
+        "sha256_in_prefix": "071a3cfb147aa01dd8e021faac6296772cda686fae2f1b81584e8cdf3fbc227a",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/pyglet/keys.py",
+        "path_type": "hardlink",
+        "sha256": "9711753ca7b9c4258d24e5a6eb1250e414f915ae2e8676250bf87c0c618c4012",
+        "sha256_in_prefix": "9711753ca7b9c4258d24e5a6eb1250e414f915ae2e8676250bf87c0c618c4012",
+        "size_in_bytes": 2291
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/pyglet/window.py",
+        "path_type": "hardlink",
+        "sha256": "181b1521614fdf6ecf241d9d3826814bd80e87a737edd72eda9e3610fbf2732d",
+        "sha256_in_prefix": "181b1521614fdf6ecf241d9d3826814bd80e87a737edd72eda9e3610fbf2732d",
+        "size_in_bytes": 13138
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/pyqt5/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "071a3cfb147aa01dd8e021faac6296772cda686fae2f1b81584e8cdf3fbc227a",
+        "sha256_in_prefix": "071a3cfb147aa01dd8e021faac6296772cda686fae2f1b81584e8cdf3fbc227a",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/pyqt5/keys.py",
+        "path_type": "hardlink",
+        "sha256": "d27b53002ad3c01e923a88041cdd9098f854aa54429e9cd16834e4ab5c92ba7b",
+        "sha256_in_prefix": "d27b53002ad3c01e923a88041cdd9098f854aa54429e9cd16834e4ab5c92ba7b",
+        "size_in_bytes": 2263
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/pyqt5/window.py",
+        "path_type": "hardlink",
+        "sha256": "492a47f596661d5dff9b4c49f01bfb87856a3741ac79fdb3638280d397e7f2ac",
+        "sha256_in_prefix": "492a47f596661d5dff9b4c49f01bfb87856a3741ac79fdb3638280d397e7f2ac",
+        "size_in_bytes": 12808
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/pyside2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "071a3cfb147aa01dd8e021faac6296772cda686fae2f1b81584e8cdf3fbc227a",
+        "sha256_in_prefix": "071a3cfb147aa01dd8e021faac6296772cda686fae2f1b81584e8cdf3fbc227a",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/pyside2/keys.py",
+        "path_type": "hardlink",
+        "sha256": "12eb4b4dd485787b99017fbcd3c726073ab20d463f9e2be932663bcd379a0bbc",
+        "sha256_in_prefix": "12eb4b4dd485787b99017fbcd3c726073ab20d463f9e2be932663bcd379a0bbc",
+        "size_in_bytes": 2217
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/pyside2/window.py",
+        "path_type": "hardlink",
+        "sha256": "c0b820e6deca71776dcb4619fa2a5d289a300dc7211879dd2e807688c708aeb3",
+        "sha256_in_prefix": "c0b820e6deca71776dcb4619fa2a5d289a300dc7211879dd2e807688c708aeb3",
+        "size_in_bytes": 12821
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/sdl2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "071a3cfb147aa01dd8e021faac6296772cda686fae2f1b81584e8cdf3fbc227a",
+        "sha256_in_prefix": "071a3cfb147aa01dd8e021faac6296772cda686fae2f1b81584e8cdf3fbc227a",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/sdl2/keys.py",
+        "path_type": "hardlink",
+        "sha256": "d3caf24b3bbecb0aa4e0dfa0d9063490bd84563f7e64b4dc29b58ecb95f027cf",
+        "sha256_in_prefix": "d3caf24b3bbecb0aa4e0dfa0d9063490bd84563f7e64b4dc29b58ecb95f027cf",
+        "size_in_bytes": 2473
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/sdl2/window.py",
+        "path_type": "hardlink",
+        "sha256": "a9bb71ada43e873e14d7d94ec072910cd05ede57fe9953856eafded2f68591de",
+        "sha256_in_prefix": "a9bb71ada43e873e14d7d94ec072910cd05ede57fe9953856eafded2f68591de",
+        "size_in_bytes": 11346
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/tk/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ea264a17059e5af93c9abad7c071d6ca8b2489c4e49a71d01266e887fa5958c9",
+        "sha256_in_prefix": "ea264a17059e5af93c9abad7c071d6ca8b2489c4e49a71d01266e887fa5958c9",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/tk/keys.py",
+        "path_type": "hardlink",
+        "sha256": "1e69e1b074d59feae74d457ce223304afc00e795b78da5b01ed008c6c2990d5f",
+        "sha256_in_prefix": "1e69e1b074d59feae74d457ce223304afc00e795b78da5b01ed008c6c2990d5f",
+        "size_in_bytes": 2153
+      },
+      {
+        "_path": "site-packages/moderngl_window/context/tk/window.py",
+        "path_type": "hardlink",
+        "sha256": "2e79ac0ed13b3afd35de03fea0e25db2998f5a87a3273b95d6723a5d6aeb9158",
+        "sha256_in_prefix": "2e79ac0ed13b3afd35de03fea0e25db2998f5a87a3273b95d6723a5d6aeb9158",
+        "size_in_bytes": 10051
+      },
+      {
+        "_path": "site-packages/moderngl_window/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "bcde1ecd0f9787c787b24d7382aeb5c29da8969d30a44b0497deb534d953a2d5",
+        "sha256_in_prefix": "bcde1ecd0f9787c787b24d7382aeb5c29da8969d30a44b0497deb534d953a2d5",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "site-packages/moderngl_window/finders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/moderngl_window/finders/base.py",
+        "path_type": "hardlink",
+        "sha256": "b6422312b9e4908defb44b7c9761843447eabd9db7b7a89c23f4ddf9afbf1f71",
+        "sha256_in_prefix": "b6422312b9e4908defb44b7c9761843447eabd9db7b7a89c23f4ddf9afbf1f71",
+        "size_in_bytes": 3328
+      },
+      {
+        "_path": "site-packages/moderngl_window/finders/data.py",
+        "path_type": "hardlink",
+        "sha256": "244192a1b539990cb77ffad0e34c88303d651bd5ce3a428b8141161c86868de0",
+        "sha256_in_prefix": "244192a1b539990cb77ffad0e34c88303d651bd5ce3a428b8141161c86868de0",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "site-packages/moderngl_window/finders/program.py",
+        "path_type": "hardlink",
+        "sha256": "1d36897e1fe67ef6f4c2450e627ac61c12a789be91b7f9c5490c9f44dbc663c8",
+        "sha256_in_prefix": "1d36897e1fe67ef6f4c2450e627ac61c12a789be91b7f9c5490c9f44dbc663c8",
+        "size_in_bytes": 419
+      },
+      {
+        "_path": "site-packages/moderngl_window/finders/scene.py",
+        "path_type": "hardlink",
+        "sha256": "a1261e572d18e72bb408098c26ad5d54214fe0336c91a10a0dd52a21e488f854",
+        "sha256_in_prefix": "a1261e572d18e72bb408098c26ad5d54214fe0336c91a10a0dd52a21e488f854",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "site-packages/moderngl_window/finders/texture.py",
+        "path_type": "hardlink",
+        "sha256": "8a28010e0f34df68d95ee70a19a8168699478322c552a059b65e3569334ba3ce",
+        "sha256_in_prefix": "8a28010e0f34df68d95ee70a19a8168699478322c552a059b65e3569334ba3ce",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "site-packages/moderngl_window/geometry/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "90d2788f4a672ea4ffa3a654b21e903bd68f6fae5abf02035dd378dd76be907e",
+        "sha256_in_prefix": "90d2788f4a672ea4ffa3a654b21e903bd68f6fae5abf02035dd378dd76be907e",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "site-packages/moderngl_window/geometry/attributes.py",
+        "path_type": "hardlink",
+        "sha256": "46f8b3b2b2ff6134938128dc61293a424ac10f00ef6a8d6e7736a83799d67874",
+        "sha256_in_prefix": "46f8b3b2b2ff6134938128dc61293a424ac10f00ef6a8d6e7736a83799d67874",
+        "size_in_bytes": 2451
+      },
+      {
+        "_path": "site-packages/moderngl_window/geometry/bbox.py",
+        "path_type": "hardlink",
+        "sha256": "3a4e8ebf8426f10d07fe2b8dbb1b62762d1f403e5a3bc3eda43b72c0ca3ca938",
+        "sha256_in_prefix": "3a4e8ebf8426f10d07fe2b8dbb1b62762d1f403e5a3bc3eda43b72c0ca3ca938",
+        "size_in_bytes": 2186
+      },
+      {
+        "_path": "site-packages/moderngl_window/geometry/cube.py",
+        "path_type": "hardlink",
+        "sha256": "5fae8d04e4681be880d862224c2b24de44063df4796b1c01db108b31986bbfb9",
+        "sha256_in_prefix": "5fae8d04e4681be880d862224c2b24de44063df4796b1c01db108b31986bbfb9",
+        "size_in_bytes": 5523
+      },
+      {
+        "_path": "site-packages/moderngl_window/geometry/quad.py",
+        "path_type": "hardlink",
+        "sha256": "2da0b23ccfced3573f959eb94c0219e8c2acc3ede3ccbeab22af0d5e87b21a46",
+        "sha256_in_prefix": "2da0b23ccfced3573f959eb94c0219e8c2acc3ede3ccbeab22af0d5e87b21a46",
+        "size_in_bytes": 2803
+      },
+      {
+        "_path": "site-packages/moderngl_window/geometry/sphere.py",
+        "path_type": "hardlink",
+        "sha256": "2a6cb43103383d0de12fbe67d891029c6d79db03e927aa6de025e4d0319e5b3a",
+        "sha256_in_prefix": "2a6cb43103383d0de12fbe67d891029c6d79db03e927aa6de025e4d0319e5b3a",
+        "size_in_bytes": 2854
+      },
+      {
+        "_path": "site-packages/moderngl_window/integrations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/moderngl_window/integrations/imgui.py",
+        "path_type": "hardlink",
+        "sha256": "5dd6a93e09f3c92a1c1d0e27fdf3ec2f0ffeb1ed7ad1f1acc4953d7bd0e51fc0",
+        "sha256_in_prefix": "5dd6a93e09f3c92a1c1d0e27fdf3ec2f0ffeb1ed7ad1f1acc4953d7bd0e51fc0",
+        "size_in_bytes": 9654
+      },
+      {
+        "_path": "site-packages/moderngl_window/integrations/imgui_bundle.py",
+        "path_type": "hardlink",
+        "sha256": "25f6f08f130992f48a675bd225e126869971ef2d36ecc82df6345e8160606dae",
+        "sha256_in_prefix": "25f6f08f130992f48a675bd225e126869971ef2d36ecc82df6345e8160606dae",
+        "size_in_bytes": 10307
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/base.py",
+        "path_type": "hardlink",
+        "sha256": "a388ce16eef310793dfa6c86253bb1356ea4ab46ea04718674c1831ccead5812",
+        "sha256_in_prefix": "a388ce16eef310793dfa6c86253bb1356ea4ab46ea04718674c1831ccead5812",
+        "size_in_bytes": 4358
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/data/binary.py",
+        "path_type": "hardlink",
+        "sha256": "c3ca87ae012d64acadebd2d20f2795341bbbb2d518414765ef80d9e2f529928c",
+        "sha256_in_prefix": "c3ca87ae012d64acadebd2d20f2795341bbbb2d518414765ef80d9e2f529928c",
+        "size_in_bytes": 727
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/data/json.py",
+        "path_type": "hardlink",
+        "sha256": "2e98449abef2b6ef75c62dd4961a616a682d340267df21b0a65f0fcedee5e09a",
+        "sha256_in_prefix": "2e98449abef2b6ef75c62dd4961a616a682d340267df21b0a65f0fcedee5e09a",
+        "size_in_bytes": 893
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/data/text.py",
+        "path_type": "hardlink",
+        "sha256": "be3ed00779bd6c177358b18ba740e364e0068f61203e9a4bbba0aa782d036210",
+        "sha256_in_prefix": "be3ed00779bd6c177358b18ba740e364e0068f61203e9a4bbba0aa782d036210",
+        "size_in_bytes": 851
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/program/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/program/separate.py",
+        "path_type": "hardlink",
+        "sha256": "a77f722189138353afd630afc0a904a70cea3d56f2533598de10dba2ba4d03e7",
+        "sha256_in_prefix": "a77f722189138353afd630afc0a904a70cea3d56f2533598de10dba2ba4d03e7",
+        "size_in_bytes": 3522
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/program/single.py",
+        "path_type": "hardlink",
+        "sha256": "a7af0dbed3714bcfe894c37e43df377161cf15375857fd660a4c5a4f2240066a",
+        "sha256_in_prefix": "a7af0dbed3714bcfe894c37e43df377161cf15375857fd660a4c5a4f2240066a",
+        "size_in_bytes": 2748
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/scene/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/scene/gltf2.py",
+        "path_type": "hardlink",
+        "sha256": "90e89c890cd9aefed30d6a3a9767519757bd085485ce09d8509d44c0077d8029",
+        "sha256_in_prefix": "90e89c890cd9aefed30d6a3a9767519757bd085485ce09d8509d44c0077d8029",
+        "size_in_bytes": 34474
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/scene/stl.py",
+        "path_type": "hardlink",
+        "sha256": "cd48cd79f0e33d70f635c64666a58b66597f34b544205e1170c43b984a78bdbd",
+        "sha256_in_prefix": "cd48cd79f0e33d70f635c64666a58b66597f34b544205e1170c43b984a78bdbd",
+        "size_in_bytes": 1795
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/scene/wavefront.py",
+        "path_type": "hardlink",
+        "sha256": "cf716a911b857f6a52c47f5355771993d2ba6bab4ef42d35e709f5654eeb8066",
+        "sha256_in_prefix": "cf716a911b857f6a52c47f5355771993d2ba6bab4ef42d35e709f5654eeb8066",
+        "size_in_bytes": 6165
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/texture/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/texture/array.py",
+        "path_type": "hardlink",
+        "sha256": "9ff42dbb098086587ec8fda3a1e26c4f47d331a6a8ea4494ff2e84d9f15afa5e",
+        "sha256_in_prefix": "9ff42dbb098086587ec8fda3a1e26c4f47d331a6a8ea4494ff2e84d9f15afa5e",
+        "size_in_bytes": 1708
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/texture/cube.py",
+        "path_type": "hardlink",
+        "sha256": "1baa14761bd04508eba40619fd4b680f9c94e4fd5f5086c935465e70d22d356d",
+        "sha256_in_prefix": "1baa14761bd04508eba40619fd4b680f9c94e4fd5f5086c935465e70d22d356d",
+        "size_in_bytes": 3139
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/texture/icon.py",
+        "path_type": "hardlink",
+        "sha256": "ebc932f286cbd3683e6e934a3322b511ffa2c6c6aecf93699521317d1ed2b44e",
+        "sha256_in_prefix": "ebc932f286cbd3683e6e934a3322b511ffa2c6c6aecf93699521317d1ed2b44e",
+        "size_in_bytes": 860
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/texture/pillow.py",
+        "path_type": "hardlink",
+        "sha256": "f85432e110c707c32b7d467fafb84cfecd61702f641e28d926cdb5f4f457592f",
+        "sha256_in_prefix": "f85432e110c707c32b7d467fafb84cfecd61702f641e28d926cdb5f4f457592f",
+        "size_in_bytes": 4353
+      },
+      {
+        "_path": "site-packages/moderngl_window/loaders/texture/t2d.py",
+        "path_type": "hardlink",
+        "sha256": "86e004281593bd913250bb3dd4091ea51314cee1b00f988fbedce5fd0a852957",
+        "sha256_in_prefix": "86e004281593bd913250bb3dd4091ea51314cee1b00f988fbedce5fd0a852957",
+        "size_in_bytes": 1126
+      },
+      {
+        "_path": "site-packages/moderngl_window/meta/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "581a9f61d3bd48e2649128f099d498fccafccbcd99617ad0b606c818f3d15bbb",
+        "sha256_in_prefix": "581a9f61d3bd48e2649128f099d498fccafccbcd99617ad0b606c818f3d15bbb",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "site-packages/moderngl_window/meta/base.py",
+        "path_type": "hardlink",
+        "sha256": "735e3b81691b294a4bcaaa0e580324eed4be5d7cdae511ef43216451a1dfdbeb",
+        "sha256_in_prefix": "735e3b81691b294a4bcaaa0e580324eed4be5d7cdae511ef43216451a1dfdbeb",
+        "size_in_bytes": 3032
+      },
+      {
+        "_path": "site-packages/moderngl_window/meta/data.py",
+        "path_type": "hardlink",
+        "sha256": "34b18a987ada7ae6fbaacdae9773e72d63c1e9ef14c4ab6be331ae1f7e7a3745",
+        "sha256_in_prefix": "34b18a987ada7ae6fbaacdae9773e72d63c1e9ef14c4ab6be331ae1f7e7a3745",
+        "size_in_bytes": 1423
+      },
+      {
+        "_path": "site-packages/moderngl_window/meta/program.py",
+        "path_type": "hardlink",
+        "sha256": "edc6d2b84b214915842b71c8a37191a43837faf64795a1cc57c1daf1fba7444c",
+        "sha256_in_prefix": "edc6d2b84b214915842b71c8a37191a43837faf64795a1cc57c1daf1fba7444c",
+        "size_in_bytes": 4651
+      },
+      {
+        "_path": "site-packages/moderngl_window/meta/scene.py",
+        "path_type": "hardlink",
+        "sha256": "47aab672b7613dfe818c7051147380990c5d3082674ce0e681f6382ac8ed4678",
+        "sha256_in_prefix": "47aab672b7613dfe818c7051147380990c5d3082674ce0e681f6382ac8ed4678",
+        "size_in_bytes": 2093
+      },
+      {
+        "_path": "site-packages/moderngl_window/meta/texture.py",
+        "path_type": "hardlink",
+        "sha256": "d168cd79032cd0e45775270ff247e69628198d31dc88a9bc26c6f107fec117a7",
+        "sha256_in_prefix": "d168cd79032cd0e45775270ff247e69628198d31dc88a9bc26c6f107fec117a7",
+        "size_in_bytes": 5666
+      },
+      {
+        "_path": "site-packages/moderngl_window/opengl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/moderngl_window/opengl/program.py",
+        "path_type": "hardlink",
+        "sha256": "3c6912d266de710233d5db528741cd1f945dddc0599771210907162f08013d4f",
+        "sha256_in_prefix": "3c6912d266de710233d5db528741cd1f945dddc0599771210907162f08013d4f",
+        "size_in_bytes": 16673
+      },
+      {
+        "_path": "site-packages/moderngl_window/opengl/projection.py",
+        "path_type": "hardlink",
+        "sha256": "819cefb4b4b73213523b5110aa09f89869656000cd70312f22eeb7ef5ad9bf96",
+        "sha256_in_prefix": "819cefb4b4b73213523b5110aa09f89869656000cd70312f22eeb7ef5ad9bf96",
+        "size_in_bytes": 2908
+      },
+      {
+        "_path": "site-packages/moderngl_window/opengl/types.py",
+        "path_type": "hardlink",
+        "sha256": "18452d8a3194db54266c84d21def55195bc0db2a2ad382b72d23b759b3bb0120",
+        "sha256_in_prefix": "18452d8a3194db54266c84d21def55195bc0db2a2ad382b72d23b759b3bb0120",
+        "size_in_bytes": 4832
+      },
+      {
+        "_path": "site-packages/moderngl_window/opengl/vao.py",
+        "path_type": "hardlink",
+        "sha256": "80d16f09fc89084eeaed66d8b6e91f5cebd7cd79cd9f8625bc9ac986e97eb1b7",
+        "sha256_in_prefix": "80d16f09fc89084eeaed66d8b6e91f5cebd7cd79cd9f8625bc9ac986e97eb1b7",
+        "size_in_bytes": 14304
+      },
+      {
+        "_path": "site-packages/moderngl_window/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/moderngl_window/resources/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1f66158672fa5a8636192f1cc1077035580710abb66a4b02abd4683b4ec0b18b",
+        "sha256_in_prefix": "1f66158672fa5a8636192f1cc1077035580710abb66a4b02abd4683b4ec0b18b",
+        "size_in_bytes": 3328
+      },
+      {
+        "_path": "site-packages/moderngl_window/resources/base.py",
+        "path_type": "hardlink",
+        "sha256": "feaa480b164d5fb62d24ba487a431422d34d8fcd2cafc05d6ab4b144007a35a7",
+        "sha256_in_prefix": "feaa480b164d5fb62d24ba487a431422d34d8fcd2cafc05d6ab4b144007a35a7",
+        "size_in_bytes": 4417
+      },
+      {
+        "_path": "site-packages/moderngl_window/resources/data.py",
+        "path_type": "hardlink",
+        "sha256": "66b2faa44994f61f66e01804213fdb80b215364774e1423de8a9ba9a1c5add59",
+        "sha256_in_prefix": "66b2faa44994f61f66e01804213fdb80b215364774e1423de8a9ba9a1c5add59",
+        "size_in_bytes": 700
+      },
+      {
+        "_path": "site-packages/moderngl_window/resources/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "e57a6669814b3b4fabf81f16275d9808724fabfefc7713cecab13017e619fe9e",
+        "sha256_in_prefix": "e57a6669814b3b4fabf81f16275d9808724fabfefc7713cecab13017e619fe9e",
+        "size_in_bytes": 518
+      },
+      {
+        "_path": "site-packages/moderngl_window/resources/programs.py",
+        "path_type": "hardlink",
+        "sha256": "fb99a08bbbed42556fd1080366c8463882b515837f70c2bd901e80ded9ec731b",
+        "sha256_in_prefix": "fb99a08bbbed42556fd1080366c8463882b515837f70c2bd901e80ded9ec731b",
+        "size_in_bytes": 1226
+      },
+      {
+        "_path": "site-packages/moderngl_window/resources/scenes.py",
+        "path_type": "hardlink",
+        "sha256": "1743602101aac9dbed04a184cd6d8df783b04db9a0df2a2711b92afa8cb20fd1",
+        "sha256_in_prefix": "1743602101aac9dbed04a184cd6d8df783b04db9a0df2a2711b92afa8cb20fd1",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "site-packages/moderngl_window/resources/textures.py",
+        "path_type": "hardlink",
+        "sha256": "5631d9ecd0ed286abc792f49ac2cdc0eb54bd3c60f813059e9332ac22afeaad3",
+        "sha256_in_prefix": "5631d9ecd0ed286abc792f49ac2cdc0eb54bd3c60f813059e9332ac22afeaad3",
+        "size_in_bytes": 1299
+      },
+      {
+        "_path": "site-packages/moderngl_window/resources/tracks.py",
+        "path_type": "hardlink",
+        "sha256": "f36e59875ebee639aa048228e547ef69f15e0fd6155dfb6163964e813547ba6d",
+        "sha256_in_prefix": "f36e59875ebee639aa048228e547ef69f15e0fd6155dfb6163964e813547ba6d",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1b9945c8a1bee9d23f9b52b6c2688c81219e6ced252c9934f85917bf708f596f",
+        "sha256_in_prefix": "1b9945c8a1bee9d23f9b52b6c2688c81219e6ced252c9934f85917bf708f596f",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/camera.py",
+        "path_type": "hardlink",
+        "sha256": "d799ae59fc02dcc65b64fa6b9dda57b9f294bd9e8cff09ea81c52e8df67c81c3",
+        "sha256_in_prefix": "d799ae59fc02dcc65b64fa6b9dda57b9f294bd9e8cff09ea81c52e8df67c81c3",
+        "size_in_bytes": 19191
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/material.py",
+        "path_type": "hardlink",
+        "sha256": "77d40fe5d76d37aea6b7de5175eae68e4488b66382c6b9b185f9f8410ac8f26c",
+        "sha256_in_prefix": "77d40fe5d76d37aea6b7de5175eae68e4488b66382c6b9b185f9f8410ac8f26c",
+        "size_in_bytes": 2782
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/mesh.py",
+        "path_type": "hardlink",
+        "sha256": "89448d1639a9af2facfdbc8a863f77cde757247a7c20eacbb415774032869684",
+        "sha256_in_prefix": "89448d1639a9af2facfdbc8a863f77cde757247a7c20eacbb415774032869684",
+        "size_in_bytes": 5559
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/node.py",
+        "path_type": "hardlink",
+        "sha256": "f1cde27975b3a6a0bbf158f9334072d0558d3a32337642ccfc30f69207cec565",
+        "sha256_in_prefix": "f1cde27975b3a6a0bbf158f9334072d0558d3a32337642ccfc30f69207cec565",
+        "size_in_bytes": 7034
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/programs/scene_default/bbox.glsl",
+        "path_type": "hardlink",
+        "sha256": "2d9e9346c184e92e7c510ec6cfbe798519c6ae602e87b90891963c77153295a6",
+        "sha256_in_prefix": "2d9e9346c184e92e7c510ec6cfbe798519c6ae602e87b90891963c77153295a6",
+        "size_in_bytes": 476
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/programs/scene_default/color_light.glsl",
+        "path_type": "hardlink",
+        "sha256": "72a24cc03cda1bf9ca9c5a561b27d300dff9b9d8364c811755a49bffd9934713",
+        "sha256_in_prefix": "72a24cc03cda1bf9ca9c5a561b27d300dff9b9d8364c811755a49bffd9934713",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/programs/scene_default/fallback.glsl",
+        "path_type": "hardlink",
+        "sha256": "e2fe004c616d1210f7bd72b2fd07189fb25260b8b71094c4fc213ce6de97cb56",
+        "sha256_in_prefix": "e2fe004c616d1210f7bd72b2fd07189fb25260b8b71094c4fc213ce6de97cb56",
+        "size_in_bytes": 365
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/programs/scene_default/texture.glsl",
+        "path_type": "hardlink",
+        "sha256": "272f87d0b00936402387b64a10cf0f1c7b05463d85f38b2121600849248b607d",
+        "sha256_in_prefix": "272f87d0b00936402387b64a10cf0f1c7b05463d85f38b2121600849248b607d",
+        "size_in_bytes": 458
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/programs/scene_default/texture_light.glsl",
+        "path_type": "hardlink",
+        "sha256": "843b2f1f7abc0e6796b64845ad4c4e95853049f748d3a906c3808754b7acba43",
+        "sha256_in_prefix": "843b2f1f7abc0e6796b64845ad4c4e95853049f748d3a906c3808754b7acba43",
+        "size_in_bytes": 796
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/programs/scene_default/vertex_color.glsl",
+        "path_type": "hardlink",
+        "sha256": "01a4f7dba6be0be4c6174c754aecdff66788f67d1073b82a18ab872092139976",
+        "sha256_in_prefix": "01a4f7dba6be0be4c6174c754aecdff66788f67d1073b82a18ab872092139976",
+        "size_in_bytes": 426
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/programs/scene_default/vertex_color_texture.glsl",
+        "path_type": "hardlink",
+        "sha256": "ee14a58d371513fa086975fb763b6800dee845d0df770394e978d4d64f703324",
+        "sha256_in_prefix": "ee14a58d371513fa086975fb763b6800dee845d0df770394e978d4d64f703324",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/programs/scene_default/wireframe.glsl",
+        "path_type": "hardlink",
+        "sha256": "e6e59861ae8fd07ca4b4052dfc4499d880f205739accc981ac4d0519ce25dd2c",
+        "sha256_in_prefix": "e6e59861ae8fd07ca4b4052dfc4499d880f205739accc981ac4d0519ce25dd2c",
+        "size_in_bytes": 500
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/programs.py",
+        "path_type": "hardlink",
+        "sha256": "31f258a6ed04543740bbcaaf9c240b468d8d145177b64aea1f3d1b1c0ef2518e",
+        "sha256_in_prefix": "31f258a6ed04543740bbcaaf9c240b468d8d145177b64aea1f3d1b1c0ef2518e",
+        "size_in_bytes": 11380
+      },
+      {
+        "_path": "site-packages/moderngl_window/scene/scene.py",
+        "path_type": "hardlink",
+        "sha256": "321c530b74a74adacaa5d2c39b22b930c691e112a6f132389029af1475080e80",
+        "sha256_in_prefix": "321c530b74a74adacaa5d2c39b22b930c691e112a6f132389029af1475080e80",
+        "size_in_bytes": 10204
+      },
+      {
+        "_path": "site-packages/moderngl_window/screenshot.py",
+        "path_type": "hardlink",
+        "sha256": "122f7b78a73465b02e6e3b5c85f070187b119e74fcaf5f6246962ce66ee58321",
+        "sha256_in_prefix": "122f7b78a73465b02e6e3b5c85f070187b119e74fcaf5f6246962ce66ee58321",
+        "size_in_bytes": 2571
+      },
+      {
+        "_path": "site-packages/moderngl_window/text/bitmapped/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c510af0c4db2cb85f87e48f03f0a315ef924e6b7b3cefe32decfbc2bbc5cc71a",
+        "sha256_in_prefix": "c510af0c4db2cb85f87e48f03f0a315ef924e6b7b3cefe32decfbc2bbc5cc71a",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "site-packages/moderngl_window/text/bitmapped/base.py",
+        "path_type": "hardlink",
+        "sha256": "f57fbca60077cc33e9d91877e645d90e23efe1d266ef0d0b2ecf5de6e68a57a5",
+        "sha256_in_prefix": "f57fbca60077cc33e9d91877e645d90e23efe1d266ef0d0b2ecf5de6e68a57a5",
+        "size_in_bytes": 2807
+      },
+      {
+        "_path": "site-packages/moderngl_window/text/bitmapped/bitmapped/programs/text_2d.glsl",
+        "path_type": "hardlink",
+        "sha256": "e8381bbd9c21eba604bd96235bd35cd2e8f5d6b83d94ebc95f32d586461a075f",
+        "sha256_in_prefix": "e8381bbd9c21eba604bd96235bd35cd2e8f5d6b83d94ebc95f32d586461a075f",
+        "size_in_bytes": 1696
+      },
+      {
+        "_path": "site-packages/moderngl_window/text/bitmapped/bitmapped/text/meta.json",
+        "path_type": "hardlink",
+        "sha256": "98f2fbf18c5a8113bf12c0dfcbdaf80d52c5036c42db451b16176445c76bf234",
+        "sha256_in_prefix": "98f2fbf18c5a8113bf12c0dfcbdaf80d52c5036c42db451b16176445c76bf234",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "site-packages/moderngl_window/text/bitmapped/bitmapped/textures/VeraMono.png",
+        "path_type": "hardlink",
+        "sha256": "d20888e47f74b89e11a07192bc5e7c43ea6958a825537e8e4341f24bca7eada0",
+        "sha256_in_prefix": "d20888e47f74b89e11a07192bc5e7c43ea6958a825537e8e4341f24bca7eada0",
+        "size_in_bytes": 318186
+      },
+      {
+        "_path": "site-packages/moderngl_window/text/bitmapped/text_2d.py",
+        "path_type": "hardlink",
+        "sha256": "bfc4d0ce7da257384c058cceefc8be31b2718470746d08360806f52bf5e79c2c",
+        "sha256_in_prefix": "bfc4d0ce7da257384c058cceefc8be31b2718470746d08360806f52bf5e79c2c",
+        "size_in_bytes": 3172
+      },
+      {
+        "_path": "site-packages/moderngl_window/timers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d5c59e5941e152417e7595c36cfbf8510b467f9c006c859eeffaebe2ca86e7e6",
+        "sha256_in_prefix": "d5c59e5941e152417e7595c36cfbf8510b467f9c006c859eeffaebe2ca86e7e6",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "site-packages/moderngl_window/timers/base.py",
+        "path_type": "hardlink",
+        "sha256": "22e0fedd22bda5bf762e4898f7228c4c07558779181478654ba6c839bc5ca702",
+        "sha256_in_prefix": "22e0fedd22bda5bf762e4898f7228c4c07558779181478654ba6c839bc5ca702",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "site-packages/moderngl_window/timers/clock.py",
+        "path_type": "hardlink",
+        "sha256": "4a6140cf71c71337176c933c9823eec74c08d2e1b88c02fca2d56bf615fc67a0",
+        "sha256_in_prefix": "4a6140cf71c71337176c933c9823eec74c08d2e1b88c02fca2d56bf615fc67a0",
+        "size_in_bytes": 3695
+      },
+      {
+        "_path": "site-packages/moderngl_window/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4634085261fb372953c67ef679227211568a5d25e25aa13189caf04090531318",
+        "sha256_in_prefix": "4634085261fb372953c67ef679227211568a5d25e25aa13189caf04090531318",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "site-packages/moderngl_window/utils/keymaps.py",
+        "path_type": "hardlink",
+        "sha256": "c58f5f7691ba057453031e423f5253e523d8f3a60b875b05197eff481fc5a4cc",
+        "sha256_in_prefix": "c58f5f7691ba057453031e423f5253e523d8f3a60b875b05197eff481fc5a4cc",
+        "size_in_bytes": 771
+      },
+      {
+        "_path": "site-packages/moderngl_window/utils/module_loading.py",
+        "path_type": "hardlink",
+        "sha256": "312db989fcc04c39456ce56a08762509bddb0e29bd8e32f391d83fe3f373a008",
+        "sha256_in_prefix": "312db989fcc04c39456ce56a08762509bddb0e29bd8e32f391d83fe3f373a008",
+        "size_in_bytes": 860
+      },
+      {
+        "_path": "site-packages/moderngl_window/utils/scheduler.py",
+        "path_type": "hardlink",
+        "sha256": "cde19d861fbceb5a3fdf212a97305f71f18efcf9ded2c68cd4b83c6c864c33b9",
+        "sha256_in_prefix": "cde19d861fbceb5a3fdf212a97305f71f18efcf9ded2c68cd4b83c6c864c33b9",
+        "size_in_bytes": 6080
+      },
+      {
+        "_path": "site-packages/moderngl_window-3.1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/moderngl_window-3.1.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b06e465f96328d9b51eca45ca6495169980cf5afad4e3e6989613b966739d589",
+        "sha256_in_prefix": "b06e465f96328d9b51eca45ca6495169980cf5afad4e3e6989613b966739d589",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "site-packages/moderngl_window-3.1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7622180158c43390182101e2d4465ed45298e9d324d1533596b3a029795bdc30",
+        "sha256_in_prefix": "7622180158c43390182101e2d4465ed45298e9d324d1533596b3a029795bdc30",
+        "size_in_bytes": 8750
+      },
+      {
+        "_path": "site-packages/moderngl_window-3.1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "83cf103dc0b7a78d52ad9178528ad6fb84e91442e90175689f41e7b273f16faf",
+        "sha256_in_prefix": "83cf103dc0b7a78d52ad9178528ad6fb84e91442e90175689f41e7b273f16faf",
+        "size_in_bytes": 19223
+      },
+      {
+        "_path": "site-packages/moderngl_window-3.1.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/moderngl_window-3.1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "sha256_in_prefix": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/moderngl_window-3.1.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c0fe13f87301131f9c2de7cf1047002b0b3a4b39729b9835be11622b8bdc929d",
+        "sha256_in_prefix": "c0fe13f87301131f9c2de7cf1047002b0b3a4b39729b9835be11622b8bdc929d",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "site-packages/moderngl_window-3.1.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ecf08ac17b4b67fde597acafe90cb6aa3ba654d9e29be0e77a1c4545785aeda5",
+        "sha256_in_prefix": "ecf08ac17b4b67fde597acafe90cb6aa3ba654d9e29be0e77a1c4545785aeda5",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/atlas/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/atlas/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/atlas/__pycache__/simple_atlas.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/capture/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/capture/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/capture/__pycache__/ffmpeg.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/conf/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/conf/__pycache__/default.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/base/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/base/__pycache__/keys.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/base/__pycache__/window.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/glfw/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/glfw/__pycache__/keys.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/glfw/__pycache__/window.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/headless/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/headless/__pycache__/keys.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/headless/__pycache__/window.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/pygame2/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/pygame2/__pycache__/keys.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/pygame2/__pycache__/window.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/pyglet/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/pyglet/__pycache__/keys.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/pyglet/__pycache__/window.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/pyqt5/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/pyqt5/__pycache__/keys.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/pyqt5/__pycache__/window.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/pyside2/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/pyside2/__pycache__/keys.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/pyside2/__pycache__/window.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/sdl2/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/sdl2/__pycache__/keys.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/sdl2/__pycache__/window.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/tk/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/tk/__pycache__/keys.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/context/tk/__pycache__/window.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/finders/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/finders/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/finders/__pycache__/data.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/finders/__pycache__/program.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/finders/__pycache__/scene.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/finders/__pycache__/texture.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/geometry/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/geometry/__pycache__/attributes.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/geometry/__pycache__/bbox.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/geometry/__pycache__/cube.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/geometry/__pycache__/quad.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/geometry/__pycache__/sphere.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/integrations/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/integrations/__pycache__/imgui.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/integrations/__pycache__/imgui_bundle.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/data/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/data/__pycache__/binary.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/data/__pycache__/json.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/data/__pycache__/text.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/program/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/program/__pycache__/separate.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/program/__pycache__/single.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/scene/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/scene/__pycache__/gltf2.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/scene/__pycache__/stl.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/scene/__pycache__/wavefront.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/texture/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/texture/__pycache__/array.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/texture/__pycache__/cube.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/texture/__pycache__/icon.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/texture/__pycache__/pillow.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/loaders/texture/__pycache__/t2d.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/meta/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/meta/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/meta/__pycache__/data.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/meta/__pycache__/program.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/meta/__pycache__/scene.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/meta/__pycache__/texture.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/opengl/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/opengl/__pycache__/program.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/opengl/__pycache__/projection.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/opengl/__pycache__/types.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/opengl/__pycache__/vao.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/data.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/decorators.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/programs.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/scenes.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/textures.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/resources/__pycache__/tracks.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/camera.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/material.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/mesh.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/node.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/programs.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/scene/__pycache__/scene.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/__pycache__/screenshot.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/text/bitmapped/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/text/bitmapped/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/text/bitmapped/__pycache__/text_2d.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/timers/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/timers/__pycache__/base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/timers/__pycache__/clock.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/utils/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/utils/__pycache__/keymaps.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/utils/__pycache__/module_loading.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/moderngl_window/utils/__pycache__/scheduler.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7811015252c0eb129c03a2546e86c4c03946b47870c6f0c2ce991ed2abf980c9",
+  "size": 365620,
+  "subdir": "noarch",
+  "timestamp": 1737534370000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/moderngl-window-3.1.1-pyh29332c3_1.conda",
+  "version": "3.1.1"
+}

@@ -1,0 +1,256 @@
+{
+  "build": "py312hbbafe48_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "glib",
+    "__osx >=11.0",
+    "python_abi 3.12.* *_cp312",
+    "python >=3.12,<3.13.0a0",
+    "python >=3.12,<3.13.0a0 *_cpython",
+    "cairo >=1.18.0,<2.0a0",
+    "pango >=1.54.0,<2.0a0",
+    "libglib >=2.80.3,<3.0a0"
+  ],
+  "extracted_package_dir": "/Users/tarek/miniforge3/pkgs/manimpango-0.6.0-py312hbbafe48_0",
+  "files": [
+    "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/LICENSE",
+    "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/manimpango/__init__.py",
+    "lib/python3.12/site-packages/manimpango/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/manimpango/__pycache__/_version.cpython-312.pyc",
+    "lib/python3.12/site-packages/manimpango/__pycache__/register_font.cpython-312.pyc",
+    "lib/python3.12/site-packages/manimpango/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/manimpango/_register_font.cpython-312-darwin.so",
+    "lib/python3.12/site-packages/manimpango/_register_font.pxd",
+    "lib/python3.12/site-packages/manimpango/_register_font.pyx",
+    "lib/python3.12/site-packages/manimpango/_version.py",
+    "lib/python3.12/site-packages/manimpango/cairo.pxd",
+    "lib/python3.12/site-packages/manimpango/cmanimpango.cpython-312-darwin.so",
+    "lib/python3.12/site-packages/manimpango/cmanimpango.pxd",
+    "lib/python3.12/site-packages/manimpango/cmanimpango.pyx",
+    "lib/python3.12/site-packages/manimpango/enums.cpython-312-darwin.so",
+    "lib/python3.12/site-packages/manimpango/enums.pyx",
+    "lib/python3.12/site-packages/manimpango/glib.pxd",
+    "lib/python3.12/site-packages/manimpango/pango.pxd",
+    "lib/python3.12/site-packages/manimpango/register_font.py",
+    "lib/python3.12/site-packages/manimpango/utils.py"
+  ],
+  "fn": "manimpango-0.6.0-py312hbbafe48_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/tarek/miniforge3/pkgs/manimpango-0.6.0-py312hbbafe48_0",
+    "type": 1
+  },
+  "md5": "697967e8bc213e0a5899f162457ea289",
+  "name": "manimpango",
+  "package_tarball_full_path": "/Users/tarek/miniforge3/pkgs/manimpango-0.6.0-py312hbbafe48_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3e4cdd4974cc77c5fe0772058d496c19cf5e0c600cf71ec302df220602e3eec8",
+        "sha256_in_prefix": "3e4cdd4974cc77c5fe0772058d496c19cf5e0c600cf71ec302df220602e3eec8",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b8de0b3f5e0d24c41361aada08fd2674b8a781b58d2f961937d6c5d07b95778d",
+        "sha256_in_prefix": "b8de0b3f5e0d24c41361aada08fd2674b8a781b58d2f961937d6c5d07b95778d",
+        "size_in_bytes": 7930
+      },
+      {
+        "_path": "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6a8bc86be788088c1a03b70b67082d04ba5912b3087bda94e14a9390ae67c180",
+        "sha256_in_prefix": "6a8bc86be788088c1a03b70b67082d04ba5912b3087bda94e14a9390ae67c180",
+        "size_in_bytes": 2171
+      },
+      {
+        "_path": "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b2d742c21ca3882e8bcc723e7c489b88742d4d42c482f7c2145fb991ac07f4fc",
+        "sha256_in_prefix": "b2d742c21ca3882e8bcc723e7c489b88742d4d42c482f7c2145fb991ac07f4fc",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c68df3adcd95d2bb12bcc281803a9d99fcb4a384a1f6500ce0536a502d168b45",
+        "sha256_in_prefix": "c68df3adcd95d2bb12bcc281803a9d99fcb4a384a1f6500ce0536a502d168b45",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/python3.12/site-packages/ManimPango-0.6.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ffb457354d9c6dc93c21bb2d587cd8bfa615e7cc2d2940c15fea6652313a48ab",
+        "sha256_in_prefix": "ffb457354d9c6dc93c21bb2d587cd8bfa615e7cc2d2940c15fea6652313a48ab",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "81aef073e429e5ec6fbb5389aaddd58724a8594a6a5085ac64213f161dfefe37",
+        "sha256_in_prefix": "81aef073e429e5ec6fbb5389aaddd58724a8594a6a5085ac64213f161dfefe37",
+        "size_in_bytes": 1097
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b199514f485e55e901e6ba51730196acb004c7951ec3104653dbf68a77cb6ec0",
+        "sha256_in_prefix": "b199514f485e55e901e6ba51730196acb004c7951ec3104653dbf68a77cb6ec0",
+        "size_in_bytes": 1512
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/__pycache__/_version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bdb406d46a7fe35bfcd4440fc4cd6ea3601ae943b8f0099b111e850c2b27bf85",
+        "sha256_in_prefix": "bdb406d46a7fe35bfcd4440fc4cd6ea3601ae943b8f0099b111e850c2b27bf85",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/__pycache__/register_font.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d984c7aa2a01e72c330044babfdb482e1cc0f6348b882a116ab14341193a7a5e",
+        "sha256_in_prefix": "d984c7aa2a01e72c330044babfdb482e1cc0f6348b882a116ab14341193a7a5e",
+        "size_in_bytes": 4581
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4266219a24fefdb3cb9d2e04a44812308e943c4a8653d43abc87bd9a01d861ed",
+        "sha256_in_prefix": "4266219a24fefdb3cb9d2e04a44812308e943c4a8653d43abc87bd9a01d861ed",
+        "size_in_bytes": 2760
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/_register_font.cpython-312-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "d3e73c2826291993db07f554e5b47fd04d55cc877f8524742e18af3d6e621942",
+        "sha256_in_prefix": "d3e73c2826291993db07f554e5b47fd04d55cc877f8524742e18af3d6e621942",
+        "size_in_bytes": 116944
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/_register_font.pxd",
+        "path_type": "hardlink",
+        "sha256": "d3129161a7ecbd884e4f62dd36e87d5dfbdf350458b385c34c28182532c567c1",
+        "sha256_in_prefix": "d3129161a7ecbd884e4f62dd36e87d5dfbdf350458b385c34c28182532c567c1",
+        "size_in_bytes": 2028
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/_register_font.pyx",
+        "path_type": "hardlink",
+        "sha256": "8101af01530cc1d12a12ccf5e3c94bcce0ec5fe1395513f38ce6f0a66a58a933",
+        "sha256_in_prefix": "8101af01530cc1d12a12ccf5e3c94bcce0ec5fe1395513f38ce6f0a66a58a933",
+        "size_in_bytes": 5135
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/_version.py",
+        "path_type": "hardlink",
+        "sha256": "b41bcf474b0eb0e0b498bff01a4e65d8d899c1b2f06140cfd43dd2de31bbcce0",
+        "sha256_in_prefix": "b41bcf474b0eb0e0b498bff01a4e65d8d899c1b2f06140cfd43dd2de31bbcce0",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/cairo.pxd",
+        "path_type": "hardlink",
+        "sha256": "a88e74809194b80272f40ea14596cc330316a9f0a61b91fa4f3f845a4aa6bd3a",
+        "sha256_in_prefix": "a88e74809194b80272f40ea14596cc330316a9f0a61b91fa4f3f845a4aa6bd3a",
+        "size_in_bytes": 771
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/cmanimpango.cpython-312-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "67833deeacc1a7b6abcbc37abc01d410365d06e59930784471a0bc37f6fc4876",
+        "sha256_in_prefix": "67833deeacc1a7b6abcbc37abc01d410365d06e59930784471a0bc37f6fc4876",
+        "size_in_bytes": 138288
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/cmanimpango.pxd",
+        "path_type": "hardlink",
+        "sha256": "aa6432745a4d8043d8703b5f0e171a88086eebe5b2bd00344ed874f5f3b4b25e",
+        "sha256_in_prefix": "aa6432745a4d8043d8703b5f0e171a88086eebe5b2bd00344ed874f5f3b4b25e",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/cmanimpango.pyx",
+        "path_type": "hardlink",
+        "sha256": "ed7e2ae9264683b5a90c6476dd31dbaaa35068fa180717a342e1bb33a7ccc609",
+        "sha256_in_prefix": "ed7e2ae9264683b5a90c6476dd31dbaaa35068fa180717a342e1bb33a7ccc609",
+        "size_in_bytes": 11046
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/enums.cpython-312-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "b258119f6277977c138f9a14c38562285494bd3fa503c1266af10ab092e22929",
+        "sha256_in_prefix": "b258119f6277977c138f9a14c38562285494bd3fa503c1266af10ab092e22929",
+        "size_in_bytes": 75632
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/enums.pyx",
+        "path_type": "hardlink",
+        "sha256": "96d6630e1be2b96ce2f294430e46d1a77ad889921ab2c4a97b33843b1d31df1c",
+        "sha256_in_prefix": "96d6630e1be2b96ce2f294430e46d1a77ad889921ab2c4a97b33843b1d31df1c",
+        "size_in_bytes": 2461
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/glib.pxd",
+        "path_type": "hardlink",
+        "sha256": "f946bb0d31a1d4508765cedf9ce506b82b187e5e56956ecb16919702ae9550d3",
+        "sha256_in_prefix": "f946bb0d31a1d4508765cedf9ce506b82b187e5e56956ecb16919702ae9550d3",
+        "size_in_bytes": 374
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/pango.pxd",
+        "path_type": "hardlink",
+        "sha256": "c8abb99c9523fd63fef8a5ec857ff98bcebc05cf0d99d6d85a80168da10f3418",
+        "sha256_in_prefix": "c8abb99c9523fd63fef8a5ec857ff98bcebc05cf0d99d6d85a80168da10f3418",
+        "size_in_bytes": 5344
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/register_font.py",
+        "path_type": "hardlink",
+        "sha256": "28c67026564ad658971569784ec94e9d5fb6ffc03f01589e7105e331da57e544",
+        "sha256_in_prefix": "28c67026564ad658971569784ec94e9d5fb6ffc03f01589e7105e331da57e544",
+        "size_in_bytes": 3951
+      },
+      {
+        "_path": "lib/python3.12/site-packages/manimpango/utils.py",
+        "path_type": "hardlink",
+        "sha256": "92112630692c21d6e51cd6ccf9196fe2bdc28f64263f425fdc46fac4fd629a77",
+        "sha256_in_prefix": "92112630692c21d6e51cd6ccf9196fe2bdc28f64263f425fdc46fac4fd629a77",
+        "size_in_bytes": 1621
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "845ee93c32d0ec30dac3b2b3a4ecc40dfff5f9af171564b1e9aa2068d46b5769",
+  "size": 88124,
+  "subdir": "osx-arm64",
+  "timestamp": 1726487601000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/manimpango-0.6.0-py312hbbafe48_0.conda",
+  "version": "0.6.0"
+}
